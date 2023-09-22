@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar--mobile navbar navbar-expand-lg navbar-dark bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <a class="navbar-brand" href="#">Kuna&Perić</a>
+            <button class="navbar-toggler " style="border:none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon navbar--hamburger--mobile"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -36,6 +36,6 @@
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
-    <h1>Hello, world!</h1>

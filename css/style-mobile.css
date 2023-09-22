@@ -1,33 +1,100 @@
-/* Od 1200 nadalje*/
 :root {
-    /* --color-primary: #0fbea1; */
-    /* --color-secondary: #21a1c8; */
-    --black: #000000;
-    --white: #ffffff;
-    --gray: #dde7f3;
-    --color-primary: #0098d4;
-    --color-secondary: #111114;
-    --color-message: #e0007b;
-    --color-text: #2b2b2b;
-    --color-primary-dimmed: #edeff5;
-    --color-primary-background-start: #ffffff;
-    --color-primary-background: #ffffff;
-    --font-primary: "Raleway", sans-serif;
-    --font-secondary: "TT Supermolot Neue", sans-serif;
-    --font-size-medium: 1.08rem;
-    --font-size-small: 1rem;
-    --font-size-title4: 1.2rem;
-    --font-size-title3: 1.5rem;
-    --font-size-title2: 2rem;
-    --font-size-title: 2.9rem;
-    --font-weight-title: 700;
-    --font-weight-text: 400;
-    --letter-spacing: 1.1px;
-    --line-height: 115%;
-  }
-  
-/* Od 0 do 600px*/
+  /* --color-primary: #0fbea1; */
+  /* --color-secondary: #21a1c8; */
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #dde7f3;
+  --color-primary: rgb(26, 109, 138);
+  --color-secondary: rgb(0, 141, 150);
+  --color-message: #e0007b;
+  --color-text: #2b2b2b;
+  --font-primary: "corbertregular", sans-serif;
+  --font-secondary: "hogbineregular", sans-serif;
+  --font-size-standard: 16px /*12-16*/;
+  --font-size-title: 32px;
+}
+
+/* Od 0 do 480px*/
+
+@font-face {
+  font-family: "hogbineregular";
+  src: url("../fonts/hogbine-webfont.woff2") format("woff2"),
+    url("../fonts/hogbine-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "corbertregular";
+  src: url("../fonts/corbert-regular-webfont.woff2") format("woff2"),
+    url("../fonts/corbert-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+} 
+
 body {
-      background-color: lightblue;
-    }
+  font-family: var(--font-primary);
+  font-size: var(--font-size-standard);
+}
+
+.navbar--mobile a {
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
+
+.navbar--mobile{
+  background-color: var(--color-primary) !important;
+  font-family: var(--font-secondary);
+  height:6%; 
+}
+
+.navbar--hamburger--mobile{
+  border-color: white !important;
+}
+
+.hero--container--mobile {
+  margin-top: 37px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 17px;
+  flex-direction: column;
+}
+
+.hero--cta--mobile{
+  font-size: var(--font-size-title);
+  font-family: var(--font-secondary) !important;
+  color: var(--color-secondary)
+}
+
+.hero--logo--mobile{
+  width: 30%;
+}
+
+.hero--image--mobile{
+  max-width: 100%;
+}
+
+.usluge--container--mobile{
   
+}
+
+
+.usluge--box--mobile{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height:320px;
+  width: 90%;
+  max-width: 400px;
+  background-color: rgb(240, 242, 242);
+}
+
+.about--us--mobile{
+  margin: 5%;
+}
+
+.stats--box--mobile{
+  width:100%;
+}
