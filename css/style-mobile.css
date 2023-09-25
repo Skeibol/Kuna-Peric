@@ -5,13 +5,33 @@
   --white: #ffffff;
   --gray: #dde7f3;
   --color-primary: rgb(26, 109, 138);
+
   --color-secondary: rgb(0, 141, 150);
   --color-message: #e0007b;
   --color-text: #2b2b2b;
-  --font-primary: "corbertregular", sans-serif;
+  --font-primary: "Barlow", sans-serif;
+
   --font-secondary: "hogbineregular", sans-serif;
   --font-size-standard: 16px /*12-16*/;
-  --font-size-title: 32px;
+  --font-size-title: 46px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+input{
+  display:block
 }
 
 /* Od 0 do 480px*/
@@ -30,7 +50,7 @@
     url("../fonts/corbert-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-} 
+}
 
 body {
   font-family: var(--font-primary);
@@ -42,18 +62,55 @@ body {
   text-decoration: none !important;
 }
 
-.navbar--mobile{
-  background-color: var(--color-primary) !important;
-  font-family: var(--font-secondary);
-  height:6%; 
+.navbar--container--mobile {
+  position: fixed;
+  z-index: 9999;
+  color: white;
+  top: 0;
+  left: 0;
 }
 
-.navbar--hamburger--mobile{
-  border-color: white !important;
+.navbar--mobile {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 5vh;
+  background-color: var(--color-secondary) !important;
+  font-family: var(--font-secondary);
+}
+
+.navbar--mobile p {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: auto;
+}
+
+.navbar--logo--mobile {
+  height: 100%;
+}
+
+.mobile--default--margin{
+  margin: 5%;
+}
+
+.navbar--expand--mobile {
+  position: absolute;
+  background-color: var(--color-secondary) !important;
+  font-family: var(--font-secondary);
+  top: 5vh;
+  left: -80vw;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vh;
+  transition: left 1s ease-in;
 }
 
 .hero--container--mobile {
-  margin-top: 37px;
+  margin-top: 5vh;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -62,39 +119,155 @@ body {
   flex-direction: column;
 }
 
-.hero--cta--mobile{
-  font-size: var(--font-size-title);
-  font-family: var(--font-secondary) !important;
-  color: var(--color-secondary)
-}
-
-.hero--logo--mobile{
-  width: 30%;
-}
-
-.hero--image--mobile{
+.hero--image--mobile {
   max-width: 100%;
 }
 
-.usluge--container--mobile{
-  
+.hero--cta--zdravlje--mobile {
+  color: var(--color-secondary);
+}
+.hero--cta--mobile {
+  font-size: var(--font-size-title);
+  font-family: var(--font-primary) !important;
+  font-weight: 700;
+  color: var(--black);
 }
 
+.hero--logo--mobile {
+  width: 30%;
+}
 
-.usluge--box--mobile{
+.hero--image--mobile {
+  max-width: 100%;
+}
+
+.button--mobile{
+  margin-top: 20px;
+  font-size: 18pt;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 70wv;
+  border-radius: 30px;
+  border: solid 1px var(--color-secondary);
+  background-color: white;
+  color: var(--color-secondary)
+}
+.button--mobile--inverse{
+  font-size: 16pt;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 70wv;
+  border-radius: 30px;
+  border : none;
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.usluge--box--mobile {
+  /* border-top:solid 5px var(--color-secondary); */
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height:320px;
+  height: 320px;
   width: 90%;
   max-width: 400px;
   background-color: rgb(240, 242, 242);
 }
-
-.about--us--mobile{
+.usluge--fake--border{
+  height:10px;
+  width:75%;
+  margin:auto;
+  background-color:var(--color-secondary);
+}
+.about--us--mobile {
   margin: 5%;
 }
 
-.stats--box--mobile{
-  width:100%;
+.stats--box--container--mobile{
+  filter:grayscale(0.8);
+  
+  background-image: url('../images/statsbg.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.stats--box--mobile {
+  width: 100%;
+  height: 20vh;
+}
+
+.stats--box--mobile::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 80%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid rgb(255, 255, 255); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.span--highlight{
+  color: var(--color-secondary);
+  font-weight: 700;
+}
+
+.faq--box{
+  padding:15px;
+  margin-bottom:15px;
+  background-color: rgb(240, 242, 242);
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.footer--container--mobile{
+  display: grid; 
+
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "."
+    "."
+    "."
+    "."; 
+  color:white;
+  font-weight:200;
+  background-color: var(--color-secondary);
+}
+
+
+
+.footer--grid--mobile {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+}
+
+.footer--text--bold{
+  font-weight: 700;
+}
+
+.footer--grid--box{
+  padding:20px;
+}
+
+.footer--logo--mobile{
+  margin:auto;
+}
+
+.footer--social--media{
+  margin:auto;
+}
+
+.footer--copyright--mobile{
+  color:black;
+  background-color: white;
+  text-align: center;
+  padding:5px;
 }
