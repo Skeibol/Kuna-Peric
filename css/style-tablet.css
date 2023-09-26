@@ -1,7 +1,180 @@
 /* Od 480 do 769*/
-@media only screen and (min-width: 576px) {
-  .navbar--container--mobile{
+@media only screen and (min-width: 700px) {
+  .navbar--container--mobile {
     display: none;
   }
-    
+
+  .navbar--container--desktop {
+    display: none;
   }
+
+  :root {
+
+    --font-size-standard: 16px
+      /*12-16*/
+    ;
+    --font-size-title: 48px;
+    --font-size-subtitle: 32px;
+    --font-size-title-tertiary: 18px;
+
+    --font-weight-title: 700;
+    --font-weight-subtitle: 600;
+    --font-weight-subtitle-medium: 500;
+    --font-weight-text: 400;
+  }
+
+
+  h1 {
+    font-weight: var(--font-weight-title);
+    font-family: var(--font-primary);
+  }
+
+  h2 {
+    font-weight: var(--font-weight-subtitle);
+    font-family: var(--font-primary);
+    font-size: var(--font-size-subtitle);
+  }
+
+  h3 {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-title-tertiary);
+  }
+
+  h4 {
+    font-weight: var(--font-weight-subtitle-medium);
+    font-family: var(--font-primary);
+  }
+
+
+
+  /* *****HERO***** */
+
+  .hero--image--bg {
+    height: 100%;
+  }
+
+  .hero--container {
+    flex-direction: row;
+    height: 60%;
+  }
+
+  .hero--cta {
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 18px;
+  }
+
+  .hero--cta--text {
+    margin-top: 50px;
+  }
+
+  .hero--dr--img {
+    background-position: bottom right;
+  }
+
+  .button--bg, .button--nobg {
+    font-size: 16px;
+  }
+
+  .hero--cta--slogan {
+    text-align: left;
+  }
+
+
+
+  /* ****USLUGE-HOME**** */
+
+  .services--home {
+    flex-wrap: nowrap;
+    align-items:start;
+
+  }
+
+  .services--home--box {
+    padding: 2rem 1.2rem;
+    align-self: stretch;
+  }
+
+  /* ****ABOUT US**** */
+
+  .abt--us--md {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* ****STATISTICS**** */
+
+  .stats--box--container {
+    padding: 1rem 0;
+
+  }
+.stats--wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+}
+  .stats--box {
+    width: auto;
+    padding: 2.5rem 1rem;
+  }
+
+  .stats--box:not(:first-of-type) {
+    border-left: 1px solid white;
+    border-top: none;
+  }
+
+
+  /* ****MOTIVATION**** */
+
+
+  .officeimage {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1 1 0px;
+  }
+
+
+  /* ****FAQ**** */
+
+  /* ****FORM**** */
+
+  .contact--hero {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .form--box {
+    border: none;
+    border-bottom: solid 1px var(--color-secondary);
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+  }
+
+  .form--textarea {
+    border: none;
+    border-bottom: solid 1px var(--color-secondary);
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 0 30px;
+
+  }
+
+  .dropdown--menu {
+    color: #000000ac;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: solid 1px var(--color-secondary) !important;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: var(--font-size-standard);
+
+  }
+}

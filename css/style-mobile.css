@@ -4,16 +4,25 @@
   --black: #000000;
   --white: #ffffff;
   --gray: #dde7f3;
-  --color-primary: rgb(26, 109, 138);
+  --color-primary: #008D96;
 
   --color-secondary: rgb(0, 141, 150);
   --color-message: #e0007b;
   --color-text: #2b2b2b;
-  --font-primary: "Barlow", sans-serif;
+  --font-primary: "Poppins", sans-serif;
 
-  --font-secondary: "hogbineregular", sans-serif;
-  --font-size-standard: 16px /*12-16*/;
-  --font-size-title: 46px;
+  --font-secondary: "corbertregular", sans-serif;
+  --font-size-standard: 14px
+    /*12-16*/
+  ;
+  --font-size-title: 34px;
+  --font-size-subtitle: 30px;
+  --font-size-title-tertiary: 18px;
+
+  --font-weight-title: 700;
+  --font-weight-subtitle: 600;
+  --font-weight-subtitle-medium: 500;
+  --font-weight-text: 400;
 }
 
 a,
@@ -27,11 +36,33 @@ a:active {
 h1,
 h2,
 p {
-  margin: 0;
+  margin-bottom: 1rem;
 }
 
 input {
   display: block;
+}
+
+h1 {
+  font-weight: var(--font-weight-title);
+  font-family: var(--font-primary);
+}
+
+h2 {
+  font-weight: var(--font-weight-subtitle);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-subtitle);
+}
+
+h3 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-title-tertiary);
+}
+
+h4 {
+  font-weight: var(--font-weight-subtitle-medium);
+  font-family: var(--font-primary);
+  font-size: 17px;
 }
 
 /* Od 0 do 480px*/
@@ -53,8 +84,12 @@ input {
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   font-size: var(--font-size-standard);
+}
+
+.navbar--container--desktop {
+  display: none;
 }
 
 .navbar--mobile a {
@@ -77,7 +112,7 @@ body {
   align-items: center;
   text-align: center;
   width: 100vw;
-  height: 5vh;
+  height: 37px;
   background-color: var(--color-secondary) !important;
   font-family: var(--font-secondary);
 }
@@ -100,7 +135,7 @@ body {
   position: absolute;
   background-color: var(--color-secondary) !important;
   font-family: var(--font-secondary);
-  top: 5vh;
+  top: 37px;
   left: -80vw;
   display: flex;
   flex-direction: column;
@@ -109,109 +144,176 @@ body {
   transition: left 1s ease-in;
 }
 
-.hero--container--mobile {
-  margin-top: 5vh;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+/* *****HERO***** */
+
+
+.hero--container{
   display: flex;
-  gap: 17px;
+  gap: 5px;
   flex-direction: column;
+  height: 100%;
+  margin-top: 37px;
+  min-height: 400px;
 }
 
-.hero--image--mobile {
-  max-width: 100%;
+.hero--image--bg {
+  background-image: url("../images/Web/Klinika-10.jpg");
+  width: 100%;
+  height: 70%;
+  margin-top: 0;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0rem 6.375rem 0rem 6.6875rem;
+
 }
 
-.hero--cta--zdravlje--mobile {
-  color: var(--color-secondary);
+.hero--cta {
+  max-width: 1200px;
+  height: 100%;
+  flex-direction: column;
+
 }
-.hero--cta--mobile {
+
+.hero--dr--img {
+  background-image: url("../images/Web/dr_josip.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+
+.button--bg, .button--nobg {
+  font-size: 16px;
+  border-radius: 3.3rem;
+  padding: 5px 15px;
+  min-width: max-content;
+}
+
+
+
+.button--bg {
+  background-color: var(--color-primary);
+  color: var(--white);
+  border: none;
+}
+
+.button--nobg {
+  border: solid 1px var(--color-primary);
+  color: var(--color-primary);
+  backdrop-filter: blur(5px);
+  background-color: #ffffffb4;
+
+}
+
+.hero--cta--slogan {
+  text-align: center;
   font-size: var(--font-size-title);
   font-family: var(--font-primary) !important;
   font-weight: 700;
-  color: var(--black);
+  color: var(--color-text);
 }
 
-.hero--logo--mobile {
-  width: 30%;
-}
-
-.hero--image--mobile {
-  max-width: 100%;
-}
-
-.button--mobile {
-  margin-top: 20px;
-  font-size: 18pt;
-  padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 70wv;
-  border-radius: 30px;
-  border: solid 1px var(--color-secondary);
-  background-color: white;
+.hero--cta--zdravlje {
   color: var(--color-secondary);
 }
-.button--mobile--inverse {
-  font-size: 16pt;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 70wv;
-  border-radius: 30px;
-  border: none;
-  background-color: var(--color-secondary);
-  color: white;
-}
 
-.usluge--box--mobile {
-  /* border-top:solid 5px var(--color-secondary); */
-  text-align: center;
-  height: 320px;
-  width: 90%;
-  max-width: 400px;
-  background-color: rgb(240, 242, 242);
-}
-.usluge--fake--border {
-  height: 10px;
-  width: 75%;
+
+
+/* ****USLUGE-HOME**** */
+
+.container--default {
+  max-width: 1200px;
   margin: auto;
+  padding: 30px 14px;
+  position: relative;
+}
+
+.container--default:last-of-type {
+  padding: 0 14px !important;
+}
+
+.services--home {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+
+  
+}
+
+.services--home--box {
+  background-color: rgb(240, 242, 242);
+  position: relative;
+  padding: 3.5rem 2.5rem;
+  text-align: center;
+  flex: auto;
+  gap: 10px;
+
+}
+
+.services--home--box:before {
+  content: "";
+  width: 90%;
+  height: 30px;
   background-color: var(--color-secondary);
-}
-.about--us--mobile {
-  margin: 5%;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  margin-left: -45%;
+  opacity: 1;
+  z-index: -1;
+
 }
 
-.stats--box--container--mobile {
-  filter: grayscale(0.8);
+/* ****ABOUT US**** */
+.abt--us--home {
+  flex-direction: column;
+  gap: 20px;
+}
+.abt--us--img {
+  text-align: center;
+}
+/* ****STATISTICS**** */
 
-  background-image: url("../images/statsbg.png");
+.stats--box--container {
+  background-image: url("../images/Web/Klinika-24.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.stats--box--mobile {
+  padding: 1rem 0;
   width: 100%;
-  height: 20vh;
 }
 
-.stats--box--mobile::after {
-  content: ""; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  width: 80%; /* Change this to whatever width you want. */
-  padding-top: 20px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid rgb(255, 255, 255); /* This creates the border. Replace black with whatever color you want. */
+.stats--wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
 }
+
+.stats--box {
+  padding: 3.7rem 0;
+}
+.stats--box:not(:first-of-type) {
+  border-top: 1px solid white;
+}
+.stats--box p {
+  margin-bottom: 0;
+}
+
 
 .span--highlight {
   color: var(--color-secondary);
   font-weight: 700;
 }
+
+
+/* ****FAQ**** */
 
 .faq--box {
   padding: 15px;
@@ -225,6 +327,7 @@ body {
   background-color: rgb(240, 242, 242) !important;
   border-radius: 0px !important;
 }
+
 .accordion-button {
   border-color: rgb(240, 242, 242) !important;
   background-color: rgb(240, 242, 242) !important;
@@ -236,11 +339,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .faq--answer {
   opacity: 0;
   pointer-events: none;
   height: 0;
 }
+
 .footer--container--mobile {
   display: grid;
 
@@ -290,18 +395,19 @@ body {
 
 .officeimage--container--mobile {
   display: flex;
-  height: 80vh;
   width: 100%;
 
   justify-content: space-around;
   align-items: center;
   gap: 15px;
 }
+
 .officeimage--background--mobile {
   background-image: url("../images/backgroundline.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .officeimage {
   display: flex;
   flex-direction: column;
@@ -309,30 +415,34 @@ body {
   flex: 1 1 0px;
 }
 
+/* ****FORM**** */
+
 .form--box {
   border: none;
-  border-bottom: solid 2px var(--color-secondary);
+  border-bottom: solid 1px var(--color-secondary);
   width: 100%;
   margin-bottom: 10px;
-  height: 5%;
+  padding: 10px 0;
+
 }
 
-.form--textarea{
+.form--textarea {
   border: none;
-  border-bottom: solid 2px var(--color-secondary);
+  border-bottom: solid 1px var(--color-secondary);
   width: 100%;
-  margin-bottom: 10px;
-  height: 15%;
+  margin-bottom: 20px;
+  padding: 10px 0 30px;
+
 }
 
 .dropdown--menu {
-  
   color: #000000ac;
-  padding: 1 2 1 2 !important;
   border: none !important;
   border-radius: 0 !important;
-  border-bottom: solid 2px var(--color-secondary) !important;
+  border-bottom: solid 1px var(--color-secondary) !important;
   width: 100%;
-  margin-bottom: 10px;
-  height: 5%;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-size: var(--font-size-standard);
+
 }

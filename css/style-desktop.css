@@ -1,15 +1,76 @@
-
 @media only screen and (min-width: 992px) {
 
-    .navbar--container--desktop{
+    .navbar--container--desktop {
         width: 100%;
         background-color: cyan;
     }
 
-    .navbar--top--desktop{
-        display:flex;
+    .navbar--top--desktop {
+        display: flex;
         justify-content: space-between;
         margin: auto;
     }
-}
 
+    :root {
+
+        --font-size-standard: 18px
+            /*12-16*/
+        ;
+        --font-size-title: 64px;
+        --font-size-subtitle: 32px;
+        --font-size-title-tertiary: 20px;
+    }
+
+
+
+    /* *****HERO***** */
+
+    .hero--container {
+        height: 90%;
+        margin-bottom: 100px;
+    }
+
+    .hero--cta {
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .button--bg, .button--nobg {
+        font-size: 18px;
+    }
+
+    /* ****USLUGE-HOME**** */
+
+    .services--home {
+        gap: 25px;
+    }
+
+    /* ****ABOUT US**** */
+
+    .abt--us--home {
+        flex-direction: row;
+    }
+
+    /* ****STATISTICS**** */
+
+    .stats--box--container {
+        padding: 1rem 0;
+
+    }
+
+
+    .stats--box {
+        width: auto;
+        padding: 3.5rem 1rem;
+    }
+
+    .stats--box:not(:first-of-type) {
+        border-left: 1px solid white;
+        border-top: none;
+    }
+
+
+
+
+}
