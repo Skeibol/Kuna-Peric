@@ -11,7 +11,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style-mobile.css">
     <link rel="stylesheet" href="css/style-tablet.css">
-    <link rel="stylesheet" href="css/style-fullscreen.css">
+    <link rel="stylesheet" href="css/style-desktop.css">
 
 </head>
 
@@ -26,4 +26,16 @@
             <a href="">Drugi</a>
             <a href="">Treci</a>
         </div>
+    </nav>
+    <nav class="navbar--container--desktop">
+        <div class="navbar--top--desktop">
+            <p>Ul. Crvenog križa 35, 10000 Zagreb</p>
+            <p>+385 01 4555 400</p>
+            <p>info@kunaperic.hr</p>
+            <p>O nama</p>
+            <p>Novosti</p>
+            <p>Cjenik</p>
+            <p>Kontakt</p>
+        </div>
+        <div class="navbar--bottom--desktop"></div>
     </nav>

@@ -30,8 +30,8 @@ p {
   margin: 0;
 }
 
-input{
-  display:block
+input {
+  display: block;
 }
 
 /* Od 0 do 480px*/
@@ -92,7 +92,7 @@ body {
   height: 100%;
 }
 
-.mobile--default--margin{
+.mobile--default--margin {
   margin: 5%;
 }
 
@@ -141,7 +141,7 @@ body {
   max-width: 100%;
 }
 
-.button--mobile{
+.button--mobile {
   margin-top: 20px;
   font-size: 18pt;
   padding: 10px;
@@ -151,16 +151,16 @@ body {
   border-radius: 30px;
   border: solid 1px var(--color-secondary);
   background-color: white;
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
-.button--mobile--inverse{
+.button--mobile--inverse {
   font-size: 16pt;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
   width: 70wv;
   border-radius: 30px;
-  border : none;
+  border: none;
   background-color: var(--color-secondary);
   color: white;
 }
@@ -173,22 +173,22 @@ body {
   max-width: 400px;
   background-color: rgb(240, 242, 242);
 }
-.usluge--fake--border{
-  height:10px;
-  width:75%;
-  margin:auto;
-  background-color:var(--color-secondary);
+.usluge--fake--border {
+  height: 10px;
+  width: 75%;
+  margin: auto;
+  background-color: var(--color-secondary);
 }
 .about--us--mobile {
   margin: 5%;
 }
 
-.stats--box--container--mobile{
-  filter:grayscale(0.8);
-  
-  background-image: url('../images/statsbg.png');
+.stats--box--container--mobile {
+  filter: grayscale(0.8);
+
+  background-image: url("../images/statsbg.png");
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -208,97 +208,131 @@ body {
   border-bottom: 1px solid rgb(255, 255, 255); /* This creates the border. Replace black with whatever color you want. */
 }
 
-.span--highlight{
+.span--highlight {
   color: var(--color-secondary);
   font-weight: 700;
 }
 
-.faq--box{
-  padding:15px;
-  margin-bottom:15px;
-
+.faq--box {
+  padding: 15px;
+  margin-bottom: 15px;
   background-color: rgb(240, 242, 242);
   max-width: 100%;
 }
 
-.faq--question{
+.accordion-item {
+  border-color: rgb(240, 242, 242) !important;
+  background-color: rgb(240, 242, 242) !important;
+  border-radius: 0px !important;
+}
+.accordion-button {
+  border-color: rgb(240, 242, 242) !important;
+  background-color: rgb(240, 242, 242) !important;
+  border-radius: 0px !important;
+}
+
+.faq--question {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-.faq--answer{
-  opacity:0;
+.faq--answer {
+  opacity: 0;
   pointer-events: none;
-  height:0;
+  height: 0;
 }
-.footer--container--mobile{
-  display: grid; 
+.footer--container--mobile {
+  display: grid;
 
-  gap: 0px 0px; 
-  grid-template-areas: 
+  gap: 0px 0px;
+  grid-template-areas:
     "."
     "."
     "."
-    "."; 
-  color:white;
-  font-weight:200;
+    ".";
+  color: white;
+  font-weight: 200;
   background-color: var(--color-secondary);
 }
 
-
-
 .footer--grid--mobile {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
-  gap: 0px 0px; 
-  grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
     ". ."
-    ". ."; 
+    ". .";
 }
 
-.footer--text--bold{
+.footer--text--bold {
   font-weight: 700;
 }
 
-.footer--grid--box{
-  padding:20px;
+.footer--grid--box {
+  padding: 5%;
 }
 
-.footer--logo--mobile{
-  margin:auto;
+.footer--logo--mobile {
+  margin: auto;
 }
 
-.footer--social--media{
-  margin:auto;
+.footer--social--media {
+  margin: auto;
 }
 
-.footer--copyright--mobile{
-  color:black;
+.footer--copyright--mobile {
+  color: black;
   background-color: white;
   text-align: center;
-  padding:5px;
+  padding: 5px;
 }
 
-.officeimage--container--mobile{
-
+.officeimage--container--mobile {
   display: flex;
-  height:80vh;
-  width:100%;
- 
+  height: 80vh;
+  width: 100%;
+
   justify-content: space-around;
   align-items: center;
   gap: 15px;
 }
-.officeimage--background--mobile{
-  background-image: url('../images/backgroundline.png');
+.officeimage--background--mobile {
+  background-image: url("../images/backgroundline.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.officeimage{
+.officeimage {
   display: flex;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
   flex: 1 1 0px;
+}
+
+.form--box {
+  border: none;
+  border-bottom: solid 2px var(--color-secondary);
+  width: 100%;
+  margin-bottom: 10px;
+  height: 5%;
+}
+
+.form--textarea{
+  border: none;
+  border-bottom: solid 2px var(--color-secondary);
+  width: 100%;
+  margin-bottom: 10px;
+  height: 15%;
+}
+
+.dropdown--menu {
+  
+  color: #000000ac;
+  padding: 1 2 1 2 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: solid 2px var(--color-secondary) !important;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 5%;
 }
