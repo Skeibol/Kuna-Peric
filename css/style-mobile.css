@@ -216,13 +216,22 @@ body {
 .faq--box{
   padding:15px;
   margin-bottom:15px;
+
   background-color: rgb(240, 242, 242);
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
   max-width: 100%;
 }
 
+.faq--question{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.faq--answer{
+  opacity:0;
+  pointer-events: none;
+  height:0;
+}
 .footer--container--mobile{
   display: grid; 
 
@@ -270,4 +279,26 @@ body {
   background-color: white;
   text-align: center;
   padding:5px;
+}
+
+.officeimage--container--mobile{
+
+  display: flex;
+  height:80vh;
+  width:100%;
+ 
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+.officeimage--background--mobile{
+  background-image: url('../images/backgroundline.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.officeimage{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  flex: 1 1 0px;
 }

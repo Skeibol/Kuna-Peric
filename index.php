@@ -79,10 +79,20 @@ include "header.php";
     <button class="button--mobile--inverse">Dogovori termin</button>
 </div>
 
-<div class="mobile--default--margin">
-    <hr>
-    SLIKE OD UREDA POSLOZENE LIJEPO
-    <hr>
+<div class="officeimage--background--mobile">
+    <div class="mobile--default--margin ">
+        <div class="officeimage--container--mobile">
+
+            <div class="officeimage officeimage--left">
+                <img src="images/ured1.png" alt="" srcset="">
+            </div>
+            <div class="officeimage officeimage--right">
+                <img src="images/ured2.png" alt="" srcset="">
+                <img src="images/ured3.png" alt="" srcset="">
+
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="mobile--default--margin">
@@ -97,16 +107,48 @@ include "header.php";
     <p>Pronađite sve što trebate znati o našim uslugama i pristupu skrbi.</p>
     <div class="faq--mobile">
         <div class="faq--box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            <div class="faq--question">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            </div>
+            
+            <div class="faq--answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui eligendi
+                alias quia quidem sit. Voluptatibus eos commodi ea eaque similique quaerat aliquam voluptates laudantium
+                exercitationem voluptate eius iusto modi odio, consectetur enim sunt dolorum illum praesentium
+                doloremque? Deleniti dolorem ut adipisci sed dicta quibusdam magni harum quaerat optio officia!</div>
         </div>
         <div class="faq--box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            <div class="faq--question">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            </div>
+            
+            <div class="faq--answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui eligendi
+                alias quia quidem sit. Voluptatibus eos commodi ea eaque similique quaerat aliquam voluptates laudantium
+                exercitationem voluptate eius iusto modi odio, consectetur enim sunt dolorum illum praesentium
+                doloremque? Deleniti dolorem ut adipisci sed dicta quibusdam magni harum quaerat optio officia!</div>
         </div>
         <div class="faq--box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            <div class="faq--question">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            </div>
+            
+            <div class="faq--answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui eligendi
+                alias quia quidem sit. Voluptatibus eos commodi ea eaque similique quaerat aliquam voluptates laudantium
+                exercitationem voluptate eius iusto modi odio, consectetur enim sunt dolorum illum praesentium
+                doloremque? Deleniti dolorem ut adipisci sed dicta quibusdam magni harum quaerat optio officia!</div>
         </div>
         <div class="faq--box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            <div class="faq--question">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing?</p><img src="images/plus.png" alt="" srcset="">
+            </div>
+            
+            <div class="faq--answer">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui eligendi
+                alias quia quidem sit. Voluptatibus eos commodi ea eaque similique quaerat aliquam voluptates laudantium
+                exercitationem voluptate eius iusto modi odio, consectetur enim sunt dolorum illum praesentium
+                doloremque? Deleniti dolorem ut adipisci sed dicta quibusdam magni harum quaerat optio officia!</div>
         </div>
     </div>
 </div>
