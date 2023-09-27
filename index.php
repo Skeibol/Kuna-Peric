@@ -81,10 +81,19 @@ include "header.php";
                         znanjem i
                         iskustvom
                         stoje na raspolaganju za područja:</p>
-                    <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
-                    <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
-                    <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
-                    <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                        </div>
+                        <div class="col-6">
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Miševi</p>
+                        </div>
+
+                    </div>
                 </div>
                 <div class="abt--us--img d-none d-md-block d-lg-none col-md-5 col-lg-12"><img
                         class="justify-self-center" src="images/doktorik.png" alt="">
@@ -128,25 +137,24 @@ include "header.php";
     </div>
 </div>
 
-<div class="container--default">
-    <h2>Zašto izabrati nas?</h2>
+<!-- ZAŠTO IZABRRATI NAS MOBILE -->
+<div class="container--default d-md-none">
+    <h2>Mobitel izabrati nas?</h2>
     <p>Medicinski centar Kuna&Perić se ističe po vrhunskoj kvaliteti skrbi, stručnom osoblju i modernoj tehnologiji.
         Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim potrebama. Iza nas
-        je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti. U medicinskom
+        je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti. <br /><br /> U
+        medicinskom
         centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se za sve Vaše
         medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p>
     <button class="button--bg">Dogovori termin</button>
-</div>
-<div class="container--default">
-
     <div class="officeimage--background--mobile">
-        <div class="">
+        <div class="container--default">
             <div class="officeimage--container--mobile">
 
-                <div class="officeimage officeimage--left">
+                <div class="officeimage--mobile officeimage--left">
                     <img src="images/ured1.png" alt="" srcset="">
                 </div>
-                <div class="officeimage officeimage--right">
+                <div class="officeimage--mobile officeimage--right">
                     <img src="images/ured2.png" alt="" srcset="">
                     <img src="images/ured3.png" alt="" srcset="">
 
@@ -155,13 +163,55 @@ include "header.php";
         </div>
     </div>
 </div>
+<!-- ZAŠTO IZABRRATI NAS DESKTOP -->
+<div class="line--background--motivation d-none d-md-block">
+    <div class="container--default motivation--container--desktop ">
+        <div class="motivation--text--desktop">
+            <h2>Tablet izabrati nas?</h2>
+            <p>Medicinski centar Kuna&Perić se ističe po vrhunskoj kvaliteti skrbi, stručnom osoblju i modernoj
+                tehnologiji.
+                Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim potrebama.
+                Iza
+                nas
+                je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti.<br /><br />
+                U
+                medicinskom
+                centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se za
+                sve
+                Vaše
+                medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p>
+            <button class="button--bg">Dogovori termin</button>
+        </div>
+
+        <div class="officeimage--container--desktop">
+            <img class="officeimage--desktop-a officeimage--desktop" src="images/ured1.png" alt="" srcset="">
+            <img class="officeimage--desktop-b officeimage--desktop" src="images/ured2.png" alt="" srcset="">
+            <img class="officeimage--desktop-c officeimage--desktop" src="images/ured3.png" alt="" srcset="">
+        </div>
+
+    </div>
+</div>
 
 <div class="container--default">
-    <h2>Što kažu naši klijenti</h2>
-    <p>Vaša dobrobit je naš najveći uspjeh</p>
-    <hr>
-    KOMENTARI PACJENTATA POSLOZENI LIJEPO
-    <hr>
+    <div class="title--center--desktop">
+        <h2>Što kažu naši klijenti</h2>
+        <p>Brinemo o Vašem mišljenju jer Vaša dobrobit je naš najveći uspjeh.</p>
+    </div>
+    <div class="owl-carousel owl-theme comments--container">
+        <div class="item comments--box">
+            <p><strong>Kirurgija</strong></p>
+            <p>Kirurzi su Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia ut iste consequatur sed aliquam quam adipisci ea, dolores vel.</p>
+        </div>
+        <div class="item comments--box">
+  
+        </div>
+        <div class="item comments--box">
+     
+        </div>
+        <div class="item comments--box">
+ 
+        </div>
+    </div>
 </div>
 
 
@@ -169,6 +219,10 @@ include "header.php";
 
 
 <div class="container--default">
+    <div class="title--center--desktop">
+        <h2>Često postavljena pitanja</h2>
+        <p>Pronađite sve što trebate znati o našim uslugama i pristupu skrbi.</p>
+    </div>
     <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="container--default">
             <div class="row gx-lg-5">
@@ -331,7 +385,7 @@ include "header.php";
         <img class="col-md-4" src="images/statua.png" alt="" srcset="">
     </div>
 </div>
-<img style='width: 100%' src="images/mapa.png" alt="" srcset="">
+<img style='width: 100%; height:500px;' src="images/mapa.png" alt="" srcset="">
 
 
 

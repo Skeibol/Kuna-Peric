@@ -7,6 +7,10 @@
     --font-size-title-tertiary: 20px;
   }
 
+  .title--center--desktop{
+    text-align: center;
+  }
+
   /* NAVBAR */
   .navbar--container--tablet{
     display:none;
@@ -116,5 +120,26 @@
   /* FAQ */
   .accordion--splitter {
     display: inline-block;
+  }
+
+  /* FOOTER */
+  .footer--container{
+    display: none;
+  }
+
+  .footer--container--desktop{
+    display:block !important;
+    width:100%;
+    background-color: var(--color-primary);
+  }
+
+  .footer--info--desktop{
+    text-wrap: nowrap;
+    color: white;
+    gap: 2%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 50px;
   }
 }

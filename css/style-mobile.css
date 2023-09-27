@@ -233,7 +233,7 @@ body {
 .container--default {
   max-width: 1200px;
   margin: auto;
-  padding: 30px 14px;
+  padding: 30px 16px;
   position: relative;
 }
 
@@ -355,7 +355,15 @@ body {
   height: 0;
 }
 
-.footer--container--mobile {
+/* FOOTER */
+.footer--container p {
+  margin-block-start: auto !important;
+  margin-block-end: auto !important;
+  margin-inline-start: auto !important;
+  margin-inline-end: auto !important;
+}
+
+.footer--container {
   display: grid;
 
   gap: 0px 0px;
@@ -369,10 +377,11 @@ body {
   background-color: var(--color-secondary);
 }
 
-.footer--grid--mobile {
+.footer--grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+
   gap: 0px 0px;
   grid-template-areas:
     ". ."
@@ -387,7 +396,7 @@ body {
   padding: 5%;
 }
 
-.footer--logo--mobile {
+.footer--logo {
   margin: auto;
 }
 
@@ -395,18 +404,20 @@ body {
   margin: auto;
 }
 
-.footer--copyright--mobile {
+.footer--copyright {
   color: black;
   background-color: white;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 5px;
+  height:60px;
 }
 
 .officeimage--container--mobile {
   display: flex;
   width: 100%;
-
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 15px;
 }
@@ -417,13 +428,33 @@ body {
   background-repeat: no-repeat;
 }
 
-.officeimage {
+.officeimage--mobile {
   display: flex;
   flex-direction: column;
   gap: 20px;
   flex: 1 1 0px;
 }
+/* KOMENTARI REVIEW */
+.owl-dots .active span{
+  background-color: var(--color-primary) !important;
+  background: var(--color-primary) !important;
 
+}
+.owl-dot span{
+  background-color: white !important;
+  border: solid 1px var(--color-primary) !important;
+
+
+}
+
+
+.comments--box{
+  font-size: 18px;
+  padding:35px;
+  height: 270px;
+  border-radius: 78px; 
+  border: 1px #008D96 solid;
+}
 /* ****FORM**** */
 
 .form--box {
