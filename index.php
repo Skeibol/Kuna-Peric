@@ -122,14 +122,17 @@ include "header.php";
             <h3 class='span--highlight'>3200</h3>
             <p>Zadovoljnih korisnika</p>
         </div>
+        <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 class='span--highlight'>3200</h3>
             <p>Zadovoljnih korisnika</p>
         </div>
+        <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 class='span--highlight'>3200</h3>
             <p>Zadovoljnih korisnika</p>
         </div>
+        <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 class='span--highlight'>3200</h3>
             <p>Zadovoljnih korisnika</p>

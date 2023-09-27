@@ -300,7 +300,7 @@ body {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
   width: 80%;
 }
@@ -308,8 +308,10 @@ body {
 .stats--box {
   padding: 3.7rem 0;
 }
-.stats--box:not(:first-of-type) {
-  border-top: 1px solid white;
+.stats--box--separator {
+ background-color: rgb(255, 255, 255);
+ width:auto;
+ height: 1px;
 }
 .stats--box p {
   margin-bottom: 0;

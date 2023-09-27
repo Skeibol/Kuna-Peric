@@ -112,10 +112,7 @@
     padding: 3.5rem 1rem;
   }
 
-  .stats--box:not(:first-of-type) {
-    border-left: 1px solid white;
-    border-top: none;
-  }
+
 
   /* FAQ */
   .accordion--splitter {
