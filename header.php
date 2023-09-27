@@ -28,14 +28,52 @@
         </div>
     </nav>
     <nav class="navbar--container--desktop">
-        <div class="navbar--top--desktop">
-            <p>Ul. Crvenog križa 35, 10000 Zagreb</p>
-            <p>+385 01 4555 400</p>
-            <p>info@kunaperic.hr</p>
-            <p>O nama</p>
-            <p>Novosti</p>
-            <p>Cjenik</p>
-            <p>Kontakt</p>
+        <div class="navbar--bg">
+            <div class="navbar--top--desktop container--default navbar--padding">
+                <div class="navbar--top--left">
+                    <p>Ul. Crvenog križa 35, 10000 Zagreb</p>
+                    <p>+385 01 4555 400</p>
+                    <p>info@kunaperic.hr</p>
+                </div>
+                <div class="navbar--top--right">
+                    <p>O nama</p>
+                    <p>Novosti</p>
+                    <p>Cjenik</p>
+                    <p>Kontakt</p>
+                </div>
+            </div>
         </div>
-        <div class="navbar--bottom--desktop"></div>
+
+        <div class="navbar--bottom--desktop container--default navbar--padding">
+            <img src="images/logo.png" alt="" srcset="" class="navbar--logo--desktop">
+            <p>Ginekologija i porodništvo</p>
+            <p>Fizikalna medicina</p>
+            <p>Oftamologija - Ultrazvučne pretrage</p>
+            <p>Medicinsko-biokemijski laboratorij</p>
+            <p>Nuklearna medicina</p>
+        </div>
+
+    </nav>
+
+    <nav class="navbar--container--tablet">
+        <div class="navbar--top--tablet">
+            <div class="navbar--tablet--left">+385 01 4555 400</div>
+            <div class="navbar--tablet--right">
+                <p>O nama</p>
+                <p>Novosti</p>
+                <p>Cjenik</p>
+                <p>Kontakt</p>
+            </div>
+        </div>
+        <div class="navbar--bottom--tablet">
+            <img src="images/logo.png" alt="" srcset="">
+            <img class='navbar--toggler' src="images/plus.png" alt="" srcset="">
+            
+        </div>
+        <div class="navbar--expand--tablet">
+            <p>Prvi</p>
+            <p>Prvi</p>
+            <p>Prvi</p>
+            <p>Prvi</p>
+        </div>
     </nav>

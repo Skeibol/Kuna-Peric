@@ -1,76 +1,120 @@
+
 @media only screen and (min-width: 992px) {
+  :root {
+    --font-size-standard: 18px /*12-16*/;
+    --font-size-title: 64px;
+    --font-size-subtitle: 32px;
+    --font-size-title-tertiary: 20px;
+  }
 
-    .navbar--container--desktop {
-        width: 100%;
-        background-color: cyan;
-    }
+  /* NAVBAR */
+  .navbar--container--tablet{
+    display:none;
+  }
+  .navbar--container--desktop p {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+  }
 
-    .navbar--top--desktop {
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-    }
+  .navbar--container--desktop {
+   
+    font-family: var(--font-primary);
+    font-size: 14px;
+    display: inline;
+    width: 100%;
+  }
 
-    :root {
+  
+  
+  .navbar--bg{
+    color: white;
+    background-color: var(--color-primary);
+  }
 
-        --font-size-standard: 18px
-            /*12-16*/
-        ;
-        --font-size-title: 64px;
-        --font-size-subtitle: 32px;
-        --font-size-title-tertiary: 20px;
-    }
+  .navbar--top--desktop {
+    white-space: nowrap;
+    height:45px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+  }
+  .navbar--bottom--desktop {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
 
+    
+    gap: 25px;
+  }
 
-    /* *****HERO***** */
+  .navbar--top--left {
+    gap: 25px;
+    display: flex;
+  }
 
-    .hero--container {
-        height: 90%;
-        margin-bottom: 100px;
-    }
+  .navbar--top--right {
+    gap: 25px;
+    display: flex;
+  }
 
-    .hero--cta {
-        flex-direction: row-reverse;
-        margin: 0 auto;
-        align-items: center;
-    }
+  .navbar--logo--desktop {
+    margin-right: 2%;
+  }
 
-    .button--bg, .button--nobg {
-        font-size: 18px;
-    }
+  /* *****HERO***** */
 
-    /* ****USLUGE-HOME**** */
+  .hero--container {
+    height: 90%;
+    margin-bottom: 100px;
+    margin-top: 0px;
+  }
 
-    .services--home {
-        gap: 25px;
-    }
+  .hero--cta {
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    align-items: center;
+  }
 
-    /* ****ABOUT US**** */
+  .button--bg,
+  .button--nobg {
+    font-size: 18px;
+  }
 
-    .abt--us--home {
-        flex-direction: row;
-    }
+  /* ****USLUGE-HOME**** */
 
-    /* ****STATISTICS**** */
+  .services--home {
+    gap: 25px;
+  }
 
-    .stats--box--container {
-        padding: 1rem 0;
+  /* ****ABOUT US**** */
 
-    }
+  .abt--us--home {
+    flex-direction: row;
+  }
 
+  /* ****STATISTICS**** */
 
-    .stats--box {
-        width: auto;
-        padding: 3.5rem 1rem;
-    }
+  .stats--box--container {
+    padding: 1rem 0;
+  }
 
-    .stats--box:not(:first-of-type) {
-        border-left: 1px solid white;
-        border-top: none;
-    }
+  .stats--box {
+    width: auto;
+    padding: 3.5rem 1rem;
+  }
 
+  .stats--box:not(:first-of-type) {
+    border-left: 1px solid white;
+    border-top: none;
+  }
 
-
-
+  /* FAQ */
+  .accordion--splitter {
+    display: inline-block;
+  }
 }

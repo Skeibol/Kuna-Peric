@@ -87,6 +87,15 @@ body {
   font-family: var(--font-secondary);
   font-size: var(--font-size-standard);
 }
+/* NAVBAR */
+
+.navbar--container--tablet{
+  display: none;
+}
+
+.navbar--container--tablet{
+  display:none;
+}
 
 .navbar--container--desktop {
   display: none;

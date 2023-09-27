@@ -6,12 +6,19 @@ jQuery(function ($) {
 });
 
 $(".navbar--toggler").click(() => {
-  var toggler = $(".navbar--expand--mobile");
-  if (toggler.css("left") == '0px') {
-    
-    toggler.css("left", "-80vw");
+  var windowsize = $(window).width();
+  if(windowsize<=700){
+    var slidingMenu = $(".navbar--expand--mobile");
   } else {
-    toggler.css("left", "0");
+    var slidingMenu = $(".navbar--expand--tablet")
+  }
+  
+  
+  if (slidingMenu.css("left") == '0px') {
+    
+    slidingMenu.css("left", "-80vw");
+  } else {
+    slidingMenu.css("left", "0");
   }
 });
 
