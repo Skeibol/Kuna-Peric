@@ -3,15 +3,15 @@
   /* --color-secondary: #21a1c8; */
   --black: #000000;
   --white: #ffffff;
-  --gray: #dde7f3;
-  --color-primary: #008D96;
+  --gray: #F0F2F2;
+  --color-primary: #194868;
 
-  --color-secondary: rgb(0, 141, 150);
-  --color-message: #e0007b;
+  --color-secondary: rgb(0, 73, 107);
+  --color-message: #177ca7;
   --color-text: #2b2b2b;
-  --font-primary: "Poppins", sans-serif;
+  --font-primary: "Plus Jakarta Sans", sans-serif;
 
-  --font-secondary: "corbertregular", sans-serif;
+  --font-secondary: "Plus Jakarta Sans", sans-serif;
   --font-size-standard: 14px
     /*12-16*/
   ;
@@ -19,10 +19,10 @@
   --font-size-subtitle: 30px;
   --font-size-title-tertiary: 18px;
 
-  --font-weight-title: 700;
+  --font-weight-title: 800;
   --font-weight-subtitle: 600;
   --font-weight-subtitle-medium: 500;
-  --font-weight-text: 400;
+  --font-weight-text: 300;
 }
 
 a,
@@ -37,10 +37,17 @@ h1,
 h2,
 p {
   margin-bottom: 1rem;
+  
 }
 
 input {
   display: block;
+}
+
+p {
+  font-weight: var(--font-weight-text);
+  letter-spacing: 0.5px;
+
 }
 
 h1 {
@@ -62,7 +69,7 @@ h3 {
 h4 {
   font-weight: var(--font-weight-subtitle-medium);
   font-family: var(--font-primary);
-  font-size: 17px;
+  font-size: calc(var(--font-size-standard) + 1px);
 }
 
 /* Od 0 do 480px*/
@@ -104,6 +111,7 @@ body {
 .navbar--mobile a {
   color: var(--white) !important;
   text-decoration: none !important;
+  font-weight: 200;
 }
 
 .navbar--container--mobile {
@@ -112,6 +120,7 @@ body {
   color: white;
   top: 0;
   left: 0;
+  font-weight: 200;
 }
 
 .navbar--mobile {
@@ -122,7 +131,7 @@ body {
   text-align: center;
   width: 100vw;
   height: 37px;
-  background-color: var(--color-secondary) !important;
+  background-color: var(--color-primary) !important;
   font-family: var(--font-secondary);
 }
 
@@ -142,7 +151,7 @@ body {
 
 .navbar--expand--mobile {
   position: absolute;
-  background-color: var(--color-secondary) !important;
+  background-color: var(--color-primary) !important;
   font-family: var(--font-secondary);
   top: 37px;
   left: -80vw;
@@ -158,33 +167,35 @@ body {
 
 .hero--container{
   display: flex;
-  gap: 5px;
+  /* gap: 5px; */
   flex-direction: column;
   height: 100%;
   margin-top: 37px;
   min-height: 400px;
+  max-height: 1000px;
 }
 
 .hero--image--bg {
-  background-image: url("../images/Web/Klinika-10.jpg");
+  background-image: url("../images/Web/Klinika-banner-new.jpg");
   width: 100%;
   height: 70%;
   margin-top: 0;
   background-size: cover;
-  background-position: center;
+  background-position-x: 90%;
   border-radius: 0rem 6.375rem 0rem 6.6875rem;
+  
 
 }
 
 .hero--cta {
-  max-width: 1200px;
+max-width: 1200px;
   height: 100%;
   flex-direction: column;
 
 }
 
 .hero--dr--img {
-  background-image: url("../images/Web/dr_josip.png");
+  /* background-image: url("../images/Web/dr_josip.png"); */
   height: 100%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -194,23 +205,25 @@ body {
 .button--bg, .button--nobg {
   font-size: 16px;
   border-radius: 3.3rem;
-  padding: 5px 15px;
+  padding: 8px 35px;
   min-width: max-content;
 }
 
 
 
 .button--bg {
-  background-color: var(--color-primary);
+  background-color: var(--color-message);
   color: var(--white);
   border: none;
+  font-weight: 200;
 }
 
 .button--nobg {
-  border: solid 1px var(--color-primary);
-  color: var(--color-primary);
+  border: solid 1px var(--color-message);
+  color: var(--color-message);
   backdrop-filter: blur(5px);
-  background-color: #ffffffb4;
+  background-color: #ffffff36;
+  font-weight: 300;
 
 }
 
@@ -218,12 +231,11 @@ body {
   text-align: center;
   font-size: var(--font-size-title);
   font-family: var(--font-primary) !important;
-  font-weight: 700;
   color: var(--color-text);
 }
 
 .hero--cta--zdravlje {
-  color: var(--color-secondary);
+  color: var(--color-message);
 }
 
 
@@ -253,7 +265,7 @@ body {
 }
 
 .services--home--box {
-  background-color: rgb(240, 242, 242);
+  background-color: var(--gray);
   position: relative;
   padding: 3.5rem 2.5rem;
   text-align: center;
@@ -266,9 +278,9 @@ body {
   content: "";
   width: 90%;
   height: 30px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-message);
   position: absolute;
-  top: -10px;
+  top: -20px;
   left: 50%;
   margin-left: -45%;
   opacity: 1;
@@ -287,13 +299,15 @@ body {
 /* ****STATISTICS**** */
 
 .stats--box--container {
-  background-image: url("../images/Web/Klinika-24.jpg");
+  background:linear-gradient( rgba(255, 255, 255, 0.555), rgba(255, 255, 255, 0.555) ), url("../images/Web/Klinika-24.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   padding: 1rem 0;
   width: 100%;
+  margin: 6rem 0;
+  backdrop-filter: blur(108px);
 }
 
 .stats--wrapper {
@@ -319,8 +333,9 @@ body {
 
 
 .span--highlight {
-  color: var(--color-secondary);
-  font-weight: 700;
+  color: var(--color-message);
+  font-weight: var(--font-weight-title);
+  font-size: var(--font-size-title);
 }
 
 
@@ -329,20 +344,21 @@ body {
 .faq--box {
   padding: 15px;
   margin-bottom: 15px;
-  background-color: rgb(240, 242, 242);
+  background-color: var(--gray);
   max-width: 100%;
 }
 
 .accordion-item {
-  border-color: rgb(240, 242, 242) !important;
-  background-color: rgb(240, 242, 242) !important;
+  border-color: var(--gray) !important;
+  background-color: var(--gray) !important;
   border-radius: 0px !important;
 }
 
 .accordion-button {
-  border-color: rgb(240, 242, 242) !important;
-  background-color: rgb(240, 242, 242) !important;
+  border-color: var(--gray) !important;
+  background-color: var(--gray) !important;
   border-radius: 0px !important;
+  padding: 2rem 1.25rem !important;
 }
 
 .faq--question {
@@ -376,7 +392,7 @@ body {
     ".";
   color: white;
   font-weight: 200;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 .footer--grid {
@@ -422,6 +438,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
+  margin: 2.5rem 0;
 }
 
 .officeimage--background--mobile {
@@ -436,32 +453,45 @@ body {
   gap: 20px;
   flex: 1 1 0px;
 }
+
+.officeimage--mobile img {
+  min-height: 200px;
+  max-height: 270px;
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 0.5;
+}
 /* KOMENTARI REVIEW */
 .owl-dots .active span{
-  background-color: var(--color-primary) !important;
-  background: var(--color-primary) !important;
+  background-color: var(--color-message) !important;
+  background: var(--color-message) !important;
 
 }
 .owl-dot span{
   background-color: white !important;
-  border: solid 1px var(--color-primary) !important;
+  border: solid 1px var(--color-message) !important;
 
 
 }
 
 
 .comments--box{
-  font-size: 18px;
+  font-size: calc(var(--font-size-standard) + 1px);
   padding:35px;
   height: 270px;
   border-radius: 78px; 
+  text-align: center;
   border: 1px #008D96 solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* ****FORM**** */
 
 .form--box {
   border: none;
-  border-bottom: solid 1px var(--color-secondary);
+  border-bottom: solid 1px var(--color-message);
   width: 100%;
   margin-bottom: 10px;
   padding: 10px 0;
@@ -470,7 +500,7 @@ body {
 
 .form--textarea {
   border: none;
-  border-bottom: solid 1px var(--color-secondary);
+  border-bottom: solid 1px var(--color-message);
   width: 100%;
   margin-bottom: 20px;
   padding: 10px 0 30px;
@@ -481,7 +511,7 @@ body {
   color: #000000ac;
   border: none !important;
   border-radius: 0 !important;
-  border-bottom: solid 1px var(--color-secondary) !important;
+  border-bottom: solid 1px var(--color-message) !important;
   width: 100%;
   margin-bottom: 20px;
   padding: 10px 0;

@@ -30,11 +30,6 @@
     --font-size-title: 48px;
     --font-size-subtitle: 32px;
     --font-size-title-tertiary: 18px;
-
-    --font-weight-title: 700;
-    --font-weight-subtitle: 600;
-    --font-weight-subtitle-medium: 500;
-    --font-weight-text: 400;
   }
 
   h1 {
@@ -56,6 +51,10 @@
   h4 {
     font-weight: var(--font-weight-subtitle-medium);
     font-family: var(--font-primary);
+  }
+
+  .container--default {
+    padding: 6rem 16px;
   }
 
   /* NAVBAR */
@@ -112,13 +111,14 @@
   /* *****HERO***** */
 
   .hero--image--bg {
-    height: 100%;
+    height: 85%;
+    background-position-x: 75%;
   }
 
   .hero--container {
     margin-top: 0;
     flex-direction: row;
-    height: 60%;
+    /* height: 60%; */
   }
 
   .hero--cta {
@@ -145,6 +145,14 @@
     text-align: left;
   }
 
+  .hero--button--container {
+    gap: 2.5rem;
+  }
+  .slogan--subtext {
+    font-size: var(--font-size-title-tertiary);
+    font-weight: 400;
+  }
+
   /* ****USLUGE-HOME**** */
 
   .services--home {
@@ -167,7 +175,8 @@
   /* ****STATISTICS**** */
 
   .stats--box--container {
-    padding: 1rem 0;
+    padding: 2rem 0;
+ 
   }
   .stats--wrapper {
     max-width: 1200px;
@@ -191,19 +200,21 @@
   .motivation--text--desktop {
     max-width: 768px;
   }
-  .motivation--container--desktop {
-  }
+  /* .motivation--container--desktop {
+  } */
 
   .line--background--motivation {
-    background-image: url("../images/office-line.png");
+    background-image: url("../images/Web/bg-line-decor.svg");
     background-size: cover;
-    background-position-y: -200px;
+    background-position-y: -380px;
     background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
   }
 
   .officeimage--container--desktop {
     display: grid;
-
+    margin: 1.8rem 0;
     height: 65%;
     align-items: end;
     justify-items: center;
@@ -215,6 +226,11 @@
 
   .officeimage--desktop {
     width: 80%;
+    max-height: 420px;
+    height: 420px;
+    min-height: 350px;
+    object-fit: cover;
+    box-shadow: 15px 15px var(--gray);
   }
 
   .officeimage--desktop-a {
@@ -229,11 +245,17 @@
     grid-column: 3;
     grid-row: 1;
   }
-
+/* 
   .officeimage--background--desktop {
-  }
+  } */
 
   /* ****FAQ**** */
+
+  /* ****KOMENTARI**** */
+  .comments--box{ 
+    text-align: left;
+    align-items: flex-start;
+  }
 
   /* ****FORM**** */
 
@@ -244,7 +266,7 @@
 
   .form--box {
     border: none;
-    border-bottom: solid 1px var(--color-secondary);
+    border-bottom: solid 1px var(--color-message);
     width: 100%;
     margin-bottom: 10px;
     padding: 10px 0;
@@ -252,8 +274,7 @@
 
   .form--textarea {
     border: none;
-    border-bottom: solid 1px var(--color-secondary);
-    width: 100%;
+    border-bottom: solid 1px var(--color-message);
     margin-bottom: 20px;
     padding: 10px 0 30px;
   }
@@ -262,7 +283,7 @@
     color: #000000ac;
     border: none !important;
     border-radius: 0 !important;
-    border-bottom: solid 1px var(--color-secondary) !important;
+    border-bottom: solid 1px var(--color-message) !important;
     width: 100%;
     margin-bottom: 20px;
     padding: 10px 0;

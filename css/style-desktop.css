@@ -1,7 +1,7 @@
 
 @media only screen and (min-width: 992px) {
   :root {
-    --font-size-standard: 18px /*12-16*/;
+    --font-size-standard: 16px /*12-16*/;
     --font-size-title: 64px;
     --font-size-subtitle: 32px;
     --font-size-title-tertiary: 20px;
@@ -51,6 +51,8 @@
     align-items: center;
     justify-content: space-around;
     white-space: nowrap;
+    font-weight: 300;
+    font-size: 15px;
 
     
     gap: 25px;
@@ -73,16 +75,26 @@
   /* *****HERO***** */
 
   .hero--container {
-    height: 90%;
-    margin-bottom: 100px;
+  
     margin-top: 0px;
   }
+  .img--hero--decor {
+    background-image: url("../images/Web/decor.svg");
+    background-position: top left;
 
+    background-repeat: no-repeat;
+    background-size: 15%;
+  }
   .hero--cta {
     flex-direction: row-reverse;
     margin: 0 auto;
     align-items: center;
+    
   }
+/* 
+  .hero--cta--slogan {
+
+  } */
 
   .button--bg,
   .button--nobg {
@@ -104,7 +116,7 @@
   /* ****STATISTICS**** */
 
   .stats--box--container {
-    padding: 1rem 0;
+    padding: 3rem 0;
   }
 
   .stats--box {
@@ -131,12 +143,14 @@
   }
 
   .footer--info--desktop{
-    text-wrap: nowrap;
+    
     color: white;
     gap: 2%;
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
     margin: 50px;
+    font-size: calc(var(--font-size-standard) - 1px);
+    font-weight: 200;
   }
 }

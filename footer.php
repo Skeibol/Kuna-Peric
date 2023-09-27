@@ -62,7 +62,7 @@
             <img src="images/logo-footer.png" style="align-self: center" alt="" srcset="">
             <div class="footer--text--desktop">
                 <p><strong>Medicinski centar</strong></p>
-                <p>O nama <br>Novosti <br>Cjenik</p>
+                <p>O nama <br>Novosti <br>Cjenik</p><br>
                 <p><strong>Radno vrijeme</strong></p>
                 <p>Ponedjeljak,Petak<br>08:00 - 15:00<br><br>Utorak,Srijeda,Četvrtak <br>13:00 - 20:00</p>
             </div>
