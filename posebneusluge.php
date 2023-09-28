@@ -1,7 +1,31 @@
 <?php
 include "header.php";
 ?>
-<img class="services--hero" src="images/hero-usluga.png" alt="" srcset="">
+
+
+<div class="hero--container--services">
+    <div class="hero--image--bg--services">
+        <div class="img--hero--decor--services">
+            <div class="hero--cta--services d-flex">
+                <div
+                    class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
+                    <h1 class="hero--cta--slogan--services text-align-left mb-1">Ginekologija i porodništvo
+                    </h1>
+                    <p class=" slogan--subtext">Dijagnostika i liječenje stanja povezanih s reproduktivnim zdravljem</p><br>
+                    <div class="hero--button--container d-flex justify-content-sm-start">
+                        <button class='button--bg'>Dogovori termin</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
+
+</div>
+
+
+
+
 <div class="container--default">
     <div class="services--small--nav">
         <a href="index.php">Naslovna</a>
@@ -68,8 +92,7 @@ include "header.php";
                     &#x2022; &nbsp;Ekskohleacija + PHD<br>
                     &#x2022; &nbsp;Kolposkopija<br>
                     &#x2022; &nbsp;Brisevi (Aerobi, Urea/mycoplasma, HPV visoki i niski rizik, 16,18 brzi, Chamydia PCR,
-                    Ejakulat<br>
-                    &#x2022; &nbsp;bakteriološki)<br>
+                    Ejakulat bakteriološki)<br>
                     &#x2022; &nbsp;Ulaganje i toaleta pesara<br>
                     &#x2022; &nbsp;Papa test<br>
                     &#x2022; &nbsp;Spermiogram<br>

@@ -37,7 +37,7 @@ include "header.php";
 
 </div>
 
-<div class="container--default">
+<div class="container--default pt-0">
     <div class="services--home">
         <div
             class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around">
@@ -124,33 +124,26 @@ include "header.php";
     </div>
 </div>
 
-
-<div class="counter">
-    <div data-count="1000">0</div>
-    <div data-count="3000">0</div>
-    <div data-count="4000">0</div>
-</div>
-
 <div class="stats--box--container d-flex flex-column flex-md-row align-items-center">
     <div class="stats--wrapper counter">
         <div class="stats--box col-md-3">
             <h3 data-count="3200" class='span--highlight'>1000+</h3>
-            <p>zadovoljnih korisnika</p>
+            <strong>zadovoljnih korisnika</strong>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 data-count="9530" class='span--highlight'>1000+</h3>
-            <p>obavljenih pregleda</p>
+            <strong>obavljenih pregleda</strong>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 data-count="15" class='span--highlight'>10+</h3>
-            <p>godina iskustva</p>
+            <strong>godina iskustva</strong>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
             <h3 data-count="7" class='span--highlight'>1+</h3>
-            <p>stručnih liječnika</p>
+            <strong>stručnih liječnika</strong>
         </div>
     </div>
 </div>
@@ -225,25 +218,51 @@ include "header.php";
     </div>
     <div class="owl-carousel owl-theme comments--container">
         <div class="item comments--box">
-            <p><strong>Kirurgija</strong></p>
-            <p>Kirurzi su Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia ut iste consequatur sed
-                aliquam quam adipisci ea, dolores vel.</p>
+            <p><strong>dr. sc. Sanja Perić, dr. med.</strong></p>
+            <p>Vrlo draga, ljubazna i profesionalna liječnica koja ima izvrstan pristup prema djeci. Razgovor s djetetom
+                i roditeljem prije zahvata i briga o djetetu poslije zahvata je za svaku pohvalu.</p>
         </div>
         <div class="item comments--box">
-
+            <p><strong>prof. dr. sc. Porin Perić, dr. med.</strong></p>
+            <p>Doktor je profesionalan, vrlo ljubazan i komunikativan, te daje detaljna objašnjenja i upute pacijentu.
+            </p>
         </div>
         <div class="item comments--box">
-
+            <p><strong>doc. dr. sc. Krunoslav Kuna, dr. med.</strong></p>
+            <p>Izuzetno srdačan i strpljiv liječnik, na pregledima blag i detaljan. Spreman vas je saslušati i
+                odgovoriti na svako, pa čak i najtrivalnije pitanje. Njegova sam pacijentica već više od deset godina i
+                ne pada mi na pamet mijenjati ga. :)</p>
         </div>
         <div class="item comments--box">
-
+            <p><strong>Josip Knežević, dr. med.</strong></p>
+            <p>Izvrstan operater, jednostavan u objašnjenju, izvrsna komunikacija s pacijentom, operacija mrene bezbolna
+                i postoperativno.</p>
+        </div>
+        <div class="item comments--box">
+            <p><strong>doc. dr. sc. Sanja Kusačić Kuna, prim. dr. med.</strong></p>
+            <p>Doktorica je vesela, draga, pažljivo sasluša, imam puno povjerenje u nju i njene odluke o terapiji, jer
+                nakon dugogodišnjeg liječenja osjećam i pozitivne rezultate.
+            </p>
+        </div>
+        <div class="item comments--box">
+            <p><strong>prim. dr. sc. Hrvojka Tomić Brzac, dr. med.</strong></p>
+            <p>Doktorica je izrazito korektna, ljubazna i susretljiva. A i u stručnost ove doktorice ne treba sumnjati.
+            </p>
+        </div>
+        <div class="item comments--box">
+            <p><strong>prim. dr. sc. Zdenka Bence-Žigman, dr. med.</strong></p>
+            <p>Liječnica koja ulijeva povjerenje, jednostavno objasni sve nedoumice oko dijagnoze.</p>
         </div>
     </div>
 </div>
 
 
 
-
+<!-- <div class="footer--decoration">
+                    <div class="container--default promo--message">
+                        <h2>Provjerite aktualni cjenik usluga a za detalje i rezervaciju termina nas kontaktirajte</h2>
+                    </div>
+                </div> -->
 
 <div class="container--default">
     <div class="title--center--desktop">

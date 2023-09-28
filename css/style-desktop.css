@@ -1,6 +1,8 @@
 @media only screen and (min-width: 992px) {
   :root {
-    --font-size-standard: 16px /*12-16*/;
+    --font-size-standard: 16px
+      /*12-16*/
+    ;
     --font-size-title: 64px;
     --font-size-subtitle: 32px;
     --font-size-title-tertiary: 20px;
@@ -14,11 +16,13 @@
   .navbar--container--tablet {
     display: none;
   }
+
   .navbar--container--desktop p {
     margin-top: auto;
     margin-bottom: auto;
     width: auto;
   }
+
   .navbar--container--desktop a {
     margin-top: auto;
     margin-bottom: auto;
@@ -32,7 +36,7 @@
     display: inline;
     width: 100%;
   }
-  
+
 
   .navbar--bg {
     color: white;
@@ -46,6 +50,7 @@
     align-items: center;
     justify-content: space-between;
   }
+
   .navbar--bottom--desktop {
     height: 90px;
     display: flex;
@@ -77,6 +82,7 @@
   .hero--container {
     margin-top: 0px;
   }
+
   .img--hero--decor {
     background-image: url("../images/Web/decor.svg");
     background-position: top left;
@@ -84,11 +90,13 @@
     background-repeat: no-repeat;
     background-size: 15%;
   }
+
   .hero--cta {
     flex-direction: row-reverse;
     margin: 0 auto;
     align-items: center;
   }
+
   /* 
   .hero--cta--slogan {
 
@@ -101,8 +109,35 @@
 
   /* ****USLUGE-HOME**** */
 
+  .hero--container--services {
+    display: flex;
+    /* gap: 5px; */
+    flex-direction: column;
+    height: 50%;
+    min-height: 400px;
+    max-height: 750px;
+  }
+
+  .hero--image--bg--services {
+    height: 100%;
+    width: 100%;
+    background-position: right 50%;
+  }
+
+
+
+
   .services--home {
     gap: 25px;
+  }
+
+  .img--hero--decor--services {
+    background-image: url("../images/Web/decor.svg");
+    background-position: top left;
+
+    background-repeat: no-repeat;
+    background-size: 12%;
+    position: relative;
   }
 
   /* ****ABOUT US**** */
@@ -124,12 +159,19 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: center;
-    padding: 3.5rem 1rem;
+    padding: 3.5rem 3rem;
   }
 
   /* FAQ */
   .accordion--splitter {
     display: inline-block;
+  }
+
+
+  /* ****FORM**** */
+
+  .venus--image {
+    width: 90%;
   }
 
   /* FOOTER */
@@ -150,7 +192,7 @@
     align-items: start;
     justify-content: space-between;
     margin: 50px;
-    font-size: calc(var(--font-size-standard) - 1px);
+    font-size: calc(var(--font-size-standard) - 2px);
     font-weight: 200;
   }
 

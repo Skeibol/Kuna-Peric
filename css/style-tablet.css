@@ -1,8 +1,8 @@
 /* Od 480 do 769*/
 @media only screen and (max-width: 1250px) {
-  .officeimage--container--desktop {
-    height: 50% !important;
-  }
+  /* .officeimage--container--desktop {
+    max-height: 400px !important;
+  } */
   .officeimage--desktop-c {
     align-self: baseline;
   }
@@ -54,7 +54,7 @@
   }
 
   .container--default {
-    padding: 6rem 16px;
+    padding: 4rem 16px;
   }
 
   /* NAVBAR */
@@ -161,6 +161,13 @@
 
   /* ****USLUGE-HOME**** */
 
+  .hero--image--bg--services {
+
+    background-position: right 50%;
+    margin-top: 0;
+  }
+  
+
   .services--home {
     flex-wrap: nowrap;
     align-items: start;
@@ -209,19 +216,19 @@
   /* .motivation--container--desktop {
   } */
 
-  .line--background--motivation {
-    background-image: url("../images/Web/bg-line-decor.svg");
+  /* .line--background--motivation {
+    background-image: url("../images/Web/bg-line-decor-fill.svg");
     background-size: cover;
-    background-position-y: -380px;
+
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
-  }
+  } */
 
   .officeimage--container--desktop {
     display: grid;
-    margin: 1.8rem 0;
-    height: 65%;
+    margin: 5rem 0;
+    max-height: 550px;
     align-items: end;
     justify-items: center;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -236,7 +243,6 @@
     height: 420px;
     min-height: 350px;
     object-fit: cover;
-    box-shadow: 15px 15px var(--gray);
   }
 
   .officeimage--desktop-a {
@@ -265,36 +271,33 @@
 
   /* ****FORM**** */
 
+  .contact--background {
+    background-color: var(--color-message);
+    padding: 40px;
+    margin-bottom: -100px;
+  }
+
   .contact--hero {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
   }
 
-  .form--box {
-    border: none;
-    border-bottom: solid 1px var(--color-message);
+  .venus--contact {
+    position: relative;
+    background-position: bottom left;
+    text-align: left;
+    
+  }
+  .venus--image {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
   }
+  
 
-  .form--textarea {
-    border: none;
-    border-bottom: solid 1px var(--color-message);
-    margin-bottom: 20px;
-    padding: 10px 0 30px;
-  }
 
-  .dropdown--menu {
-    color: #000000ac;
-    border: none !important;
-    border-radius: 0 !important;
-    border-bottom: solid 1px var(--color-message) !important;
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px 0;
-    font-size: var(--font-size-standard);
-  }
 
   /* FOOTER */
   .footer--container {

@@ -86,7 +86,7 @@ $(function () {
           },
 
           {
-            duration: 1300,
+            duration: 1300  ,
             easing: "linear",
             step: function () {
               text = `${Math.floor(this.countNum)}+`;

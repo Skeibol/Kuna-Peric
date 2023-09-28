@@ -5,17 +5,22 @@
 <script src="libs/owlcarousel/dist/owl.carousel.min.js"></script>
 <script src="js/scripts.js"></script>
 
-
-<div class="container--default pb-0">
+<div class="container--default footer--bg pb-0">
     <h2>Rezervirajte svoj termin</h2> <br>
+
+
     <p>Trendovi ljepote se mijenjaju, ali zdravlje nikada ne izlazi iz mode. U Medicinskom centru Kuna&Perić brinemo o
         Vašem zdravlju i samopouzdanju. Kontaktirajte nas kako bismo zajedno pronašli put prema Vašem osjećaju
         potpunosti i unutarnje harmonije.</p>
-    <div class="contact--hero">
-        <form class="col-md-8" action="send">
+    <div class="contact--hero g-5">
+        
+        <form class="contact--background col-md-8 col-lg-6 order-lg-2 pb-5" action="send">
+        <h2 class="text-white">Vaš upit</h2><br>
             <input class='form--box' type="text" placeholder="Ime i prezime"></input>
-            <input class='form--box' type="email" placeholder="Email"></input>
-            <input class='form--box' type="phone" placeholder="Mobitel"></input>
+            <div class="d-flex gap-3">
+                <input class='form--box' type="email" placeholder="Email"></input>
+                <input class='form--box' type="phone" placeholder="Mobitel"></input>
+            </div>
             <select class="form-select dropdown--menu" aria-label="Default select example">
                 <option selected>Usluga</option>
                 <option value="1">1</option>
@@ -23,12 +28,13 @@
                 <option value="3">3</option>
             </select>
             <textarea class='form--textarea' type="text" placeholder="Poruka"></textarea><br>
-            <button class="button--bg">Pošalji</button>
+            <button class="button--white">Pošalji</button>
         </form>
 
-        <img class="col-md-4" src="images/statua.png" alt="" srcset="">
+        <div class="col-md-3 col-lg-4 order-lg-1 venus--contact"><img class="venus--image" src="images/venus.png" alt="" srcset=""></div>
     </div>
 </div>
+<!-- <div class="footer--decoration"></div> -->
 <img style='width: 100%; height:500px;' src="images/mapa.png" alt="" srcset="">
 
 <div class="footer--container">
