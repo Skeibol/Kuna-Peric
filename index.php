@@ -10,14 +10,15 @@ include "header.php";
         <div class="img--hero--decor">
             <div class="hero--cta d-flex">
                 <div class="hero--dr--img col-sm-12 col-md-4 col-lg-4">
-    
+
                 </div>
                 <div
                     class="hero--cta--text col-sm-12 col-md-8 col-lg-8 d-flex flex-column gap-lg-5 justify-content-center justify-content-sm-start">
                     <h1 class="hero--cta--slogan d-none d-sm-block"><span class="hero--cta--zdravlje">Zdravlje</span> na
                         prvom <br> mjestu
                     </h1>
-                    <p class="d-none d-sm-block slogan--subtext">Medicinski centar Kuna&Perić - pouzdana destinacija za brigu o Vašoj
+                    <p class="d-none d-sm-block slogan--subtext">Medicinski centar Kuna&Perić - pouzdana destinacija za
+                        brigu o Vašoj
                         dobrobiti</p>
                     <div class="hero--button--container d-flex justify-content-center justify-content-sm-start">
                         <button class='button--bg d-none d-sm-block'>Više o nama</button>
@@ -85,13 +86,17 @@ include "header.php";
                         stoje na raspolaganju za područja:</p><br>
                     <div class="row">
                         <div class="col-6">
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i porodništva</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i
+                                porodništva</p>
                             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne medicine</p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i okuloplastične kirurgije</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i
+                                okuloplastične kirurgije</p>
                         </div>
                         <div class="col-6">
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih pretraga</p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Medicinsko-biokemijske analize</p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih pretraga
+                            </p>
+                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Medicinsko-biokemijske
+                                analize</p>
                             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne medicine</p>
                         </div>
 
@@ -110,7 +115,8 @@ include "header.php";
                 stoje na raspolaganju za područja:</p>
             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i porodništva</p>
             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne medicine</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i okuloplastične kirurgije</p>
+            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i okuloplastične kirurgije
+            </p>
             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih pretraga</p>
             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Medicinsko-biokemijske analize</p>
             <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne medicine</p>
@@ -119,26 +125,31 @@ include "header.php";
 </div>
 
 
+<div class="counter">
+    <div data-count="1000">0</div>
+    <div data-count="3000">0</div>
+    <div data-count="4000">0</div>
+</div>
 
 <div class="stats--box--container d-flex flex-column flex-md-row align-items-center">
-    <div class="stats--wrapper">
+    <div class="stats--wrapper counter">
         <div class="stats--box col-md-3">
-            <h3 class='span--highlight'>3200+</h3>
+            <h3 data-count="3200" class='span--highlight'>1000+</h3>
             <p>zadovoljnih korisnika</p>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
-            <h3 class='span--highlight'>9530+</h3>
+            <h3 data-count="9530" class='span--highlight'>1000+</h3>
             <p>obavljenih pregleda</p>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
-            <h3 class='span--highlight'>15+</h3>
+            <h3 data-count="15" class='span--highlight'>10+</h3>
             <p>godina iskustva</p>
         </div>
         <div class="stats--box--separator"></div>
         <div class="stats--box col-md-3">
-            <h3 class='span--highlight'>7</h3>
+            <h3 data-count="7" class='span--highlight'>1+</h3>
             <p>stručnih liječnika</p>
         </div>
     </div>
@@ -178,25 +189,31 @@ include "header.php";
                 <h2>Zašto izabrati nas?</h2><br>
                 <p>Medicinski centar Kuna&Perić se ističe po vrhunskoj kvaliteti skrbi, stručnom osoblju i modernoj
                     tehnologiji.
-                    Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim potrebama.
+                    Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim
+                    potrebama.
                     Iza
                     nas
-                    je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti.<br /><br />
+                    je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj
+                    posvećenosti.<br /><br />
                     U
                     medicinskom
-                    centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se za
+                    centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se
+                    za
                     sve
                     Vaše
                     medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p><br>
                 <button class="button--bg">Dogovori termin</button>
             </div>
-    
+
             <div class="officeimage--container--desktop">
-                <img class="officeimage--desktop-a officeimage--desktop" src="images/Web/Klinika-38.jpg" alt="" srcset="">
-                <img class="officeimage--desktop-b officeimage--desktop" src="images/Web/Klinika-8.jpg" alt="" srcset="">
-                <img class="officeimage--desktop-c officeimage--desktop" src="images/Web/Klinika-25.jpg" alt="" srcset="">
+                <img class="officeimage--desktop-a officeimage--desktop" src="images/Web/Klinika-38.jpg" alt=""
+                    srcset="">
+                <img class="officeimage--desktop-b officeimage--desktop" src="images/Web/Klinika-8.jpg" alt=""
+                    srcset="">
+                <img class="officeimage--desktop-c officeimage--desktop" src="images/Web/Klinika-25.jpg" alt=""
+                    srcset="">
             </div>
-    
+
         </div>
     </div>
 </div>
@@ -209,16 +226,17 @@ include "header.php";
     <div class="owl-carousel owl-theme comments--container">
         <div class="item comments--box">
             <p><strong>Kirurgija</strong></p>
-            <p>Kirurzi su Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia ut iste consequatur sed aliquam quam adipisci ea, dolores vel.</p>
+            <p>Kirurzi su Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quia ut iste consequatur sed
+                aliquam quam adipisci ea, dolores vel.</p>
         </div>
         <div class="item comments--box">
-  
+
         </div>
         <div class="item comments--box">
-     
+
         </div>
         <div class="item comments--box">
- 
+
         </div>
     </div>
 </div>
@@ -370,31 +388,6 @@ include "header.php";
         </div>
     </div>
 </div>
-
-<div class="container--default pb-0">
-    <h2>Rezervirajte svoj termin</h2> <br>
-    <p>Trendovi ljepote se mijenjaju, ali zdravlje nikada ne izlazi iz mode. U Medicinskom centru Kuna&Perić brinemo o
-        Vašem zdravlju i samopouzdanju. Kontaktirajte nas kako bismo zajedno pronašli put prema Vašem osjećaju
-        potpunosti i unutarnje harmonije.</p>
-    <div class="contact--hero">
-        <form class="col-md-8" action="send">
-            <input class='form--box' type="text" placeholder="Ime i prezime"></input>
-            <input class='form--box' type="email" placeholder="Email"></input>
-            <input class='form--box' type="phone" placeholder="Mobitel"></input>
-            <select class="form-select dropdown--menu" aria-label="Default select example">
-                <option selected>Usluga</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <textarea class='form--textarea' type="text" placeholder="Poruka"></textarea><br>
-            <button class="button--bg">Pošalji</button>
-        </form>
-
-        <img class="col-md-4" src="images/statua.png" alt="" srcset="">
-    </div>
-</div>
-<img style='width: 100%; height:500px;' src="images/mapa.png" alt="" srcset="">
 
 
 

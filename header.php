@@ -25,7 +25,7 @@
             <img class="navbar--logo--mobile navbar--toggler" src="images/hamburger.png" alt="">
         </div>
         <div class="navbar--expand--mobile">
-            <a href="">Prvi</a>
+            <a href="usluga.php">Prvi</a>
             <a href="">Drugi</a>
             <a href="">Treci</a>
         </div>
@@ -39,7 +39,7 @@
                     <p>info@kunaperic.hr</p>
                 </div>
                 <div class="navbar--top--right">
-                    <p>O nama</p>
+                    <a href="usluga.php">O nama</a>
                     <p>Novosti</p>
                     <p>Cjenik</p>
                     <p>Kontakt</p>
@@ -49,7 +49,7 @@
 
         <div class="navbar--bottom--desktop container--default navbar--padding">
             <img src="images/logo.png" alt="" srcset="" class="navbar--logo--desktop">
-            <p>Ginekologija i porodništvo</p>
+            <a href="posebneusluge.php">Ginekologija i porodništvo</a>
             <p>Fizikalna medicina</p>
             <p>Oftamologija</p>
             <p>Medicinsko-biokemijski laboratorij</p>
@@ -62,7 +62,7 @@
         <div class="navbar--top--tablet">
             <div class="navbar--tablet--left">+385 01 4555 400</div>
             <div class="navbar--tablet--right">
-                <p>O nama</p>
+                <a href="usluga.php">O nama</a>
                 <p>Novosti</p>
                 <p>Cjenik</p>
                 <p>Kontakt</p>

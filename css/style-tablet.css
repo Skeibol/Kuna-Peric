@@ -176,7 +176,6 @@
 
   .stats--box--container {
     padding: 2rem 0;
- 
   }
   .stats--wrapper {
     max-width: 1200px;
@@ -187,13 +186,14 @@
     width: 100%;
   }
   .stats--box {
+    flex: 1 1 0px;
     width: auto;
     padding: 2.5rem 1rem;
   }
 
   .stats--box--separator {
-   height: auto !important;
-   width: 1px !important;
+    height: auto !important;
+    width: 1px !important;
   }
 
   /* ****MOTIVATION**** */
@@ -245,14 +245,14 @@
     grid-column: 3;
     grid-row: 1;
   }
-/* 
+  /* 
   .officeimage--background--desktop {
   } */
 
   /* ****FAQ**** */
 
   /* ****KOMENTARI**** */
-  .comments--box{ 
+  .comments--box {
     text-align: left;
     align-items: flex-start;
   }
@@ -291,7 +291,7 @@
   }
 
   /* FOOTER */
-  .footer--container{
+  .footer--container {
     padding-top: 100px;
   }
   .footer--grid {
@@ -301,4 +301,6 @@
     margin-bottom: 60px;
     margin-top: 60px;
   }
+
+  
 }

@@ -6,6 +6,31 @@
 <script src="js/scripts.js"></script>
 
 
+<div class="container--default pb-0">
+    <h2>Rezervirajte svoj termin</h2> <br>
+    <p>Trendovi ljepote se mijenjaju, ali zdravlje nikada ne izlazi iz mode. U Medicinskom centru Kuna&Perić brinemo o
+        Vašem zdravlju i samopouzdanju. Kontaktirajte nas kako bismo zajedno pronašli put prema Vašem osjećaju
+        potpunosti i unutarnje harmonije.</p>
+    <div class="contact--hero">
+        <form class="col-md-8" action="send">
+            <input class='form--box' type="text" placeholder="Ime i prezime"></input>
+            <input class='form--box' type="email" placeholder="Email"></input>
+            <input class='form--box' type="phone" placeholder="Mobitel"></input>
+            <select class="form-select dropdown--menu" aria-label="Default select example">
+                <option selected>Usluga</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <textarea class='form--textarea' type="text" placeholder="Poruka"></textarea><br>
+            <button class="button--bg">Pošalji</button>
+        </form>
+
+        <img class="col-md-4" src="images/statua.png" alt="" srcset="">
+    </div>
+</div>
+<img style='width: 100%; height:500px;' src="images/mapa.png" alt="" srcset="">
+
 <div class="footer--container">
     <img class="footer--logo" src="images/logo-footer.png" alt="" srcset="">
     <div class="footer--grid">

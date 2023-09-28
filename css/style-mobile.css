@@ -3,7 +3,7 @@
   /* --color-secondary: #21a1c8; */
   --black: #000000;
   --white: #ffffff;
-  --gray: #F0F2F2;
+  --gray: #f0f2f2;
   --color-primary: #194868;
 
   --color-secondary: rgb(0, 73, 107);
@@ -12,9 +12,7 @@
   --font-primary: "Plus Jakarta Sans", sans-serif;
 
   --font-secondary: "Plus Jakarta Sans", sans-serif;
-  --font-size-standard: 14px
-    /*12-16*/
-  ;
+  --font-size-standard: 14px /*12-16*/;
   --font-size-title: 34px;
   --font-size-subtitle: 30px;
   --font-size-title-tertiary: 18px;
@@ -37,7 +35,6 @@ h1,
 h2,
 p {
   margin-bottom: 1rem;
-  
 }
 
 input {
@@ -47,7 +44,6 @@ input {
 p {
   font-weight: var(--font-weight-text);
   letter-spacing: 0.5px;
-
 }
 
 h1 {
@@ -96,12 +92,12 @@ body {
 }
 /* NAVBAR */
 
-.navbar--container--tablet{
+.navbar--container--tablet {
   display: none;
 }
 
-.navbar--container--tablet{
-  display:none;
+.navbar--container--tablet {
+  display: none;
 }
 
 .navbar--container--desktop {
@@ -164,8 +160,7 @@ body {
 
 /* *****HERO***** */
 
-
-.hero--container{
+.hero--container {
   display: flex;
   /* gap: 5px; */
   flex-direction: column;
@@ -183,15 +178,12 @@ body {
   background-size: cover;
   background-position-x: 90%;
   border-radius: 0rem 6.375rem 0rem 6.6875rem;
-  
-
 }
 
 .hero--cta {
-max-width: 1200px;
+  max-width: 1200px;
   height: 100%;
   flex-direction: column;
-
 }
 
 .hero--dr--img {
@@ -201,15 +193,13 @@ max-width: 1200px;
   background-position: bottom right;
 }
 
-
-.button--bg, .button--nobg {
+.button--bg,
+.button--nobg {
   font-size: 16px;
   border-radius: 3.3rem;
   padding: 8px 35px;
   min-width: max-content;
 }
-
-
 
 .button--bg {
   background-color: var(--color-message);
@@ -224,7 +214,6 @@ max-width: 1200px;
   backdrop-filter: blur(5px);
   background-color: #ffffff36;
   font-weight: 300;
-
 }
 
 .hero--cta--slogan {
@@ -237,8 +226,6 @@ max-width: 1200px;
 .hero--cta--zdravlje {
   color: var(--color-message);
 }
-
-
 
 /* ****USLUGE-HOME**** */
 
@@ -260,8 +247,6 @@ max-width: 1200px;
   margin: auto;
   flex-wrap: wrap;
   align-items: center;
-
-  
 }
 
 .services--home--box {
@@ -271,7 +256,6 @@ max-width: 1200px;
   text-align: center;
   flex: auto;
   gap: 10px;
-
 }
 
 .services--home--box:before {
@@ -285,7 +269,6 @@ max-width: 1200px;
   margin-left: -45%;
   opacity: 1;
   z-index: -1;
-
 }
 
 /* ****ABOUT US**** */
@@ -299,7 +282,11 @@ max-width: 1200px;
 /* ****STATISTICS**** */
 
 .stats--box--container {
-  background:linear-gradient( rgba(255, 255, 255, 0.555), rgba(255, 255, 255, 0.555) ), url("../images/Web/Klinika-24.jpg");
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.555),
+      rgba(255, 255, 255, 0.555)
+    ),
+    url("../images/Web/Klinika-24.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -321,23 +308,26 @@ max-width: 1200px;
 
 .stats--box {
   padding: 3.7rem 0;
+  width: 100%;
+  flex: 1 1 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .stats--box--separator {
- background-color: rgb(255, 255, 255);
- width:auto;
- height: 1px;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: 1px;
 }
 .stats--box p {
   margin-bottom: 0;
 }
-
 
 .span--highlight {
   color: var(--color-message);
   font-weight: var(--font-weight-title);
   font-size: var(--font-size-title);
 }
-
 
 /* ****FAQ**** */
 
@@ -429,7 +419,7 @@ max-width: 1200px;
   align-items: center;
   justify-content: center;
   padding: 5px;
-  height:60px;
+  height: 60px;
 }
 
 .officeimage--container--mobile {
@@ -462,26 +452,22 @@ max-width: 1200px;
   aspect-ratio: 0.5;
 }
 /* KOMENTARI REVIEW */
-.owl-dots .active span{
+.owl-dots .active span {
   background-color: var(--color-message) !important;
   background: var(--color-message) !important;
-
 }
-.owl-dot span{
+.owl-dot span {
   background-color: white !important;
   border: solid 1px var(--color-message) !important;
-
-
 }
 
-
-.comments--box{
+.comments--box {
   font-size: calc(var(--font-size-standard) + 1px);
-  padding:35px;
+  padding: 35px;
   height: 270px;
-  border-radius: 78px; 
+  border-radius: 78px;
   text-align: center;
-  border: 1px #008D96 solid;
+  border: 1px #008d96 solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -495,7 +481,6 @@ max-width: 1200px;
   width: 100%;
   margin-bottom: 10px;
   padding: 10px 0;
-
 }
 
 .form--textarea {
@@ -504,7 +489,6 @@ max-width: 1200px;
   width: 100%;
   margin-bottom: 20px;
   padding: 10px 0 30px;
-
 }
 
 .dropdown--menu {
@@ -516,5 +500,46 @@ max-width: 1200px;
   margin-bottom: 20px;
   padding: 10px 0;
   font-size: var(--font-size-standard);
+}
 
+/* USLUGE */
+
+.services--hero {
+  width: 100%;
+}
+
+.services--small--nav {
+  display: flex;
+  color: var(--color-message);
+}
+
+.services--small--nav a:hover {
+
+  text-decoration: underline;
+
+}
+
+.services--fancy--nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+}
+
+.services--fancy--box {
+  background-image: url("../images/usluga.png");
+  background-size: contain;
+  height: 100px;
+  width:100px;
+  background-color: cyan;
+}
+
+.services--fancy--box:hover{
+  scale: 1.3;
+}
+
+.active--fancy--box{
+  background-color: #000000;
 }

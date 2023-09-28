@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 992px) {
   :root {
     --font-size-standard: 16px /*12-16*/;
@@ -7,13 +6,13 @@
     --font-size-title-tertiary: 20px;
   }
 
-  .title--center--desktop{
+  .title--center--desktop {
     text-align: center;
   }
 
   /* NAVBAR */
-  .navbar--container--tablet{
-    display:none;
+  .navbar--container--tablet {
+    display: none;
   }
   .navbar--container--desktop p {
     margin-top: auto;
@@ -22,28 +21,24 @@
   }
 
   .navbar--container--desktop {
-   
     font-family: var(--font-primary);
     font-size: 14px;
     display: inline;
     width: 100%;
   }
 
-  
-  
-  .navbar--bg{
+  .navbar--bg {
     color: white;
     background-color: var(--color-primary);
   }
 
   .navbar--top--desktop {
     white-space: nowrap;
-    height:45px;
-    
+    height: 45px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
   .navbar--bottom--desktop {
     height: 90px;
@@ -54,7 +49,6 @@
     font-weight: 300;
     font-size: 15px;
 
-    
     gap: 25px;
   }
 
@@ -75,7 +69,6 @@
   /* *****HERO***** */
 
   .hero--container {
-  
     margin-top: 0px;
   }
   .img--hero--decor {
@@ -89,9 +82,8 @@
     flex-direction: row-reverse;
     margin: 0 auto;
     align-items: center;
-    
   }
-/* 
+  /* 
   .hero--cta--slogan {
 
   } */
@@ -121,10 +113,13 @@
 
   .stats--box {
     width: auto;
+    flex: 1 1 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
     padding: 3.5rem 1rem;
   }
-
-
 
   /* FAQ */
   .accordion--splitter {
@@ -132,18 +127,17 @@
   }
 
   /* FOOTER */
-  .footer--container{
+  .footer--container {
     display: none;
   }
 
-  .footer--container--desktop{
-    display:block !important;
-    width:100%;
+  .footer--container--desktop {
+    display: block !important;
+    width: 100%;
     background-color: var(--color-primary);
   }
 
-  .footer--info--desktop{
-    
+  .footer--info--desktop {
     color: white;
     gap: 2%;
     display: flex;
@@ -152,5 +146,13 @@
     margin: 50px;
     font-size: calc(var(--font-size-standard) - 1px);
     font-weight: 200;
+  }
+
+  .services--fancy--nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 }
