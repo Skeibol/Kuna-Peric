@@ -19,6 +19,12 @@
     margin-bottom: auto;
     width: auto;
   }
+  .navbar--container--desktop a {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    font-weight: 300;
+  }
 
   .navbar--container--desktop {
     font-family: var(--font-primary);
@@ -26,6 +32,7 @@
     display: inline;
     width: 100%;
   }
+  
 
   .navbar--bg {
     color: white;
@@ -35,7 +42,6 @@
   .navbar--top--desktop {
     white-space: nowrap;
     height: 45px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,7 +50,7 @@
     height: 90px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     white-space: nowrap;
     font-weight: 300;
     font-size: 15px;

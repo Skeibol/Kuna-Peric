@@ -144,16 +144,37 @@ body {
 .mobile--default--margin {
   margin: 5%;
 }
-
+.navbar--toggler--second{
+  height:20px;
+  width:20px;
+}
 .navbar--expand--mobile {
+
   position: absolute;
   background-color: var(--color-primary) !important;
   font-family: var(--font-secondary);
   top: 37px;
-  left: -80vw;
+  left: -30%;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 30%;
+  height: 100vh;
+  transition: left 1s ease-in;
+}
+
+.navbar--expand--mobile--second{
+  position: absolute;
+  background-color: var(--color-primary);
+  opacity: 0.8;
+  text-align: center;
+  font-family: var(--font-secondary);
+  z-index: -998 !important;
+  height:100%;
+  width:200%;
+  left:-100%;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   transition: left 1s ease-in;
 }
