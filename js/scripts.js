@@ -36,25 +36,28 @@ $(".navbar--toggler").click(() => {
 });
 
 $(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 60,
+  loop: false,
+  margin: 10,
   responsiveClass: true,
   touchDrag: true,
   mouseDrag: true,
-  navText: [" ", " "],
+  navText: ["<div class='prev-icon'></div>", "<div class='prev-icon'></div>"],
   responsive: {
     0: {
       items: 1,
-      nav: true,
+      nav: false,
     },
     768: {
       items: 2,
       nav: false,
+      loop: false,
     },
     992: {
-      items: 2,
+      items: 3,
+      margin: 0,
       nav: true,
       loop: false,
+      center: true,
     },
   },
 });
@@ -106,8 +109,8 @@ $(".navbar--toggler--second").on("click", () => {
   var navbarExpander = $(".navbar--expand--mobile--second");
 
   if (navbarExpander.css("max-height") == "0px") {
-    //Povečaj
-    $(".navbar--expand--mobile--second").css("max-height", "250px");
+    //Povećaj
+    $(".navbar--expand--mobile--second").css("max-height", "350px");
   } else {
     //Smanji
     $(".navbar--expand--mobile--second").css("max-height", "0px");

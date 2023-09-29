@@ -9,7 +9,7 @@ include "header.php";
             <div class="hero--cta--services d-flex">
                 <div
                     class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services text-align-left mb-1">Ginekologija i porodništvo
+                    <h1 class="hero--cta--slogan--services  mb-1">Ginekologija i porodništvo
                     </h1>
                     <p class=" slogan--subtext">Dijagnostika i liječenje stanja povezanih s reproduktivnim zdravljem</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
@@ -40,6 +40,8 @@ include "header.php";
             <div class="services--fancy--box">4</div>
             <div class="services--fancy--box">5</div>
             <div class="services--fancy--box">6</div>
+            <div class="services--fancy--box">7</div>
+            <div class="services--fancy--box">8</div>
         </div>
     </div>
     <p>
@@ -109,8 +111,7 @@ include "header.php";
     <p>Ako želite saznati više o našim uslugama ginekologije i porodništva te osigurati najbolju skrb za svoje zdravlje
         i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
         pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
-        podršku. Započnimo zajedno put prema vašem optimalnom zdravlju - nazovite nas danas i zakoračite u bolju
-        budućnost.</p>
+        podršku.</p>
 </div>
 <?php
 include "footer.php";

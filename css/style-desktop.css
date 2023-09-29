@@ -71,7 +71,8 @@
   }
 
   .navbar--logo--desktop {
-    margin-right: 2%;
+    margin-right: 20px;
+    width: 90px;
   }
 
   /* *****HERO***** */
@@ -155,6 +156,31 @@
     text-align: center;
     padding: 3.5rem 3rem;
   }
+  .comments--box {
+    padding: 30px;
+    transform: scale(0.8);
+    align-items: stretch;
+  }
+
+  .owl-item.active.center .comments--box {
+    transition: background-color 0.2s ease-in;
+    background-color: var(--color-message);
+    color: white;
+    padding: 30px;
+    transform: scale(1);
+  }
+  .owl-item.active.center .comments--box strong {
+    color: white !important;
+  }
+  .owl-item.active.center .comments--box p:not(:first-child) {
+    font-weight: 100;
+  }
+
+  .owl-item.active.center .comments--quote{
+
+    background-image: url(../images/Web/quote-test.svg);
+  }
+
 
   /* FAQ */
   .accordion--splitter {
@@ -188,12 +214,27 @@
     font-size: calc(var(--font-size-standard) - 2px);
     font-weight: 200;
   }
+  .footer--info--desktop img {
+    max-width: 250px;
+  }
 
   .services--fancy--nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+}
+
+
+@media only screen and (min-width: 2000px) {
+  .container--default {max-width: 1400px;}
+  .venus--image {
+    position: unset;
+  }
+  .contact--background {
+    margin-bottom: -60px;
+    margin-top: 30px;
+}
 }

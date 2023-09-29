@@ -13,7 +13,7 @@ include "header.php";
 
                 </div>
                 <div
-                    class="hero--cta--text col-sm-12 col-md-8 col-lg-8 d-flex flex-column gap-lg-5 justify-content-center justify-content-sm-start">
+                    class="hero--cta--text home--page col-sm-12 col-md-8 col-lg-8 d-flex flex-column gap-lg-5 justify-content-center justify-content-sm-start">
                     <h1 class="hero--cta--slogan d-none d-sm-block"><span class="hero--cta--zdravlje">Zdravlje</span> na
                         prvom <br> mjestu
                     </h1>
@@ -66,7 +66,7 @@ include "header.php";
 
 <div class="container--default">
     <div class="abt--us--home d-flex">
-        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-sm-none d-lg-block"><img
+        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img
                 class="justify-self-center" src="images/doktorik.png" alt="">
         </div>
         <div class="abt--us--text order-lg-2 col-lg-8">
@@ -109,7 +109,7 @@ include "header.php";
         </div>
 
 
-        <div class="abt--us--offer order-lg-3 order-3 d-sm-none">
+        <div class="abt--us--offer order-lg-3 order-3 d-md-none">
             <p>Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i
                 iskustvom
                 stoje na raspolaganju za područja:</p>
@@ -211,9 +211,9 @@ include "header.php";
     </div>
 </div>
 
-<div class="container--default" style="overflow-x:hidden">
+<div class="container--default" style="">
     <div class="title--center--desktop">
-        <h2>Što kažu naši klijenti</h2>
+        <h2>Što klijenti kažu o našim doktorima</h2>
         <p>Brinemo o Vašem mišljenju jer Vaša dobrobit je naš najveći uspjeh.</p><br>
     </div>
     <div class="owl-carousel owl-theme comments--container">
@@ -222,44 +222,44 @@ include "header.php";
             <p>Vrlo draga, ljubazna i profesionalna liječnica koja ima izvrstan pristup prema djeci. Razgovor s djetetom
                 i roditeljem prije zahvata i briga o djetetu poslije zahvata je za svaku pohvalu.</p>
 
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>prof. dr. sc. Porin Perić, dr. med.</strong></p>
             <p>Doktor je profesionalan, vrlo ljubazan i komunikativan, te daje detaljna objašnjenja i upute pacijentu.
             </p>
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Krunoslav Kuna, dr. med.</strong></p>
             <p>Izuzetno srdačan i strpljiv liječnik, na pregledima blag i detaljan. Spreman vas je saslušati i
                 odgovoriti na svako, pa čak i najtrivalnije pitanje. Njegova sam pacijentica već više od deset godina i
                 ne pada mi na pamet mijenjati ga. :)</p>
-                <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+                <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>Josip Knežević, dr. med.</strong></p>
             <p>Izvrstan operater, jednostavan u objašnjenju, izvrsna komunikacija s pacijentom, operacija mrene bezbolna
                 i postoperativno.</p>
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Sanja Kusačić Kuna, prim. dr. med.</strong></p>
             <p>Doktorica je vesela, draga, pažljivo sasluša, imam puno povjerenje u nju i njene odluke o terapiji, jer
                 nakon dugogodišnjeg liječenja osjećam i pozitivne rezultate.
             </p>
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Hrvojka Tomić Brzac, dr. med.</strong></p>
             <p>Doktorica je izrazito korektna, ljubazna i susretljiva. A i u stručnost ove doktorice ne treba sumnjati.
             </p>
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Zdenka Bence-Žigman, dr. med.</strong></p>
             <p>Liječnica koja ulijeva povjerenje, jednostavno objasni sve nedoumice oko dijagnoze.</p>
-            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
     </div>
 </div>

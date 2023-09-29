@@ -1,4 +1,15 @@
 /* Od 480 do 769*/
+@media only screen and (max-width: 767.8px) {
+  .home--page, .hero--cta--slogan.d-sm-none {
+    text-align: center;
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+  .home--page .hero--button--container {
+    justify-content: center !important;
+    gap: 10px;
+  }
+}  
 @media only screen and (max-width: 1250px) {
   /* .officeimage--container--desktop {
     max-height: 400px !important;
@@ -16,6 +27,8 @@
     max-width: 100% !important;
   }
 }
+
+
 @media only screen and (min-width: 768px) {
   .navbar--container--mobile {
     display: none;
@@ -86,6 +99,9 @@
     justify-content: space-between;
     align-items: center;
   }
+  .navbar--bottom--tablet img {
+    width: 40px;
+  }
 
   .navbar--tablet--left {
     display: flex;
@@ -115,6 +131,15 @@
   }
 
   /* *****HERO***** */
+
+  .hero--image--bg {
+    background-image: url("../images/Web/Klinika-banner-new.jpg");
+    background-position-x: 90%;
+  }
+  
+  .hero--dr--img {
+    background-image: none;
+  }
 
   .hero--image--bg {
     height: 85%;
@@ -243,6 +268,12 @@
     height: 420px;
     min-height: 350px;
     object-fit: cover;
+    cursor: url("../images/Web/cursor.png") 4 12, auto;
+    transform: scale(1.1);
+  }
+  .officeimage--desktop:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
   }
 
   .officeimage--desktop-a {
@@ -267,7 +298,36 @@
   .comments--box {
     text-align: left;
     align-items: flex-start;
+    padding: 35px 50px;
   }
+  .owl-nav {
+    margin: 20px 0;
+  }
+  .owl-next, .owl-prev {
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    border-radius: 100% !important;
+    font-size: larger !important;
+    color: var(--color-message); 
+}
+
+.owl-next:hover, .owl-prev:hover {
+  background-color: var(--gray) !important;
+} 
+
+.prev-icon {
+  background-image: url("../images/Web/nav-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  margin: auto;
+}
+.owl-prev .prev-icon {
+rotate: -180deg;}
+
 
   /* ****FORM**** */
 
@@ -310,4 +370,10 @@
     margin-bottom: 60px;
     margin-top: 60px;
   }
+  .footer--logo {
+    padding: 1rem;
+    margin: auto;
+    max-width: 400px;
+  }
+  
 }
