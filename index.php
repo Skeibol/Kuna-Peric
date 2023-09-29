@@ -211,7 +211,7 @@ include "header.php";
     </div>
 </div>
 
-<div class="container--default">
+<div class="container--default" style="overflow-x:hidden">
     <div class="title--center--desktop">
         <h2>Što kažu naši klijenti</h2>
         <p>Brinemo o Vašem mišljenju jer Vaša dobrobit je naš najveći uspjeh.</p><br>
@@ -221,37 +221,45 @@ include "header.php";
             <p><strong>dr. sc. Sanja Perić, dr. med.</strong></p>
             <p>Vrlo draga, ljubazna i profesionalna liječnica koja ima izvrstan pristup prema djeci. Razgovor s djetetom
                 i roditeljem prije zahvata i briga o djetetu poslije zahvata je za svaku pohvalu.</p>
+
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>prof. dr. sc. Porin Perić, dr. med.</strong></p>
             <p>Doktor je profesionalan, vrlo ljubazan i komunikativan, te daje detaljna objašnjenja i upute pacijentu.
             </p>
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Krunoslav Kuna, dr. med.</strong></p>
             <p>Izuzetno srdačan i strpljiv liječnik, na pregledima blag i detaljan. Spreman vas je saslušati i
                 odgovoriti na svako, pa čak i najtrivalnije pitanje. Njegova sam pacijentica već više od deset godina i
                 ne pada mi na pamet mijenjati ga. :)</p>
+                <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>Josip Knežević, dr. med.</strong></p>
             <p>Izvrstan operater, jednostavan u objašnjenju, izvrsna komunikacija s pacijentom, operacija mrene bezbolna
                 i postoperativno.</p>
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Sanja Kusačić Kuna, prim. dr. med.</strong></p>
             <p>Doktorica je vesela, draga, pažljivo sasluša, imam puno povjerenje u nju i njene odluke o terapiji, jer
                 nakon dugogodišnjeg liječenja osjećam i pozitivne rezultate.
             </p>
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Hrvojka Tomić Brzac, dr. med.</strong></p>
             <p>Doktorica je izrazito korektna, ljubazna i susretljiva. A i u stručnost ove doktorice ne treba sumnjati.
             </p>
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Zdenka Bence-Žigman, dr. med.</strong></p>
             <p>Liječnica koja ulijeva povjerenje, jednostavno objasni sve nedoumice oko dijagnoze.</p>
+            <img src="images/quote.png" class="comments--quote" alt="" srcset="">
         </div>
     </div>
 </div>

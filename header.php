@@ -2,7 +2,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Bootstrap demo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,20 +28,25 @@
             <img class="navbar--logo--mobile navbar--toggler" src="images/hamburger.png" alt="">
         </div>
         <div class="navbar--expand--mobile">
-            <a href="usluga.php">O nama</a>
-            <a href="usluga.php">Novosti</a>
-            <a href="usluga.php">Cjenik</a>
-            <a href="usluga.php">Kontakt</a>
-            <p>Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png" alt="">
-            </p>
-            <div class="navbar--expand--mobile--second">
-                <a href="posebneusluge.php">Ginekologija i porodništvo</a>
-                <a href="posebneusluge.php">Fizikalna medicina</a>
-                <a href="posebneusluge.php">Oftamologija</a>
-                <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-                <a href="posebneusluge.php">Nuklearna medicina</a>
+            <a class ="sidebar--menu--mobile" href="usluga.php">O nama</a>
+            <a class ="sidebar--menu--mobile" href="usluga.php">Novosti</a>
+            <div class="sidebar--menu--mobile">
+                Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png" alt="">
+                <div class="navbar--expand--mobile--second">
+                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Ginekologija i porodništvo</a>
+                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Fizikalna medicina</a>
+                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Oftamologija</a>
+                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
+                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Nuklearna medicina</a>
+                </div>
+                
             </div>
+            <a class ="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
+            <a class ="sidebar--menu--mobile" href="usluga.php">Kontakt</a>
+            <img class = "sidebar--logo--mobile" src="images/logo.png" alt="" srcset="">
+            
         </div>
+        <div class="sidebar--backdrop"></div>
     </nav>
     <nav class="navbar--container--desktop">
         <div class="navbar--bg">
@@ -92,4 +98,5 @@
             <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
             <a href="posebneusluge.php">Nuklearna medicina</a>
         </div>
+        
     </nav>

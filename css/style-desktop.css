@@ -1,8 +1,6 @@
 @media only screen and (min-width: 992px) {
   :root {
-    --font-size-standard: 16px
-      /*12-16*/
-    ;
+    --font-size-standard: 16px /*12-16*/;
     --font-size-title: 64px;
     --font-size-subtitle: 32px;
     --font-size-title-tertiary: 20px;
@@ -36,7 +34,6 @@
     display: inline;
     width: 100%;
   }
-
 
   .navbar--bg {
     color: white;
@@ -124,9 +121,6 @@
     background-position: right 50%;
   }
 
-
-
-
   .services--home {
     gap: 25px;
   }
@@ -151,7 +145,7 @@
   .stats--box--container {
     padding: 3rem 0;
   }
-
+  
   .stats--box {
     width: auto;
     flex: 1 1 0px;
@@ -166,7 +160,6 @@
   .accordion--splitter {
     display: inline-block;
   }
-
 
   /* ****FORM**** */
 

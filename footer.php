@@ -35,7 +35,12 @@
     </div>
 </div>
 <!-- <div class="footer--decoration"></div> -->
-<img style='width: 100%; height:500px;' src="images/mapa.png" alt="" srcset="">
+<div class="map--right">
+    <iframe class="map--google"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8751878937683!2d17.155162173762793!3d45.41185638949885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476773aee49c16e7%3A0x3e37ba3eb85ad8ed!2sUl.%20Hrvatske%20mlade%C5%BEi%2032%2C%2034551%2C%20Lipik!5e0!3m2!1sen!2shr!4v1678814327800!5m2!1sen!2shr"
+        width="100%" height="450" style="border:0; margin:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 <div class="footer--container">
     <img class="footer--logo" src="images/logo-footer.png" alt="" srcset="">

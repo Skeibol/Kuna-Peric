@@ -7,36 +7,31 @@ jQuery(function ($) {
 
 $(".navbar--toggler").click(() => {
   var windowsize = $(window).width();
+  var slidingMenu = null;
+  var backdrop = null;
+  var slidingMenuSecond = null;
+
   if (windowsize < 768) {
-    var slidingMenu = $(".navbar--expand--mobile");
-    var slidingMenuSecond = $(".navbar--expand--mobile--second");
+    slidingMenu = $(".navbar--expand--mobile");
+    backdrop = $(".sidebar--backdrop");
+    slidingMenuSecond = $(".navbar--expand--mobile--second");
   } else {
-    var slidingMenu = $(".navbar--expand--tablet");
-    var slidingMenuSecond = null;
+    slidingMenu = $(".navbar--expand--tablet");
+    backdrop = $(".sidebar--backdrop");
+    slidingMenuSecond = null;
   }
 
   if (slidingMenu.css("left") == "0px") {
-    slidingMenu.css("left", "-30%");
+    slidingMenu.css("left", "-80%");
+    backdrop.css("background-color", "rgba(0, 0, 0, 0.0)");
   } else {
     slidingMenu.css("left", "0");
+    backdrop.css("background-color", "rgba(0, 0, 0, 0.486)");
   }
-  if(slidingMenuSecond){
-    if(parseInt(slidingMenuSecond.css("left"), 10) >= 0){
-      slidingMenuSecond.css("left","-100%")
+  if (slidingMenuSecond) {
+    if (parseInt(slidingMenuSecond.css("max-height")) >= 0) {
+      slidingMenuSecond.css("max-height", "0px");
     }
-  }
-});
-
-$(".navbar--toggler--second").click(() => {
-  var windowsize = $(window).width();
-  if (windowsize <= 768) {
-    var slidingMenuSecond = $(".navbar--expand--mobile--second");
-  };
-  console.log(parseInt(slidingMenuSecond.css("left"), 10))
-  if (parseInt(slidingMenuSecond.css("left"), 10) <= 0) {
-    slidingMenuSecond.css("left", "100%");
-  } else {
-    slidingMenuSecond.css("left", "-100%");
   }
 });
 
@@ -44,6 +39,8 @@ $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 60,
   responsiveClass: true,
+  touchDrag: true,
+  mouseDrag: true,
   navText: [" ", " "],
   responsive: {
     0: {
@@ -86,7 +83,7 @@ $(function () {
           },
 
           {
-            duration: 1300  ,
+            duration: 1300,
             easing: "linear",
             step: function () {
               text = `${Math.floor(this.countNum)}+`;
@@ -103,4 +100,16 @@ $(function () {
       });
     }
   });
+});
+
+$(".navbar--toggler--second").on("click", () => {
+  var navbarExpander = $(".navbar--expand--mobile--second");
+
+  if (navbarExpander.css("max-height") == "0px") {
+    //Povečaj
+    $(".navbar--expand--mobile--second").css("max-height", "250px");
+  } else {
+    //Smanji
+    $(".navbar--expand--mobile--second").css("max-height", "0px");
+  }
 });
