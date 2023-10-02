@@ -75,6 +75,10 @@ strong {
   color: var(--color-text);
 }
 
+.obratite--nam--se{
+  color: var(--color-message)
+}
+
 /* Od 0 do 480px*/
 
 @font-face {
@@ -104,6 +108,32 @@ body {
 }
 
 /* NAVBAR */
+
+.navbar--wrapper .navbar--underline{
+  position: relative;
+}
+.navbar--wrapper .navbar--underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.navbar--wrapper a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.navbar--logo{
+  height:90%;
+  cursor:pointer;
+}
 
 .navbar--container--tablet {
   display: none;
@@ -270,6 +300,8 @@ body {
   background-size: 20%;
 }
 
+/* BUTTONS */
+
 .button--bg,
 .button--nobg,
 .button--white {
@@ -277,20 +309,29 @@ body {
   border-radius: 3.3rem;
   padding: 8px 35px;
   min-width: max-content;
+
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, var(--color-message) 50%) right;
+  background-size: 201%;
+  transition: 0.5s ease-out;
 }
 
+
+
 .button--bg {
-  background-color: var(--color-message);
   color: var(--white);
   border: none;
   font-weight: 200;
+  border:solid 1px rgba(255, 255, 255, 0);
+  background: linear-gradient(to left, var(--color-message) 50%, rgba(255, 255, 255, 0) 50%) right;
+  background-size: 201%;
+  transition: 0.5s ease-out;
 }
 
 .button--bg:hover {
-  border: none;
-  color: white;
-  background-color:  var(--color-secondary);
+  border:solid 1px var(--color-message);
+  color: var(--color-message);
   font-weight: 300;
+  background-position: left;
 }
 
 .button--nobg {
@@ -302,16 +343,19 @@ body {
 }
 
 .button--nobg:hover {
-  background-color: var(--color-message);
+
   color: var(--white);
   font-weight: 200;
+  background-position: left;
 }
 .button--white {
   border: none;
   color: white;
-  background-color:  var(--color-secondary);
+  background-color: var(--color-secondary);
   font-weight: 300;
 }
+
+/* HERO */
 
 .hero--cta--slogan {
   text-align: center;
@@ -368,7 +412,6 @@ body {
   z-index: -1;
 }
 
-
 .services--home--box:hover:before {
   background-color: var(--color-secondary);
   transition: background-color 0.2s ease-in-out;
@@ -386,6 +429,14 @@ body {
 
 .abt--us--img {
   text-align: center;
+}
+
+.abt--us--link{
+  display: flex;
+
+  align-items: center;
+  cursor: pointer;
+  color: #177CA7;
 }
 
 /* ****STATISTICS**** */
@@ -505,14 +556,14 @@ body {
 }
 
 /* KOMENTARI REVIEW */
-.owl-carousel .owl-item img{
+.owl-carousel .owl-item img {
   width: auto !important;
 }
 .owl-carousel {
   margin: 2rem 0;
 }
-.owl-stage-outer{
-overflow: visible !important;
+.owl-stage-outer {
+  overflow: visible !important;
 }
 .owl-carousel .owl-stage {
   display: flex;
@@ -520,22 +571,20 @@ overflow: visible !important;
 
 .comments--box {
   width: auto;
-  margin:5px;
+  margin: 5px;
   height: 95%;
 }
 
-.comments--quote{
+.comments--quote {
   position: absolute;
-  top:-25px;
-  right:10%;
+  top: -25px;
+  right: 10%;
   background-image: url(../images/Web/quote-mark-fill.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width:75px;
+  width: 75px;
   height: 75px;
 }
-
-
 
 .owl-dots .active span {
   background-color: var(--color-primary) !important;
@@ -560,9 +609,9 @@ overflow: visible !important;
 }
 .comments--box p:not(:first-child) {
   padding: 2px 0 0 12px;
-  }
-.comments--box p:first-child{
-padding-top: 10px;
+}
+.comments--box p:first-child {
+  padding-top: 10px;
 }
 /* USLUGE */
 
@@ -758,7 +807,7 @@ padding-top: 10px;
 }
 
 .footer--grid--box {
-  padding: 5%;
+  padding:20px;
 }
 
 .footer--logo {
@@ -790,3 +839,28 @@ padding-top: 10px;
   color: var(--color-secondary);
 }
 
+/* MODAL */
+.modal--container{
+  visibility: hidden;
+  z-index: 99999999;
+  position: fixed;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.271);
+}
+
+.modal--image{
+  margin: auto;
+  max-width: 500px; 
+}
+
+.modal--close{
+  cursor: pointer;
+  position:absolute;
+  top:20px;
+  right:20px;
+}

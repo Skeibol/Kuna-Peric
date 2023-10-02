@@ -21,7 +21,7 @@ include "header.php";
                         brigu o Vašoj
                         dobrobiti</p>
                     <div class="hero--button--container d-flex justify-content-center justify-content-sm-start">
-                        <button class='button--bg d-none d-sm-block'>Više o nama</button>
+                        <button class='button--bg d-none d-sm-block'><span>Više o nama</span></button>
                         <button class='button--nobg d-none d-sm-block'>Dogovori termin</button>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ include "header.php";
 
 </div>
 
-<div class="container--default pt-0">
+<div class="container--default pt-0" data-aos="fade-up">
     <div class="services--home">
         <div
             class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around">
@@ -64,12 +64,12 @@ include "header.php";
 
 
 
-<div class="container--default">
+<div class="container--default" id="aboutus">
     <div class="abt--us--home d-flex">
         <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img
                 class="justify-self-center" src="images/doktorik.png" alt="">
         </div>
-        <div class="abt--us--text order-lg-2 col-lg-8">
+        <div class="abt--us--text order-lg-2 col-lg-8" data-aos="fade-up">
             <h2>Lorem ipsum dolor sit amet.</h2>
             <h3>O NAMA</h3> <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita soluta fugit voluptate ut mollitia
@@ -86,18 +86,24 @@ include "header.php";
                         stoje na raspolaganju za područja:</p><br>
                     <div class="row">
                         <div class="col-6">
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i
-                                porodništva</p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne medicine</p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i
-                                okuloplastične kirurgije</p>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Ginekologije i
+                                porodništva</a>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Fizikalne medicine</a>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Oftamologije i
+                                okuloplastične kirurgije</a>
                         </div>
                         <div class="col-6">
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih pretraga
-                            </p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Medicinsko-biokemijske
-                                analize</p>
-                            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne medicine</p>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Ultrazvučnih pretraga
+                            </a>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Medicinsko-biokemijske
+                                analize</a>
+                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Nuklearne medicine</a>
                         </div>
 
                     </div>
@@ -113,13 +119,19 @@ include "header.php";
             <p>Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i
                 iskustvom
                 stoje na raspolaganju za područja:</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i porodništva</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne medicine</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i okuloplastične kirurgije
-            </p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih pretraga</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Medicinsko-biokemijske analize</p>
-            <p><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne medicine</p>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i
+                porodništva</a>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne
+                medicine</a>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i
+                okuloplastične kirurgije
+            </a>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih
+                pretraga</a>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                    alt="">Medicinsko-biokemijske analize</a>
+            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne
+                medicine</a>
         </div>
     </div>
 </div>
@@ -155,7 +167,8 @@ include "header.php";
         Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim potrebama. Iza nas
         je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti. <br /><br /> U
         medicinskom
-        centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se za sve Vaše
+        centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a class="obratite--nam--se"
+            href="">Obratite nam se</a> za sve Vaše
         medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p>
     <button class="button--bg">Dogovori termin</button>
     <div class="officeimage--background--mobile">
@@ -163,11 +176,11 @@ include "header.php";
             <div class="officeimage--container--mobile">
 
                 <div class="officeimage--mobile officeimage--left">
-                    <img src="images/Web/Klinika-38.jpg" alt="" srcset="">
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-38.jpg" alt="" srcset="">
                 </div>
                 <div class="officeimage--mobile officeimage--right">
-                    <img src="images/Web/Klinika-8.jpg" alt="" srcset="">
-                    <img src="images/Web/Klinika-25.jpg" alt="" srcset="">
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-8.jpg" alt="" srcset="">
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-25.jpg" alt="" srcset="">
 
                 </div>
             </div>
@@ -178,7 +191,7 @@ include "header.php";
 <div class="line--background--motivation">
     <div class="container--default d-none d-md-block">
         <div class="motivation--container--desktop ">
-            <div class="motivation--text--desktop">
+            <div class="motivation--text--desktop" data-aos="fade-up">
                 <h2>Zašto izabrati nas?</h2><br>
                 <p>Medicinski centar Kuna&Perić se ističe po vrhunskoj kvaliteti skrbi, stručnom osoblju i modernoj
                     tehnologiji.
@@ -190,7 +203,8 @@ include "header.php";
                     posvećenosti.<br /><br />
                     U
                     medicinskom
-                    centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Obratite nam se
+                    centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a
+                        class="obratite--nam--se" href="">Obratite nam se</a>
                     za
                     sve
                     Vaše
@@ -198,13 +212,19 @@ include "header.php";
                 <button class="button--bg">Dogovori termin</button>
             </div>
 
-            <div class="officeimage--container--desktop">
-                <img class="officeimage--desktop-a officeimage--desktop" src="images/Web/Klinika-38.jpg" alt=""
-                    srcset="">
-                <img class="officeimage--desktop-b officeimage--desktop" src="images/Web/Klinika-8.jpg" alt=""
-                    srcset="">
-                <img class="officeimage--desktop-c officeimage--desktop" src="images/Web/Klinika-25.jpg" alt=""
-                    srcset="">
+            <div class="officeimage--container--desktop" data-aos="fade-down">
+                <div class="officeimage--desktop-a">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-38.jpg" alt="" srcset="">
+                    <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-a" src="images/plus_blk.png" alt="" srcset="">
+                </div>
+                <div class="officeimage--desktop-b">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-8.jpg" alt="" srcset="">
+                    <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-b" src="images/plus_blk.png" alt="" srcset="">
+                </div>
+                <div class="officeimage--desktop-c">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-25.jpg" alt="" srcset="">
+                    <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-c" src="images/plus_blk.png" alt="" srcset="">
+                </div>
             </div>
 
         </div>
@@ -235,7 +255,7 @@ include "header.php";
             <p>Izuzetno srdačan i strpljiv liječnik, na pregledima blag i detaljan. Spreman vas je saslušati i
                 odgovoriti na svako, pa čak i najtrivalnije pitanje. Njegova sam pacijentica već više od deset godina i
                 ne pada mi na pamet mijenjati ga. :)</p>
-                <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote" alt="" srcset=""></div>
         </div>
         <div class="item comments--box">
             <p><strong>Josip Knežević, dr. med.</strong></p>
@@ -266,6 +286,7 @@ include "header.php";
 
 
 
+
 <!-- <div class="footer--decoration">
                     <div class="container--default promo--message">
                         <h2>Provjerite aktualni cjenik usluga a za detalje i rezervaciju termina nas kontaktirajte</h2>
@@ -283,7 +304,7 @@ include "header.php";
                 <div class="col-lg-6">
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
+                            <h2 class="accordion-header" id="flush-headingOne" data-aos="fade-right">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
@@ -301,7 +322,7 @@ include "header.php";
                     </div>
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
+                            <h2 class="accordion-header" id="flush-headingTwo" data-aos="fade-right">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
@@ -321,7 +342,7 @@ include "header.php";
                     </div>
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingThree">
+                            <h2 class="accordion-header" id="flush-headingThree" data-aos="fade-right">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
@@ -351,7 +372,7 @@ include "header.php";
                 <div class="col-lg-6">
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
+                            <h2 class="accordion-header" id="flush-headingFour" data-aos="fade-left">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
@@ -371,7 +392,7 @@ include "header.php";
                     </div>
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFive">
+                            <h2 class="accordion-header" id="flush-headingFive" data-aos="fade-left">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
@@ -391,7 +412,7 @@ include "header.php";
                     </div>
                     <div class="row p-0 mb-3">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingSix">
+                            <h2 class="accordion-header" id="flush-headingSix" data-aos="fade-left">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
@@ -417,6 +438,14 @@ include "header.php";
 </div>
 
 
+<!-- MODAL -->
+
+<div class="modal--container">
+    <img class="modal--image" src="" alt="" srcset="">
+    <div class="modal--close">
+        <img src="images/plus_blk.png" alt="">
+    </div>
+</div>
 
 <?php
 include "footer.php";

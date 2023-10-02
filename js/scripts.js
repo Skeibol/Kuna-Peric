@@ -1,9 +1,14 @@
+
+
 jQuery(function ($) {
   $(".navbar-toggle").click(function () {
     $(".navbar-collapse").toggleClass("right");
     $(".navbar-toggle").toggleClass("indexcity");
   });
 });
+
+
+/* NAVBAR FUNKCIONALNOST */
 
 $(".navbar--toggler").click(() => {
   var windowsize = $(window).width();
@@ -35,6 +40,26 @@ $(".navbar--toggler").click(() => {
   }
 });
 
+$("a.sidebar--menu--mobile").on("click",()=>{
+  $(".navbar--expand--mobile").css("left", "-80%");
+  $(".navbar--expand--mobile--second").css("max-height", "0px")
+  $(".sidebar--backdrop").css("background-color", "rgba(0, 0, 0, 0.0)");
+})
+
+/* NAVBAR DRUGI DROPDOWN NA MOBITELU */
+$(".navbar--toggler--second").on("click", () => {
+  var navbarExpander = $(".navbar--expand--mobile--second");
+
+  if (navbarExpander.css("max-height") == "0px") {
+    //Povećaj
+    $(".navbar--expand--mobile--second").css("max-height", "350px");
+  } else {
+    //Smanji
+    $(".navbar--expand--mobile--second").css("max-height", "0px");
+  }
+});
+
+
 $(".owl-carousel").owlCarousel({
   loop: false,
   margin: 10,
@@ -61,6 +86,8 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+
 
 //https://stackoverflow.com/questions/23006516/jquery-animated-number-counter-from-zero-to-value
 $(function () {
@@ -105,14 +132,28 @@ $(function () {
   });
 });
 
-$(".navbar--toggler--second").on("click", () => {
-  var navbarExpander = $(".navbar--expand--mobile--second");
 
-  if (navbarExpander.css("max-height") == "0px") {
-    //Povećaj
-    $(".navbar--expand--mobile--second").css("max-height", "350px");
-  } else {
-    //Smanji
-    $(".navbar--expand--mobile--second").css("max-height", "0px");
-  }
-});
+
+
+/* NAVBAR LOGO VRACA NA INDEX */
+
+$(".navbar--logo--index").on("click",()=>{
+  window.location.href = "index.php"
+})
+
+AOS.init();
+
+/*MODAL*/
+
+var modal = $(".modal--container");
+var modalImage = $(".modal--image")
+
+$(".officeimage--modal--open").on("click",(e)=>{
+
+  modalImage.attr("src",$(e.target).attr("src"))
+  modal.css("visibility","visible")
+})
+
+$(".modal--close").on("click",()=>{
+  modal.css("visibility","hidden")
+})

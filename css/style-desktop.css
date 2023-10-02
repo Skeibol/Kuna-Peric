@@ -71,6 +71,7 @@
   }
 
   .navbar--logo--desktop {
+    cursor: pointer;
     margin-right: 20px;
     width: 90px;
   }

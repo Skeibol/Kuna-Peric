@@ -14,6 +14,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style-mobile.css">
     <link rel="stylesheet" href="css/style-tablet.css">
     <link rel="stylesheet" href="css/style-desktop.css">
@@ -22,84 +23,90 @@
 </head>
 
 <body>
-    <nav class="navbar--container--mobile">
-        <div class="navbar--mobile">
-        <img class="small--logo" src="images/Web/KP-short.png" alt="">
-            <img class="navbar--logo--mobile navbar--toggler" src="images/hamburger.png" alt="">
-        </div>
-        <div class="navbar--expand--mobile">
-            <a class="sidebar--menu--mobile" href="usluga.php">O nama</a>
-            <a class="sidebar--menu--mobile" href="usluga.php">Novosti</a>
-            <div class="sidebar--menu--mobile">
-                Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png" alt="">
-                <div class="navbar--expand--mobile--second">
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Blefaroplastika</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Okuloplastična kirurgija</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Botox</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Ginekologija i porodništvo</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Fizikalna medicina</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Oftamologija</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-                    <a class="dropdown--menu--mobile" href="posebneusluge.php">Nuklearna medicina</a>
-                </div>
-
+    <div class="navbar--wrapper">
+        <nav class="navbar--container--mobile">
+            <div class="navbar--mobile">
+            <img class="small--logo navbar--logo--index" src="images/Web/KP-short.png" alt="">
+                <img class="navbar--logo--mobile navbar--toggler" src="images/hamburger.png" alt="">
             </div>
-            <a class="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
-            <a class="sidebar--menu--mobile" href="usluga.php">Kontakt</a>
-            <img class="sidebar--logo--mobile" src="images/k&p-logo.svg" alt="" srcset="">
-
-        </div>
-        <div class="sidebar--backdrop"></div>
-    </nav>
-    <nav class="navbar--container--desktop">
-        <div class="navbar--bg">
-            <div class="navbar--top--desktop container--default navbar--padding">
-                <div class="navbar--top--left">
-                    <p>Ul. Crvenog križa 35, 10000 Zagreb</p>
-                    <p>+385 01 4555 400</p>
-                    <p>info@kunaperic.hr</p>
+            <div class="navbar--expand--mobile">
+                <a class="sidebar--menu--mobile" href="index.php#aboutus">O nama</a>
+                <a class="sidebar--menu--mobile" href="usluga.php">Novosti</a>
+                <div class="sidebar--menu--mobile">
+                    Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png" alt="">
+                    <div class="navbar--expand--mobile--second">
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Blefaroplastika</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Okuloplastična kirurgija</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Botox</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Ginekologija i porodništvo</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Fizikalna medicina</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Oftamologija</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
+                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Nuklearna medicina</a>
+                    </div>
                 </div>
-                <div class="navbar--top--right">
-                    <a href="usluga.php">O nama</a>
-                    <a href="usluga.php">Novosti</a>
-                    <a href="usluga.php">Cjenik</a>
-                    <a href="usluga.php">Kontakt</a>
+                <a class="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
+                <a class="sidebar--menu--mobile" href="#contactus">Kontakt</a>
+                <img class="sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg" alt="" srcset="">
+            </div>
+            <div class="sidebar--backdrop"></div>
+        </nav>
+
+
+
+
+        
+
+        <nav class="navbar--container--desktop">
+            <div class="navbar--bg">
+                <div class="navbar--top--desktop container--default navbar--padding">
+                    <div class="navbar--top--left">
+                        <p>Ul. Crvenog križa 35, 10000 Zagreb</p>
+                        <a href="tel:+385 01 4555 400">+385 01 4555 400</a>
+                        <a href="mailto:info@kunaperic.hr">info@kunaperic.hr</a>
+                    </div>
+                    <div class="navbar--top--right">
+                        <a href="index.php#aboutus">O nama</a>
+                        <a href="">Novosti</a>
+                        <a href="">Cjenik</a>
+                        <a href="#contactus">Kontakt</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="navbar--bottom--desktop container--default navbar--padding">
-            <a href="index.php"><img src="images/k&p-logo.svg" alt="" srcset="" class="navbar--logo--desktop"></a>
-            <a href="posebneusluge.php">Ginekologija i porodništvo</a>
-            <a href="posebneusluge.php">Fizikalna medicina</a>
-            <a href="posebneusluge.php">Oftamologija</a>
-            <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-            <a href="posebneusluge.php">Nuklearna medicina</a>
-        </div>
-
-    </nav>
-
-    <nav class="navbar--container--tablet">
-        <div class="navbar--top--tablet">
-            <div class="navbar--tablet--left">+385 01 4555 400</div>
-            <div class="navbar--tablet--right">
-                <a href="usluga.php">O nama</a>
-                <p>Novosti</p>
-                <p>Cjenik</p>
-                <p>Kontakt</p>
+            <div class="navbar--bottom--desktop container--default navbar--padding">
+                <img class="navbar--logo--desktop navbar--logo--index" src="images/k&p-logo.svg" alt="" srcset="" class="navbar--logo--desktop">
+                <a class="navbar--underline" href="posebneusluge.php">Ginekologija i porodništvo</a>
+                <a class="navbar--underline" href="posebneusluge.php">Fizikalna medicina</a>
+                <a class="navbar--underline" href="posebneusluge.php">Oftamologija</a>
+                <a class="navbar--underline" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
+                <a class="navbar--underline" href="posebneusluge.php">Nuklearna medicina</a>
             </div>
-        </div>
-        <div class="navbar--bottom--tablet">
-            <img src="images/k&p-logo.svg" alt="" srcset="">
-            <img class='navbar--toggler' src="images/plus.png" alt="" srcset="">
+        </nav>
 
-        </div>
-        <div class="navbar--expand--tablet">
-            <a href="posebneusluge.php">Ginekologija i porodništvo</a>
-            <a href="posebneusluge.php">Fizikalna medicina</a>
-            <a href="posebneusluge.php">Oftamologija</a>
-            <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-            <a href="posebneusluge.php">Nuklearna medicina</a>
-        </div>
 
-    </nav>
+
+
+
+        <nav class="navbar--container--tablet">
+            <div class="navbar--top--tablet">
+                <div class="navbar--tablet--left"><a href="tel:+385 01 4555 400" class="">+385 01 4555 400</a></div>
+                <div class="navbar--tablet--right">
+                    <a href="index.php#aboutus">O nama</a>
+                    <a href="">Novosti</a>
+                    <a href="">Cjenik</a>
+                    <a href="#contactus">Kontakt</a>
+                </div>
+            </div>
+            <div class="navbar--bottom--tablet">
+                <img class="navbar--logo--index" src="images/k&p-logo.svg" alt="" srcset="">
+                <img class='navbar--toggler' src="images/plus.png" alt="" srcset="">
+            </div>
+            <div class="navbar--expand--tablet">
+                <a href="posebneusluge.php">Ginekologija i porodništvo</a>
+                <a href="posebneusluge.php">Fizikalna medicina</a>
+                <a href="posebneusluge.php">Oftamologija</a>
+                <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
+                <a href="posebneusluge.php">Nuklearna medicina</a>
+            </div>
+        </nav>
+    </div>
