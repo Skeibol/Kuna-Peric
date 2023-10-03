@@ -75,8 +75,8 @@ strong {
   color: var(--color-text);
 }
 
-.obratite--nam--se{
-  color: var(--color-message)
+.obratite--nam--se {
+  color: var(--color-message);
 }
 
 /* Od 0 do 480px*/
@@ -109,19 +109,18 @@ body {
 
 /* NAVBAR */
 
-.navbar--wrapper .navbar--underline{
+.navbar--wrapper .navbar--underline {
   position: relative;
 }
 .navbar--wrapper .navbar--underline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: 
-#0087ca;
+  background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -130,9 +129,9 @@ body {
   transform-origin: bottom left;
 }
 
-.navbar--logo{
-  height:90%;
-  cursor:pointer;
+.navbar--logo {
+  height: 90%;
+  cursor: pointer;
 }
 
 .navbar--container--tablet {
@@ -310,25 +309,33 @@ body {
   padding: 8px 35px;
   min-width: max-content;
 
-  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, var(--color-message) 50%) right;
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0) 50%,
+      var(--color-message) 50%
+    )
+    right;
   background-size: 201%;
   transition: 0.5s ease-out;
 }
-
-
 
 .button--bg {
   color: var(--white);
   border: none;
   font-weight: 200;
-  border:solid 1px rgba(255, 255, 255, 0);
-  background: linear-gradient(to left, var(--color-message) 50%, rgba(255, 255, 255, 0) 50%) right;
+  border: solid 1px rgba(255, 255, 255, 0);
+  background: linear-gradient(
+      to left,
+      var(--color-message) 50%,
+      rgba(255, 255, 255, 0) 50%
+    )
+    right;
   background-size: 201%;
   transition: 0.5s ease-out;
 }
 
 .button--bg:hover {
-  border:solid 1px var(--color-message);
+  border: solid 1px var(--color-message);
   color: var(--color-message);
   font-weight: 300;
   background-position: left;
@@ -343,7 +350,6 @@ body {
 }
 
 .button--nobg:hover {
-
   color: var(--white);
   font-weight: 200;
   background-position: left;
@@ -431,12 +437,12 @@ body {
   text-align: center;
 }
 
-.abt--us--link{
+.abt--us--link {
   display: flex;
 
   align-items: center;
   cursor: pointer;
-  color: #177CA7;
+  color: #177ca7;
 }
 
 /* ****STATISTICS**** */
@@ -807,7 +813,7 @@ body {
 }
 
 .footer--grid--box {
-  padding:20px;
+  padding: 20px;
 }
 
 .footer--logo {
@@ -840,11 +846,11 @@ body {
 }
 
 /* MODAL */
-.modal--container{
+.modal--container {
   visibility: hidden;
   z-index: 99999999;
   position: fixed;
-  top:0;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -853,14 +859,89 @@ body {
   background-color: rgba(0, 0, 0, 0.271);
 }
 
-.modal--image{
+.modal--image {
   margin: auto;
-  max-width: 500px; 
+  max-width: 500px;
 }
 
-.modal--close{
+.modal--close {
   cursor: pointer;
-  position:absolute;
-  top:20px;
-  right:20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Ekstra query za stvari koje se lome */
+
+@media (max-width: 320px) {
+  .footer--grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(4, 1fr) !important;
+    grid-template-areas: none;
+  }
+}
+
+@media (max-width: 1075px) {
+  .navbar--bottom--desktop {
+    gap: 10px !important;
+  }
+}
+
+/* LOADER */
+
+.loader--container {
+  position: fixed;
+  top:0;
+  background-color: white;
+  z-index: 99999999999999;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader {
+  aspect-ratio: 1;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid var(--color-message);
+  border-bottom: 5px solid transparent;
+  animation: load 4s ease-in-out infinite;
+}
+.loader:nth-child(1) {
+  animation-direction: forwards;
+  width: 250px;
+}
+.loader:nth-child(2) {
+  animation-direction: reverse;
+  width: 200px;
+}
+.loader:nth-child(3) {
+  animation-direction: forwards;
+  width: 150px;
+}
+.loader:nth-child(4) {
+  animation-direction: reverse;
+  width: 100px;
+}
+.loader:nth-child(5) {
+  animation-direction: forwards;
+  width: 50px;
+}
+
+@keyframes load {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.loader--text{
+  color: var(--color-message);
+  font-size: 24px;
+  position: relative;
+  bottom:25%;
 }

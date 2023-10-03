@@ -4,7 +4,14 @@ include "header.php";
 ?>
 
 
-
+<div class="loader--container" id="loader">
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <div class="loader"></div>
+    <p class="loader--text">LOADING . . .</p>
+</div>
 <div class="hero--container">
     <div class="hero--image--bg">
         <div class="img--hero--decor">
@@ -66,7 +73,7 @@ include "header.php";
 
 <div class="container--default" id="aboutus">
     <div class="abt--us--home d-flex">
-        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img
+        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img style="width:100%"
                 class="justify-self-center" src="images/doktorik.png" alt="">
         </div>
         <div class="abt--us--text order-lg-2 col-lg-8" data-aos="fade-up">

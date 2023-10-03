@@ -47,7 +47,7 @@
                 </div>
                 <a class="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
                 <a class="sidebar--menu--mobile" href="#contactus">Kontakt</a>
-                <img class="sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg" alt="" srcset="">
+                <img class="navbar--logo--index sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg" alt="" srcset="">
             </div>
             <div class="sidebar--backdrop"></div>
         </nav>
