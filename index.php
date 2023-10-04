@@ -4,14 +4,7 @@ include "header.php";
 ?>
 
 
-<div class="loader--container" id="loader">
-    <div class="loader"></div>
-    <div class="loader"></div>
-    <div class="loader"></div>
-    <div class="loader"></div>
-    <div class="loader"></div>
-    <p class="loader--text">LOADING . . .</p>
-</div>
+
 <div class="hero--container">
     <div class="hero--image--bg">
         <div class="img--hero--decor">
@@ -28,8 +21,8 @@ include "header.php";
                         brigu o Vašoj
                         dobrobiti</p>
                     <div class="hero--button--container d-flex justify-content-center justify-content-sm-start">
-                        <button class='button--bg d-none d-sm-block'><span>Više o nama</span></button>
-                        <button class='button--nobg d-none d-sm-block'>Dogovori termin</button>
+                        <a href="#aboutus"><button class='button--bg d-none d-sm-block'><span>Više o nama</span></button></a>
+                        <a href="#contactus"><button class='button--nobg d-none d-sm-block'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -47,19 +40,19 @@ include "header.php";
 <div class="container--default pt-0" data-aos="fade-up">
     <div class="services--home">
         <div
-            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around">
+            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--plastic">
             <img src="images/usluga.png" alt="">
             <h4>Blefaroplastika</h4>
             <p>Za odmoran izgled očiju koje zrače pričom o mladosti i vitalnosti</p>
         </div>
         <div
-            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around">
+            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--oculoplastic">
             <img src="images/usluga.png" alt="">
             <h4>Okuloplastična kirurgija</h4>
             <p>Podarite očima novi sjaj i osjetite dodatno samopouzdanje</p>
         </div>
         <div
-            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around">
+            class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--botox">
             <img src="images/usluga.png" alt="">
             <h4>Botox</h4>
             <p>Osvježite prirodnu ljepotu i povratite mladenački sjaj</p>
@@ -93,23 +86,23 @@ include "header.php";
                         stoje na raspolaganju za područja:</p><br>
                     <div class="row">
                         <div class="col-6">
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                            <a class="abt--us--link" href="usluge/ginekologija.php"><img style="height:25px;width:25px;" src="images/plus.png"
                                     alt="">Ginekologije i
                                 porodništva</a>
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img style="height:25px;width:25px;" src="images/plus.png"
                                     alt="">Fizikalne medicine</a>
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
-                                    alt="">Oftamologije i
-                                okuloplastične kirurgije</a>
+                            <a class="abt--us--link" href="usluge/oftamologija.php"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Oftamologije
+                               </a>
                         </div>
                         <div class="col-6">
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
-                                    alt="">Ultrazvučnih pretraga
+                            <a class="abt--us--link" href="usluge/okuloplastika.php"><img style="height:25px;width:25px;" src="images/plus.png"
+                                    alt="">Okuloplastične kirurgije
                             </a>
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                            <a class="abt--us--link" href="usluge/laboratorij.php"><img style="height:25px;width:25px;" src="images/plus.png"
                                     alt="">Medicinsko-biokemijske
                                 analize</a>
-                            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+                            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img style="height:25px;width:25px;" src="images/plus.png"
                                     alt="">Nuklearne medicine</a>
                         </div>
 
@@ -126,18 +119,16 @@ include "header.php";
             <p>Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i
                 iskustvom
                 stoje na raspolaganju za područja:</p>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i
+            <a class="abt--us--link" href="usluge/ginekologija.php"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ginekologije i
                 porodništva</a>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne
+            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Fizikalne
                 medicine</a>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije i
-                okuloplastične kirurgije
+            <a class="abt--us--link" href="usluge/oftamologija.php"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Oftamologije
             </a>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Ultrazvučnih
-                pretraga</a>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png"
+            <a class="abt--us--link" href="usluge/okuloplastika.php"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Okuloplastične kirurgije</a>
+            <a class="abt--us--link" href="usluge/laboratorij.php"><img style="height:25px;width:25px;" src="images/plus.png"
                     alt="">Medicinsko-biokemijske analize</a>
-            <a class="abt--us--link"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne
+            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img style="height:25px;width:25px;" src="images/plus.png" alt="">Nuklearne
                 medicine</a>
         </div>
     </div>
@@ -174,8 +165,7 @@ include "header.php";
         Naša posvećenost Vašem dobrostanju osigurava Vam najbolju njegu prilagođenu Vašim specifičnim potrebama. Iza nas
         je dugogodišnji rad i velik broj zadovoljnih pacijenata, koji svjedoče o našoj posvećenosti. <br /><br /> U
         medicinskom
-        centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a class="obratite--nam--se"
-            href="">Obratite nam se</a> za sve Vaše
+        centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a class="obratite--nam--se" href="#contactus">Obratite nam se</a> za sve Vaše
         medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p>
     <button class="button--bg">Dogovori termin</button>
     <div class="officeimage--background--mobile">
@@ -211,7 +201,7 @@ include "header.php";
                     U
                     medicinskom
                     centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a
-                        class="obratite--nam--se" href="">Obratite nam se</a>
+                        class="obratite--nam--se" href="#contactus">Obratite nam se</a>
                     za
                     sve
                     Vaše

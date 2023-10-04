@@ -61,12 +61,12 @@
         <div class="footer--grid--box">
             <p class="footer--text--bold">Usluge</p>
             <br>
-            <a href="">Ginekologija i porodništvo</a><br>
-            <a href="">Fizikalna medicina</a><br>
-            <a href="">Oftamologija</a><br>
-            <a href="">Ultrazvučne pretrage</a><br>
-            <a href="">Medicinsko-biokemijski laboratorij</a><br>
-            <a href="">Nuklearna medicina</a><br><br>
+            <a href="usluge/ginekologija.php">Ginekologija i porodništvo</a><br>
+            <a href="usluge/fizikalna-medicina.php">Fizikalna medicina</a><br>
+            <a href="usluge/oftamologija.php">Oftamologija</a><br>
+            <a href="usluge/.php">Ultrazvučne pretrage</a><br>
+            <a href="usluge/laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
+            <a href="usluge/nuklearna-medicina.php">Nuklearna medicina</a><br><br>
         </div>
         <div class="footer--grid--box">
             <p class="footer--text--bold">Medicinski centar</p>
@@ -103,12 +103,12 @@
             </div>
             <div class="footer--text--desktop">
                 <p><strong>Usluge</strong></p>
-                <a href="">Ginekologija i porodništvo</a><br>
-                <a href="">Fizikalna medicina</a><br>
-                <a href="">Oftamologija</a><br>
-                <a href="">Ultrazvučne pretrage</a><br>
-                <a href="">Medicinsko-biokemijski laboratorij</a><br>
-                <a href="">Nuklearna medicina</a><br><br>
+                <a href="usluge/ginekologija.php">Ginekologija i porodništvo</a><br>
+                <a href="usluge/fizikalna-medicina.php">Fizikalna medicina</a><br>
+                <a href="usluge/oftamologija.php">Oftamologija</a><br>
+                <a href="usluge/.php">Ultrazvučne pretrage</a><br>
+                <a href="usluge/laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
+                <a href="usluge/nuklearna-medicina.php">Nuklearna medicina</a><br><br>
             </div>
             <div class="footer--text--desktop">
                 <p><strong>Kontakt</strong></p>

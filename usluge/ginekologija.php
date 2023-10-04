@@ -1,5 +1,6 @@
+<base href="../" />
 <?php
-include "header.php";
+include "../header.php";
 ?>
 
 
@@ -30,7 +31,7 @@ include "header.php";
     <div class="services--small--nav">
         <a href="index.php">Naslovna</a>
         <p>&nbsp;&nbsp; >&nbsp;&nbsp; </p>
-        <a href="usluga.php">Blefaroplastika</a>
+        <a href="javascript:window.location.href=window.location.href">Ginekologija i porodništvo</a>
     </div>
     <div class="container-default">
         <div class="services--fancy--nav">
@@ -114,5 +115,5 @@ include "header.php";
         podršku.</p>
 </div>
 <?php
-include "footer.php";
+include "../footer.php";
 ?>

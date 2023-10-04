@@ -1,12 +1,9 @@
-
-
 jQuery(function ($) {
   $(".navbar-toggle").click(function () {
     $(".navbar-collapse").toggleClass("right");
     $(".navbar-toggle").toggleClass("indexcity");
   });
 });
-
 
 /* NAVBAR FUNKCIONALNOST */
 
@@ -40,11 +37,11 @@ $(".navbar--toggler").click(() => {
   }
 });
 
-$("a.sidebar--menu--mobile").on("click",()=>{
+$("a.sidebar--menu--mobile").on("click", () => {
   $(".navbar--expand--mobile").css("left", "-80%");
-  $(".navbar--expand--mobile--second").css("max-height", "0px")
+  $(".navbar--expand--mobile--second").css("max-height", "0px");
   $(".sidebar--backdrop").css("background-color", "rgba(0, 0, 0, 0.0)");
-})
+});
 
 /* NAVBAR DRUGI DROPDOWN NA MOBITELU */
 $(".navbar--toggler--second").on("click", () => {
@@ -58,7 +55,6 @@ $(".navbar--toggler--second").on("click", () => {
     $(".navbar--expand--mobile--second").css("max-height", "0px");
   }
 });
-
 
 $(".owl-carousel").owlCarousel({
   loop: false,
@@ -86,8 +82,6 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
-
-
 
 //https://stackoverflow.com/questions/23006516/jquery-animated-number-counter-from-zero-to-value
 $(function () {
@@ -132,44 +126,50 @@ $(function () {
   });
 });
 
-
-
-
 /* NAVBAR LOGO VRACA NA INDEX */
 
-$(".navbar--logo--index").on("click",()=>{
-  window.location.href = "index.php"
-})
+$(".navbar--logo--index").on("click", () => {
+  window.location.href = "index.php";
+});
 
 AOS.init();
 
 /*MODAL*/
 
 var modal = $(".modal--container");
-var modalImage = $(".modal--image")
+var modalImage = $(".modal--image");
 
-$(".officeimage--modal--open").on("click",(e)=>{
+$(".officeimage--modal--open").on("click", (e) => {
+  modalImage.attr("src", $(e.target).attr("src"));
+  modal.css("visibility", "visible");
+});
 
-  modalImage.attr("src",$(e.target).attr("src"))
-  modal.css("visibility","visible")
-})
-
-$(".modal--close").on("click",()=>{
-  modal.css("visibility","hidden")
-})
+$(".modal--close").on("click", () => {
+  modal.css("visibility", "hidden");
+});
 
 /* LOADER */
 
-document.onreadystatechange = function() {
+document.onreadystatechange = function () {
   if (document.readyState !== "complete") {
-      document.querySelector(
-        "body").style.visibility = "hidden";
-      document.querySelector(
-        "#loader").style.visibility = "visible";
+    console.log("incomplete");
+    document.querySelector("body").style.visibility = "hidden";
+    document.querySelector("#loader").style.visibility = "visible";
   } else {
-      document.querySelector(
-        "#loader").style.display = "none";
-      document.querySelector(
-        "body").style.visibility = "visible";
+    console.log("complete");
+    document.querySelector("body").style.visibility = "visible";
+    document.querySelector("#loader").style.display = "none";
   }
 };
+
+/* ONCLICK ZA NEKE USLUGE */
+
+$(".services--plastic").on("click",()=>{
+  window.location.href = "usluge/blefaroplastika.php";
+})
+$(".services--oculoplastic").on("click",()=>{
+  window.location.href = "usluge/okuloplastika.php";
+})
+$(".services--botox").on("click",()=>{
+  window.location.href = "usluge/botox.php";
+})

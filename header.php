@@ -15,18 +15,28 @@
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.theme.default.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style-mobile.css">
-    <link rel="stylesheet" href="css/style-tablet.css">
-    <link rel="stylesheet" href="css/style-desktop.css">
-    <link rel="stylesheet" href="css/style-xl.css">
+    <link rel="stylesheet" href="./css/style-mobile.css">
+    <link rel="stylesheet" href="./css/style-tablet.css">
+    <link rel="stylesheet" href="./css/style-desktop.css">
+    <link rel="stylesheet" href="./css/style-xl.css">
 
 </head>
 
 <body>
+    <div class="loader--container" id="loader">
+        <div class="loader"></div>
+        <div class="loader"></div>
+        <div class="loader"></div>
+        <div class="loader"></div>
+        <div class="loader"></div>
+        <p class="loader--text">LOADING . . .</p>
+    </div>
+
+
     <div class="navbar--wrapper">
         <nav class="navbar--container--mobile">
             <div class="navbar--mobile">
-            <img class="small--logo navbar--logo--index" src="images/Web/KP-short.png" alt="">
+                <img class="small--logo navbar--logo--index" src="images/Web/KP-short.png" alt="">
                 <img class="navbar--logo--mobile navbar--toggler" src="images/hamburger.png" alt="">
             </div>
             <div class="navbar--expand--mobile">
@@ -35,19 +45,18 @@
                 <div class="sidebar--menu--mobile">
                     Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png" alt="">
                     <div class="navbar--expand--mobile--second">
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Blefaroplastika</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Okuloplastična kirurgija</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Botox</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Ginekologija i porodništvo</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Fizikalna medicina</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Oftamologija</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-                        <a class="dropdown--menu--mobile" href="posebneusluge.php">Nuklearna medicina</a>
+                        <a class="dropdown--menu--mobile" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>
+                        <a class="dropdown--menu--mobile" href="usluge/fizikalna-medicina.php">Fizikalna medicina</a>
+                        <a class="dropdown--menu--mobile" href="usluge/oftamologija.php">Oftamologija</a>
+                        <a class="dropdown--menu--mobile" href="usluge/laboratorij.php">Medicinsko-biokemijski
+                            laboratorij</a>
+                        <a class="dropdown--menu--mobile" href="usluge/nuklearna-medicina.php">Nuklearna medicina</a>
                     </div>
                 </div>
                 <a class="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
                 <a class="sidebar--menu--mobile" href="#contactus">Kontakt</a>
-                <img class="navbar--logo--index sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg" alt="" srcset="">
+                <img class="navbar--logo--index sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg" alt=""
+                    srcset="">
             </div>
             <div class="sidebar--backdrop"></div>
         </nav>
@@ -55,7 +64,7 @@
 
 
 
-        
+
 
         <nav class="navbar--container--desktop">
             <div class="navbar--bg">
@@ -74,12 +83,14 @@
                 </div>
             </div>
             <div class="navbar--bottom--desktop container--default navbar--padding">
-                <img class="navbar--logo--desktop navbar--logo--index" src="images/k&p-logo.svg" alt="" srcset="" class="navbar--logo--desktop">
-                <a class="navbar--underline" href="posebneusluge.php">Ginekologija i porodništvo</a>
-                <a class="navbar--underline" href="posebneusluge.php">Fizikalna medicina</a>
-                <a class="navbar--underline" href="posebneusluge.php">Oftamologija</a>
-                <a class="navbar--underline" href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-                <a class="navbar--underline" href="posebneusluge.php">Nuklearna medicina</a>
+                <img class="navbar--logo--desktop navbar--logo--index" src="images/k&p-logo.svg" alt="" srcset=""
+                    class="navbar--logo--desktop">
+                <a class="navbar--underline" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>
+                <a class="navbar--underline" href="usluge/fizikalna-medicina.php">Fizikalna medicina</a>
+                <a class="navbar--underline" href="usluge/oftamologija.php">Oftamologija</a>
+                <a class="navbar--underline" href="usluge/laboratorij.php">Medicinsko-biokemijski
+                    laboratorij</a>
+                <a class="navbar--underline" href="usluge/nuklearna-medicina.php">Nuklearna medicina</a>
             </div>
         </nav>
 
@@ -102,11 +113,12 @@
                 <img class='navbar--toggler' src="images/plus.png" alt="" srcset="">
             </div>
             <div class="navbar--expand--tablet">
-                <a href="posebneusluge.php">Ginekologija i porodništvo</a>
-                <a href="posebneusluge.php">Fizikalna medicina</a>
-                <a href="posebneusluge.php">Oftamologija</a>
-                <a href="posebneusluge.php">Medicinsko-biokemijski laboratorij</a>
-                <a href="posebneusluge.php">Nuklearna medicina</a>
+                <a class="" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>
+                <a class="" href="usluge/fizikalna-medicina.php">Fizikalna medicina</a>
+                <a class="" href="usluge/oftamologija.php">Oftamologija</a>
+                <a class="" href="usluge/laboratorij.php">Medicinsko-biokemijski
+                    laboratorij</a>
+                <a class="" href="usluge/nuklearna-medicina.php">Nuklearna medicina</a>
             </div>
         </nav>
     </div>
