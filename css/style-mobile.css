@@ -635,9 +635,9 @@ body {
   width: 100%;
   margin-top: 0;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   position: relative;
-  background-image: url("../images/Web/Klinika-36.jpg");
+
   margin-top: 40px;
 
   &::before {
@@ -648,8 +648,33 @@ body {
     bottom: 0px;
     left: 0px;
     background-color: rgba(218, 218, 218, 0.349);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);
   }
+}
+
+.hero--image--bg--services.blefaroplastika {
+  background-image: url("../images/services/blefaroplastika.jpg");
+}
+.hero--image--bg--services.botox {
+  background-image: url("../images/services/botox.jpg");
+}
+.hero--image--bg--services.fizikalna-medicina {
+  background-image: url("../images/services/fizikalna-medicina.jpg");
+}
+.hero--image--bg--services.ginekologija {
+  background-image: url("../images/services/ginekologija.jpg");
+}
+.hero--image--bg--services.laboratorij {
+  background-image: url("../images/services/laboratorij.jpg");
+}
+.hero--image--bg--services.nuklearna-medicina {
+  background-image: url("../images/services/nuklearna-medicina.jpg");
+}
+.hero--image--bg--services.oftamologija {
+  background-image: url("../images/services/oftamologija.jpg");
+}
+.hero--image--bg--services.okuloplastika {
+  background-image: url("../images/services/okuloplastika.jpg");
 }
 
 .hero--cta--slogan--services {

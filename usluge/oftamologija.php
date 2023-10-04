@@ -5,7 +5,7 @@ include "../header.php";
 
 
 <div class="hero--container--services">
-    <div class="hero--image--bg--services">
+    <div class="hero--image--bg--services oftamologija">
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
