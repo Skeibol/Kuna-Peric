@@ -6,7 +6,7 @@
   --gray: #f0f2f2;
   --color-primary: #194868;
 
-  --color-secondary: #ffb731;
+  --color-secondary: #194868;
   --color-message: #1289bd;
   --color-text: #2b2b2b;
   --font-primary: "Plus Jakarta Sans", sans-serif;
@@ -408,7 +408,7 @@ body {
 .services--home--box:before {
   content: "";
   width: 90%;
-  height: 30px;
+  height: 20px;
   background-color: var(--color-message);
   position: absolute;
   top: -20px;
@@ -856,12 +856,12 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.271);
+  background-color: rgba(0, 0, 0, 0.76);
 }
 
 .modal--image {
   margin: auto;
-  max-width: 500px;
+  max-width: 50vw;
 }
 
 .modal--close {
