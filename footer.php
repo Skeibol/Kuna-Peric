@@ -16,9 +16,15 @@
             </div>
             <select class="form-select dropdown--menu" aria-label="Default select example">
                 <option selected>Usluga</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
+                <option value="1">Ginekologija i porodništvo</option>
+                <option value="2">Fizikalna medicina</option>
+                <option value="3">Oftamologija</option>
+                <option value="4">Ultrazvučne pretrage</option>
+                <option value="5">Medicinsko-biokemijski laboratorij</option>
+                <option value="6">Nuklearna medicina</option>
+                <option value="7">Blefaroplastika</option>
+                <option value="8">Okuloplastična kirurgija</option>
+                <option value="9">Botox</option>
             </select>
             <textarea class='form--textarea' type="text" placeholder="Poruka"></textarea><br>
             <button class="button--white">Pošalji</button>

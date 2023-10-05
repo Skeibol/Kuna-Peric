@@ -11,10 +11,10 @@ include "../header.php";
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Ginekologija i porodništvo
                     </h1>
-                    <p class=" slogan--subtext">Dijagnostika i liječenje stanja povezanih s reproduktivnim zdravljem</p>
+                    <p class=" slogan--subtext">Pobrinite se za reproduktivno zdravlje.</p>
                     <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -62,17 +62,19 @@ include "../header.php";
         </div>
     </div>
     <p>
-        U medicinskom centru brinemo o zaštiti zdravlja žena od reproduktivnog doba do menopauze. Uz iznimne ginekologe
+        <strong>Što je ginekologija i porodništvo?</strong><br><br>U medicinskom centru brinemo o zaštiti zdravlja žena
+        od reproduktivnog doba
+        do menopauze. Uz iznimne ginekologe
         s bogatim znanjem i iskustvom, osiguravamo ugodne preglede uz najsuvremeniju opremu. Redovitim ginekološkim
         pregledima brinete o svom zdravlju, jer se tako na vrijeme mogu primijetiti i najmanje promjene koje ukazuju na
         moguće bolesti reproduktivnog sustava.
         <br><br>
         Naša usluga ginekologije i porodništva također pruža podršku ženama tijekom trudnoće, prateći ih na putu prema
-        majčinstvu. Naši stručnjaci su tu da vam pruže sigurnost i brigu tijekom svih faza trudnoće. Bez obzira na vaše
+        majčinstvu. Naši stručnjaci su tu da vam pruže sigurnost i brigu tijekom svih faza trudnoće. Bez obzira na Vaše
         potrebe, naš tim vam pruža sveobuhvatnu i pažljivu skrb kako biste se osjećale sigurno i zdravo tijekom cijelog
-        vašeg reproduktivnog putovanja.
+        Vašeg reproduktivnog putovanja.
         <br><br>
-        Usluge ginekologije i porodništva koje medicinski centar Kuna&Perić nudi su:
+        <strong>Usluge ginekologije i porodništva koje medicinski centar Kuna&Perić nudi su:</strong>
         <br><br>
     </p>
     <div class="container">
@@ -125,9 +127,13 @@ include "../header.php";
             </div>
         </div>
     </div>
+    <p><strong>Naše osoblje zaduženo za uslugu fizikalne medicine</strong><br><br>
+        &#x2022; &nbsp;doc. dr. sc. Krunoslav Kuna, dr. med.<br><br>
+    </p>
     <p>Ako želite saznati više o našim uslugama ginekologije i porodništva te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
-        pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        da odgovori na sva Vaša pitanja i dogovori termine
+        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

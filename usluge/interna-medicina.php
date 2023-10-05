@@ -13,7 +13,7 @@ include "../header.php";
                     </h1>
                     <p class=" slogan--subtext">Personalizirana Interna medicina i napredna dijagnostika.</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -67,9 +67,9 @@ include "../header.php";
         moguće bolesti reproduktivnog sustava.
         <br><br>
         Naša usluga ginekologije i porodništva također pruža podršku ženama tijekom trudnoće, prateći ih na putu prema
-        majčinstvu. Naši stručnjaci su tu da vam pruže sigurnost i brigu tijekom svih faza trudnoće. Bez obzira na vaše
+        majčinstvu. Naši stručnjaci su tu da vam pruže sigurnost i brigu tijekom svih faza trudnoće. Bez obzira na Vaše
         potrebe, naš tim vam pruža sveobuhvatnu i pažljivu skrb kako biste se osjećale sigurno i zdravo tijekom cijelog
-        vašeg reproduktivnog putovanja.
+        Vašeg reproduktivnog putovanja.
         <br><br>
         Usluge ginekologije i porodništva koje medicinski centar Kuna&Perić nudi su:
         <br><br>
@@ -90,8 +90,8 @@ include "../header.php";
         </div>
     </div>
     <p>Ako želite saznati više o našim uslugama interne medicine te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
-        pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        i budućnost,  <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu da odgovori na sva Vaša pitanja i dogovori termine
+        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

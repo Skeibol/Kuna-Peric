@@ -7,7 +7,7 @@
     <title>Bootstrap demo</title>
 
 
-    /* <script type="application/ld+json">
+    <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "Organization",
@@ -144,9 +144,9 @@
             </div>
             <div class="navbar--expand--mobile">
                 <a class="sidebar--menu--mobile" href="index.php#aboutus">O nama</a>
-                <a class="sidebar--menu--mobile" href="usluga.php">Novosti</a>
-                <div class="sidebar--menu--mobile">
-                    Usluge<img class="navbar--logo--mobile navbar--toggler--second" src="images/plus.png"
+                <a class="sidebar--menu--mobile">Novosti</a>
+                <div class="sidebar--menu--mobile expander">
+                    <p class="sidebar--usluge">Usluge</p><img class="navbar--logo--mobile navbar--toggler--second" src="images/chevron-down.svg"
                         alt="plus icon">
                     <div class="navbar--expand--mobile--second">
                         <a class="dropdown--menu--mobile" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>
@@ -157,7 +157,7 @@
                         <a class="dropdown--menu--mobile" href="usluge/nuklearna-medicina.php">Nuklearna medicina</a>
                     </div>
                 </div>
-                <a class="sidebar--menu--mobile" href="usluga.php">Cjenik</a>
+                <a class="sidebar--menu--mobile" href="">Cjenik</a>
                 <a class="sidebar--menu--mobile" href="#contactus">Kontakt</a>
                 <img class="navbar--logo--index sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg"
                     alt="kuna&perić logo" srcset="">
@@ -214,7 +214,7 @@
             </div>
             <div class="navbar--bottom--tablet">
                 <img class="navbar--logo--index" src="images/k&p-logo.svg" alt="kuna&perić logo" srcset="">
-                <img class='navbar--toggler' src="images/plus.png" alt="plus icon" srcset="">
+                <img class='navbar--toggler' src="images/hamburger-black.svg" alt="plus icon" srcset="">
             </div>
             <div class="navbar--expand--tablet">
                 <a class="" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>

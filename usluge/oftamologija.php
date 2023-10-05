@@ -11,9 +11,9 @@ include "../header.php";
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Oftamologija
                     </h1>
-                    <p class=" slogan--subtext">Sjaj u vašim očima: Vizija za jasnu budućnost!</p><br>
+                    <p class=" slogan--subtext">Vizija za jasnu budućnost.</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -61,16 +61,18 @@ include "../header.php";
         </div>
     </div>
     <p>
-        Oči su ogledalo zdravlja. Naša misija je osigurati vrhunsku skrb za vaše oči. Kroz najsuvremenije oftalmološke
+        <strong>Što je oftamologija?</strong><br><br>Oči su ogledalo zdravlja. Naša misija je osigurati vrhunsku skrb za
+        Vaše
+        oči. Kroz najsuvremenije oftalmološke
         tehnike, nudimo sveobuhvatne preglede i personalizirane tretmane kako bismo očuvali vaš vid u svakoj životnoj
-        dobi..U dugogodišnjem radu kao dječji oftamolog, liječnica Sanja Perić je zbog svoje stručnosti i
+        dobi. U dugogodišnjem radu kao dječji oftamolog, liječnica Sanja Perić je zbog svoje stručnosti i
         prijateljskog pristupa prema najmlađim pacijentima izrazito uspješna u svom poslu.
         <br><br>
         Naš oftalmološki tim koristi najnovije tehnologije, uključujući visokoresolucijske tomografske uređaje i
         napredne laserske tehnike, kako bi pružila precizne dijagnoze i individualizirane tretmane za širok spektar
         očnih stanja.
         <br><br>
-        Usluge oftamologije koje medicinski centar Kuna&Perić nudi su:
+        <strong>Usluge oftamologije koje medicinski centar Kuna&Perić nudi su:</strong>
         <br><br>
     </p>
     <div class="container">
@@ -89,9 +91,13 @@ include "../header.php";
             </div>
         </div>
     </div>
+    <p><strong>Naše osoblje zaduženo za uslugu fizikalne medicine</strong><br><br>
+        &#x2022; &nbsp;dr. sc. Sanja Perić, dr. med. - Specijalistica oftalmologije, subspecijalistica iz područja dječje oftalmologije i strabizma<br><br>
+    </p>
     <p>Ako želite saznati više o našim uslugama oftamologije te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
-        pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        da odgovori na sva Vaša pitanja i dogovori termine
+        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

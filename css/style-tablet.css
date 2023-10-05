@@ -125,13 +125,18 @@
     padding: 20px;
     width: 40%;
     background-color: var(--color-primary);
-    opacity: 0.8;
     color: white;
     position: absolute;
     left: -40%;
     height: 100vh;
     z-index: 9999;
-    transition: all 1s ease-in;
+    transition: all 0.3s ease-in;
+  }
+
+  .navbar--expand--tablet a {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom : solid 1px white
   }
 
   /* *****HERO***** */
@@ -400,5 +405,15 @@
     padding: 1rem;
     margin: auto;
     max-width: 400px;
+  }
+
+  .services--fancy--nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 60px;
+    justify-items: center;
+    margin: 3rem 0;
   }
 }

@@ -11,10 +11,11 @@ include "../header.php";
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Blefaroplastika
                     </h1>
-                    <p class=" slogan--subtext">Uklonite neželjene efekte starenja</p>
+                    <p class=" slogan--subtext">Uklonite neželjene efekte starenja.</p>
                     <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -60,7 +61,7 @@ include "../header.php";
         <div class="container--default">
 
             <p>
-                <strong>Što je Blefaroplastika</strong><br><br>
+                <strong>Što je blefaroplastika?</strong><br><br>
                 Životni put ostavlja svoje tragove na našem licu, a jedno od područja gdje ti tragovi postaju posebno
                 vidljivi
                 su i
@@ -77,15 +78,18 @@ include "../header.php";
                 izgled
                 očiju.<br><br>
                 Ovaj postupak se često odabire iz različitih razloga:<br><br>
-                1. Povratak mladolikog izgleda: Blefaroplastika može značajno pomladiti izgled lica, čineći vas
+                &#x2022; &nbsp; Povratak mladolikog izgleda: Blefaroplastika može značajno pomladiti izgled lica, čineći
+                vas
                 svježijim i
                 energičnijim.<br>
-                2. Poboljšanje vidljivosti: Uklanjanjem viška kože s gornjih kapaka može se poboljšati vidljivost,
+                &#x2022; &nbsp; Poboljšanje vidljivosti: Uklanjanjem viška kože s gornjih kapaka može se poboljšati
+                vidljivost,
                 posebno
                 kod
                 starijih
                 osoba čiji kapci s godinama počinju težiti prema očima i utjecati na vidljivost.<br>
-                3. Povećanje samopouzdanja: Ponekad se umoran izgled očiju može odraziti na vaše samopouzdanje.
+                &#x2022; &nbsp; Povećanje samopouzdanja: Ponekad se umoran izgled očiju može odraziti na Vaše
+                samopouzdanje.
                 Blefaroplastika
                 vam
                 može pomoći da se osjećate bolje u vlastitoj koži.<br><br>
@@ -102,17 +106,20 @@ include "../header.php";
                 se
                 postigao svjež i podmlađen izgled očiju.<br><br>
                 Općeniti postupak izvođenja je:<br><br>
-                1. Konzultacija i Planiranje: Prvi korak u procesu blefaroplastike gornjih vjeđa je konzultacija s našim
+                &#x2022; &nbsp; Konzultacija i Planiranje: Prvi korak u procesu blefaroplastike gornjih vjeđa je
+                konzultacija s našim
                 kvalificiranim
-                okuloplastičnim kirurgom. Kirurg će procijeniti vaše oči, razgovarati s vama o vašim ciljevima i
+                okuloplastičnim kirurgom. Kirurg će procijeniti Vaše oči, razgovarati s vama o Vašim ciljevima i
                 očekivanjima,
                 te
                 izraditi individualni plan za postupak.<br>
-                2. Anestezija: Za udobnost pacijenta, obično se primjenjuje lokalna anestezija, ali u nekim slučajevima
+                &#x2022; &nbsp; Anestezija: Za udobnost pacijenta, obično se primjenjuje lokalna anestezija, ali u nekim
+                slučajevima
                 može
                 se
                 koristiti i opća anestezija.<br>
-                3. Incizija: Kirurg napravi diskretnu inciziju duž nabora gornjeg kapka. Ova incizija je pažljivo
+                &#x2022; &nbsp; Incizija: Kirurg napravi diskretnu inciziju duž nabora gornjeg kapka. Ova incizija je
+                pažljivo
                 smještena
                 kako
                 bi
@@ -120,35 +127,41 @@ include "../header.php";
                 Uklanjanje Viška Tkiva: Nakon incizije, kirurg uklanja višak kože, mišića i masnog tkiva koji uzrokuju
                 naboravanje
                 kapka i težinu očiju.<br>
-                4. Zatvaranje Incizije: Incizija se precizno zatvara kako bi rezultirala minimalnim ožiljcima. Šavovi su
+                &#x2022; &nbsp; Zatvaranje Incizije: Incizija se precizno zatvara kako bi rezultirala minimalnim
+                ožiljcima. Šavovi su
                 tanki i
                 neprimjetni.<br>
-            </p>
-            <img src="images/ured1.png" alt="">
-            <p>
+                <br>
                 Kada je u pitanju blefaroplastika, izbor stručnjaka je od suštinskog značaja. Okuloplastični kirurzi su
                 specijalizirani za estetske i funkcionalne probleme očiju i kapaka. Njihovo specifično obrazovanje i
                 iskustvo
                 čine ih najboljim izborom za ovu vrstu operacije. Kada se odlučite za okuloplastičnog kirurga, dobivate:
                 <br><br>
-                1. Stručnost: Naši okuloplastični kirurzi su obučeni i educirani za izvođenje blefaroplastike, što
+                &#x2022; &nbsp; Stručnost: Naši okuloplastični kirurzi su obučeni i educirani za izvođenje
+                blefaroplastike, što
                 garantira
                 visoku
                 kvalitetu i sigurnost tokom i nakon zahvata.<br>
-                2. Individualni pristup: Svaka osoba je jedinstvena, a u centru Kuna&Perić pristupamo svakom pacijentu
+                &#x2022; &nbsp; Individualni pristup: Svaka osoba je jedinstvena, a u centru Kuna&Perić pristupamo
+                svakom pacijentu
                 individualno
                 kako bismo postigli najbolje rezultate.<br>
-                3. Prirodan izgled: Iskusni okuloplastični kirurzi postižu prirodan izgled očiju, bez izraženih ožiljaka
+                &#x2022; &nbsp; Prirodan izgled: Iskusni okuloplastični kirurzi postižu prirodan izgled očiju, bez
+                izraženih ožiljaka
                 ili
                 neprirodnih promjena. <br><br>
-                Ne dozvolite da višak kože na vašim kapcima definira vaš izgled i samopouzdanje. Blefaroplastika vam
+                Ne dozvolite da višak kože na Vašim kapcima definira Vaš izgled i samopouzdanje. Blefaroplastika vam
                 može
                 pomoći
                 da povratite svježinu i mladenački izgled očiju. Kontaktirajte nas danas kako biste saznali više o ovom
                 postupku
                 i kako bismo vas vodili kroz cijeli proces.<br><br>
-                Neka vaše oči ponovno zablistaju! Blefaroplastika je ključ za povratak mladosti i samopouzdanja.<br>
+                Neka Vaše oči ponovno zablistaju! Blefaroplastika je ključ za povratak mladosti i samopouzdanja.<br><br>
             </p>
+            <p><strong>Naše osoblje zaduženo za uslugu fizikalne medicine</strong><br><br>
+                &#x2022; &nbsp;Dr. med. Josip Knežević<br><br>
+            </p>
+
         </div>
     </div>
     <?php

@@ -33,7 +33,7 @@ include "header.php";
     <h1 class="hero--cta--slogan d-sm-none"><span class="hero--cta--zdravlje">Zdravlje</span> na prvom mjestu
     </h1>
     <div class="hero--button--container d-flex justify-content-center justify-content-sm-start">
-        <button class='button--nobg d-sm-none'>Dogovori termin</button>
+        <a href="#contactus"><button class='button--nobg d-sm-none'>Dogovori termin</button></a>
     </div>
 </div>
 
@@ -67,9 +67,9 @@ include "header.php";
 <div class="container--default" id="aboutus">
     <div class="abt--us--home d-flex">
         <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img
-                class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. Josip Knežević">
+                class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. med.  Josip Knežević">
             <div class="abt--us--doctor--name">
-                <p>Dr. Josip Knežević</p>
+                <p>Dr. med.  Josip Knežević</p>
             </div>
         </div>
         <div class="abt--us--text order-lg-2 col-lg-8" data-aos="fade-up" data-aos-duration="3000">
@@ -113,9 +113,9 @@ include "header.php";
                     </div>
                 </div>
                 <div class="abt--us--img d-none d-md-block d-lg-none col-md-5 col-lg-12"><img
-                        class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. Josip Knežević">
+                        class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. med.  Josip Knežević">
                     <div class="abt--us--doctor--name">
-                        <p>Dr. Josip Knežević</p>
+                        <p>Dr. med.  Josip Knežević</p>
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@ include "header.php";
         centru Kuna&Perić živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. <a class="obratite--nam--se"
             href="#contactus">Obratite nam se</a> za sve Vaše
         medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p>
-    <button class="button--bg">Dogovori termin</button>
+    <a href="#contactus"><button class="button--bg">Dogovori termin</button></a>
     <div class="officeimage--background--mobile">
         <div>
             <div class="officeimage--container--mobile">
@@ -220,7 +220,7 @@ include "header.php";
                     sve
                     Vaše
                     medicinske potrebe i doživite vrhunsku razinu skrbi koju zaslužujete.</p><br>
-                <button class="button--bg">Dogovori termin</button>
+                <a href="#contactus"><button class="button--bg">Dogovori termin</button></a>
             </div>
 
             <div class="officeimage--container--desktop">

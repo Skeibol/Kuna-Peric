@@ -33,6 +33,8 @@ $(".navbar--toggler").click(() => {
   if (slidingMenuSecond) {
     if (parseInt(slidingMenuSecond.css("max-height")) >= 0) {
       slidingMenuSecond.css("max-height", "0px");
+      slidingMenuSecond.css("margin-top", "0px");
+      $(".navbar--toggler--second").css("transform","rotate(0deg)");
     }
   }
 });
@@ -40,6 +42,8 @@ $(".navbar--toggler").click(() => {
 $("a.sidebar--menu--mobile").on("click", () => {
   $(".navbar--expand--mobile").css("left", "-80%");
   $(".navbar--expand--mobile--second").css("max-height", "0px");
+  $(".navbar--expand--mobile--second").css("margin-top", "0px");
+  $(".navbar--toggler--second").css("transform","rotate(0deg)");
   $(".sidebar--backdrop").css("background-color", "rgba(0, 0, 0, 0.0)");
 });
 
@@ -50,9 +54,13 @@ $(".navbar--toggler--second").on("click", () => {
   if (navbarExpander.css("max-height") == "0px") {
     //Povećaj
     $(".navbar--expand--mobile--second").css("max-height", "350px");
+    $(".navbar--expand--mobile--second").css("margin-top", "15px");
+    $(".navbar--toggler--second").css("transform","rotate(-180deg)");
   } else {
     //Smanji
     $(".navbar--expand--mobile--second").css("max-height", "0px");
+    $(".navbar--expand--mobile--second").css("margin-top", "0px");
+    $(".navbar--toggler--second").css("transform","rotate(0deg)");
   }
 });
 
@@ -81,7 +89,10 @@ $(".owl-carousel").owlCarousel({
       center: true,
     },
   },
+
 });
+
+
 
 //https://stackoverflow.com/questions/23006516/jquery-animated-number-counter-from-zero-to-value
 $(function () {
@@ -185,4 +196,26 @@ $(".services--oculoplastic").on("click", () => {
 });
 $(".services--botox").on("click", () => {
   window.location.href = "usluge/botox.php";
+});
+
+/* Lokalni href */
+
+$('a.local').each(
+  function () {
+  // get the href attribute
+  var href = $(this).attr('href');
+  // does it have a href?
+  if (href) {
+    var lastSlash = window.location.toString().lastIndexOf("/");
+    var lastHash = window.location.toString().lastIndexOf("#");
+    
+    if(lastHash == -1){
+
+      var new_href = window.location.toString() + href;
+    } else {
+      var new_href = window.location.toString().slice(0,lastHash) + href;
+    }
+
+    $(this).attr('href', new_href);
+  }
 });

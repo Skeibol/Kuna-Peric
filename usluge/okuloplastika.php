@@ -11,9 +11,9 @@ include "../header.php";
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Okuloplastična kirurgija
                     </h1>
-                    <p class=" slogan--subtext">Oživite Vaš pogled s vrhunskom okuloplastikom</p><br>
+                    <p class=" slogan--subtext">Oživite Vaš pogled.</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,8 @@ include "../header.php";
         </div>
     </div>
     <p>
-        Okuloplastika je specijalnost koja kombinira estetske i funkcionalne postupke kako bi se poboljšalo područje oko
+        <strong>Što je okuloplastika?</strong><br><br>Okuloplastika je specijalnost koja kombinira estetske i funkcionalne
+        postupke kako bi se poboljšalo područje oko
         očiju. Naša klinika je posvećena pružanju vrhunske okuloplastičke skrbi koja ide iznad i dalje od estetike,
         nudeći pacijentima preciznost i sigurnost u svakom koraku. Kroz korekciju kapaka, uklanjanje vrećica ispod očiju
         i podizanje obrva, postižemo prirodne i uravnotežene rezultate koji naglašavaju ljepotu očiju.
@@ -84,8 +85,8 @@ include "../header.php";
         </div>
     </div> -->
     <p>Ako želite saznati više o našim uslugama okuloplastike te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
-        pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        i budućnost,  <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu da odgovori na sva Vaša pitanja i dogovori termine
+        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

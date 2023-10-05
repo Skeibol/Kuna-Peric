@@ -11,10 +11,10 @@ include "../header.php";
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Botox
                     </h1>
-                    <p class=" slogan--subtext">Istaknite svoju prirodnu ljepotu uz siguran i stručan Botox dodir</p>
+                    <p class=" slogan--subtext">Istaknite svoju prirodnu ljepotu.</p>
                     <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <button class='button--bg'>Dogovori termin</button>
+                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
@@ -62,17 +62,18 @@ include "../header.php";
         </div>
     </div>
     <p>
-        Botox tretmani su postali sinonim za sigurnost i učinkovitost u području anti-aginga. Naša klinika je ponosna na
+        <strong>Što je botox?</strong><br><br>Botox tretmani su postali sinonim za sigurnost i učinkovitost u području
+        anti-aginga. Naša klinika je ponosna na
         stručnost koja stoji iza svake aplikacije. Koristimo visokokvalitetne proizvode i tehnike kako bismo postigli
-        prirodan i dugotrajan rezultat. S povjerenjem prepustite vašu ljepotu u naše ruke. Aplikacijom botulinum toksina
+        prirodan i dugotrajan rezultat. S povjerenjem prepustite Vašu ljepotu u naše ruke. Aplikacijom botulinum toksina
         smanjujemo ili u potpunosti blokiramo mišićnu aktivnost određenih
         mišića lica. Smanjivanjem njihove funkcije smanjuje se vidljivost bora na licu koje su posljedica
         njihovog djelovanja.
         Rezultat je svježiji, mlađi izgled.
         <br><br>
-        Botox tretmani ne samo da mogu smanjiti bore, već i revitalizirati vaš izgled. Naša klinika je posvećena vašem
+        Botox tretmani ne samo da mogu smanjiti bore, već i revitalizirati Vaš izgled. Naša klinika je posvećena Vašem
         dobrostanju i sigurnosti tijekom cijelog procesa. Prepustite se našem iskusnom timu kako biste otkrili kako
-        Botox može obogatiti vašu prirodnu ljepotu i osvježiti vašu pojavu.
+        Botox može obogatiti Vašu prirodnu ljepotu i osvježiti Vašu pojavu.
         <br><br>
         Ovaj postupak se često odabire iz različitih razloga:<br><br>
         1.Smanjenje bora i finih linija: Botox je učinkovit u smanjenju vidljivosti bora oko očiju (podočnjaci), između
@@ -85,9 +86,9 @@ include "../header.php";
         osjećaju mlađe i svježije.<br>
 
 
+        <br>
 
-
-        Usluge botoxa koje medicinski centar Kuna&Perić nudi su:
+        <strong>Usluge botoxa koje medicinski centar Kuna&Perić nudi su:</strong>
         <br><br>
 
     <div class="container">
@@ -107,9 +108,10 @@ include "../header.php";
     mast za
     operativnu ranu, kontrola i vađenje šavova za 7 dana.<br>
     </p>
-    <p>Ako želite saznati više o našim uslugama botoxa te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, slobodno nas kontaktirajte. Naš tim je tu da odgovori na sva vaša pitanja i dogovori termine
-        pregleda prilagođene vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+    <p>Ako želite saznati više o našim uslugama botoxa te osigurati najbolju skrb za
+        svoje zdravlje
+        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu da odgovori na sva Vaša pitanja i dogovori termine
+        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php
