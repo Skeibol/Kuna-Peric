@@ -97,7 +97,6 @@ $(function () {
 
     if (current == 0 && scrollTop >= eleTop) {
       $(".counter div h3").each(function () {
-        console.log(current == 0 && scrollTop >= eleTop);
         var $this = $(this),
           countTo = $this.attr("data-count");
 
@@ -132,7 +131,12 @@ $(".navbar--logo--index").on("click", () => {
   window.location.href = "index.php";
 });
 
-AOS.init();
+AOS.init({
+  disable: function () {
+    var maxWidth = 768;
+    return window.innerWidth < maxWidth;
+  },
+});
 
 /*MODAL*/
 
@@ -148,15 +152,24 @@ $(".modal--close").on("click", () => {
   modal.css("visibility", "hidden");
 });
 
+modal.on("click", () => {
+  modal.css("visibility", "hidden");
+});
+
+$(document).keyup(function (e) {
+  if (e.key === "Escape") {
+    // escape key maps to keycode `27`
+    modal.css("visibility", "hidden");
+  }
+});
+
 /* LOADER */
 
 document.onreadystatechange = function () {
   if (document.readyState !== "complete") {
-    console.log("incomplete");
     document.querySelector("body").style.visibility = "hidden";
     document.querySelector("#loader").style.visibility = "visible";
   } else {
-    console.log("complete");
     document.querySelector("body").style.visibility = "visible";
     document.querySelector("#loader").style.display = "none";
   }
@@ -164,12 +177,12 @@ document.onreadystatechange = function () {
 
 /* ONCLICK ZA NEKE USLUGE */
 
-$(".services--plastic").on("click",()=>{
+$(".services--plastic").on("click", () => {
   window.location.href = "usluge/blefaroplastika.php";
-})
-$(".services--oculoplastic").on("click",()=>{
+});
+$(".services--oculoplastic").on("click", () => {
   window.location.href = "usluge/okuloplastika.php";
-})
-$(".services--botox").on("click",()=>{
+});
+$(".services--botox").on("click", () => {
   window.location.href = "usluge/botox.php";
-})
+});

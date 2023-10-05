@@ -35,27 +35,25 @@ include "header.php";
     <div class="hero--button--container d-flex justify-content-center justify-content-sm-start">
         <button class='button--nobg d-sm-none'>Dogovori termin</button>
     </div>
-    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
-
 </div>
 
 <div class="container--default pt-0">
     <div class="services--home">
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--plastic"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="">
+            <img src="images/usluga.png" alt="blefaroplastika icon">
             <h4>Blefaroplastika</h4>
             <p>Za odmoran izgled očiju koje zrače pričom o mladosti i vitalnosti</p>
         </div>
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--oculoplastic"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="">
+            <img src="images/usluga.png" alt="okuloplastika icon">
             <h4>Okuloplastična kirurgija</h4>
             <p>Podarite očima novi sjaj i osjetite dodatno samopouzdanje</p>
         </div>
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--botox"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="">
+            <img src="images/usluga.png" alt="botox icon">
             <h4>Botox</h4>
             <p>Osvježite prirodnu ljepotu i povratite mladenački sjaj</p>
         </div>
@@ -68,8 +66,11 @@ include "header.php";
 
 <div class="container--default" id="aboutus">
     <div class="abt--us--home d-flex">
-        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img style="width:100%"
-                class="justify-self-center" src="images/Web/about-us.svg" alt="">
+        <div class="abt--us--img order-lg-1 order-2 col-md-6 col-lg-4 d-md-none d-lg-block"><img
+                class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. Josip Knežević">
+            <div class="abt--us--doctor--name">
+                <p>Dr. Josip Knežević</p>
+            </div>
         </div>
         <div class="abt--us--text order-lg-2 col-lg-8" data-aos="fade-up" data-aos-duration="3000">
             <h2>Lorem ipsum dolor sit amet.</h2>
@@ -88,31 +89,34 @@ include "header.php";
                         stoje na raspolaganju za područja:</p><br>
                     <div class="row">
                         <div class="col-6">
-                            <a class="abt--us--link" href="usluge/ginekologija.php"><img style="height:25px;width:25px;"
-                                    src="images/plus.svg" alt="">Ginekologije i
+                            <a class="abt--us--link" href="usluge/ginekologija.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Ginekologije i
                                 porodništva</a>
-                            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img
-                                    style="height:25px;width:25px;" src="images/plus.svg" alt="">Fizikalne medicine</a>
-                            <a class="abt--us--link" href="usluge/oftamologija.php"><img style="height:25px;width:25px;"
-                                    src="images/plus.svg" alt="">Oftamologije
+                            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Fizikalne medicine</a>
+                            <a class="abt--us--link" href="usluge/oftamologija.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Oftamologije
                             </a>
                         </div>
                         <div class="col-6">
-                            <a class="abt--us--link" href="usluge/okuloplastika.php"><img
-                                    style="height:25px;width:25px;" src="images/plus.svg" alt="">Okuloplastične
+                            <a class="abt--us--link" href="usluge/okuloplastika.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Okuloplastične
                                 kirurgije
                             </a>
-                            <a class="abt--us--link" href="usluge/laboratorij.php"><img style="height:25px;width:25px;"
-                                    src="images/plus.svg" alt="">Medicinsko-biokemijske
+                            <a class="abt--us--link" href="usluge/laboratorij.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Medicinsko-biokemijske
                                 analize</a>
-                            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img
-                                    style="height:25px;width:25px;" src="images/plus.svg" alt="">Nuklearne medicine</a>
+                            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img class="abt--us--plus"
+                                    src="images/plus.svg" alt="plus icon">Nuklearne medicine</a>
                         </div>
 
                     </div>
                 </div>
                 <div class="abt--us--img d-none d-md-block d-lg-none col-md-5 col-lg-12"><img
-                        class="justify-self-center" src="images/Web/about-us.svg" alt="">
+                        class="justify-self-center abt--us--doctor--image" src="images/Web/about-us.svg" alt="Dr. Josip Knežević">
+                    <div class="abt--us--doctor--name">
+                        <p>Dr. Josip Knežević</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -122,21 +126,22 @@ include "header.php";
             <p>Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i
                 iskustvom
                 stoje na raspolaganju za područja:</p>
-            <a class="abt--us--link" href="usluge/ginekologija.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Ginekologije i
+            <a class="abt--us--link" href="usluge/ginekologija.php"><img class="abt--us--plus" src="images/plus.svg"
+                    alt="plus icon">Ginekologije i
                 porodništva</a>
-            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Fizikalne
+            <a class="abt--us--link" href="usluge/fizikalna-medicina.php"><img class="abt--us--plus"
+                    src="images/plus.svg" alt="plus icon">Fizikalne
                 medicine</a>
-            <a class="abt--us--link" href="usluge/oftamologija.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Oftamologije
+            <a class="abt--us--link" href="usluge/oftamologija.php"><img class="abt--us--plus" src="images/plus.svg"
+                    alt="plus icon">Oftamologije
             </a>
-            <a class="abt--us--link" href="usluge/okuloplastika.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Okuloplastične kirurgije</a>
-            <a class="abt--us--link" href="usluge/laboratorij.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Medicinsko-biokemijske analize</a>
-            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img style="height:25px;width:25px;"
-                    src="images/plus.svg" alt="">Nuklearne
+            <a class="abt--us--link" href="usluge/okuloplastika.php"><img class="abt--us--plus" src="images/plus.svg"
+                    alt="plus icon">Okuloplastične
+                kirurgije</a>
+            <a class="abt--us--link" href="usluge/laboratorij.php"><img class="abt--us--plus" src="images/plus.svg"
+                    alt="plus icon">Medicinsko-biokemijske analize</a>
+            <a class="abt--us--link" href="usluge/nuklearna-medicina.php"><img class="abt--us--plus"
+                    src="images/plus.svg" alt="plus icon">Nuklearne
                 medicine</a>
         </div>
     </div>
@@ -182,11 +187,11 @@ include "header.php";
             <div class="officeimage--container--mobile">
 
                 <div class="officeimage--mobile officeimage--left">
-                    <img class="officeimage--modal--open" src="images/Web/Klinika-38.jpg" alt="" srcset="">
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-38.jpg" alt="office image" >
                 </div>
                 <div class="officeimage--mobile officeimage--right">
-                    <img class="officeimage--modal--open" src="images/Web/Klinika-8.jpg" alt="" srcset="">
-                    <img class="officeimage--modal--open" src="images/Web/Klinika-25.jpg" alt="" srcset="">
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-8.jpg" alt="office image" >
+                    <img class="officeimage--modal--open" src="images/Web/Klinika-25.jpg" alt="office image" >
 
                 </div>
             </div>
@@ -220,22 +225,22 @@ include "header.php";
 
             <div class="officeimage--container--desktop">
                 <div class="officeimage--desktop-a" data-aos="fade-up" data-aos-duration="2000">
-                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-38.jpg" alt=""
-                        srcset="">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-38.jpg"
+                        alt="office image" >
                     <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-a"
-                        src="images/plus.svg" alt="" srcset="">
+                        src="images/plus.svg" alt="office image overlay" >
                 </div>
                 <div class="officeimage--desktop-b" data-aos="fade-up" data-aos-duration="2000">
-                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-8.jpg" alt=""
-                        srcset="">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-8.jpg"
+                        alt="office image" >
                     <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-b"
-                        src="images/plus.svg" alt="" srcset="">
+                        src="images/plus.svg" alt="office image overlay" >
                 </div>
                 <div class="officeimage--desktop-c" data-aos="fade-up" data-aos-duration="2000">
-                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-25.jpg" alt=""
-                        srcset="">
+                    <img class="officeimage--modal--open officeimage--desktop" src="images/Web/Klinika-25.jpg"
+                        alt="office image" >
                     <img class="officeimage officeimage--desktop officeimage--overlay officeimage--overlay-c"
-                        src="images/plus.svg" alt="" srcset="">
+                        src="images/plus.svg" alt="office image overlay" >
                 </div>
             </div>
 
@@ -254,44 +259,44 @@ include "header.php";
             <p>Vrlo draga, ljubazna i profesionalna liječnica koja ima izvrstan pristup prema djeci. Razgovor s djetetom
                 i roditeljem prije zahvata i briga o djetetu poslije zahvata je za svaku pohvalu.</p>
 
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>prof. dr. sc. Porin Perić, dr. med.</strong></p>
             <p>Doktor je profesionalan, vrlo ljubazan i komunikativan, te daje detaljna objašnjenja i upute pacijentu.
             </p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Krunoslav Kuna, dr. med.</strong></p>
             <p>Izuzetno srdačan i strpljiv liječnik, na pregledima blag i detaljan. Spreman vas je saslušati i
                 odgovoriti na svako, pa čak i najtrivalnije pitanje. Njegova sam pacijentica već više od deset godina i
                 ne pada mi na pamet mijenjati ga. :)</p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>Josip Knežević, dr. med.</strong></p>
             <p>Izvrstan operater, jednostavan u objašnjenju, izvrsna komunikacija s pacijentom, operacija mrene bezbolna
                 i postoperativno.</p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>doc. dr. sc. Sanja Kusačić Kuna, prim. dr. med.</strong></p>
             <p>Doktorica je vesela, draga, pažljivo sasluša, imam puno povjerenje u nju i njene odluke o terapiji, jer
                 nakon dugogodišnjeg liječenja osjećam i pozitivne rezultate.
             </p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Hrvojka Tomić Brzac, dr. med.</strong></p>
             <p>Doktorica je izrazito korektna, ljubazna i susretljiva. A i u stručnost ove doktorice ne treba sumnjati.
             </p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
         <div class="item comments--box">
             <p><strong>prim. dr. sc. Zdenka Bence-Žigman, dr. med.</strong></p>
             <p>Liječnica koja ulijeva povjerenje, jednostavno objasni sve nedoumice oko dijagnoze.</p>
-            <div class="comments--quote" alt="" srcset=""></div>
+            <div class="comments--quote"></div>
         </div>
     </div>
 </div>
@@ -453,9 +458,9 @@ include "header.php";
 <!-- MODAL -->
 
 <div class="modal--container">
-    <img class="modal--image" src="" alt="" srcset="">
+    <img class="modal--image" src="" alt="modal office image" >
     <div class="modal--close">
-        <img src="images/plus.svg" alt="">
+        <img src="images/plus.svg" alt="plus icon">
     </div>
 </div>
 

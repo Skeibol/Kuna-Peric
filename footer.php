@@ -24,7 +24,7 @@
             <button class="button--white">Pošalji</button>
         </form>
 
-        <div class="col-md-3 col-lg-4 order-lg-1 venus--contact"><img class="venus--image" src="images/venus.png" alt=""
+        <div class="col-md-3 col-lg-4 order-lg-1 venus--contact"><img class="venus--image" src="images/venus.png" alt="venus image"
                 srcset=""></div>
     </div>
 </div>
@@ -37,7 +37,7 @@
 </div>
 
 <div class="footer--container">
-    <img class="footer--logo" src="images/k&p-logo-white.svg" alt="" srcset="">
+    <img class="footer--logo" src="images/k&p-logo-white.svg" alt="kuna&perić logo" srcset="">
     <div class="footer--grid">
         <div class="footer--grid--box">
             <p class="footer--text--bold">Kontakt</p>
@@ -77,9 +77,9 @@
         </div>
     </div>
     <div class="footer--social--media">
-        <img src="images/hamburger.png" alt="">
-        <img src="images/hamburger.png" alt="">
-        <img src="images/hamburger.png" alt="">
+        <img src="images/hamburger.png" alt="hamburger icon">
+        <img src="images/hamburger.png" alt="hamburger icon">
+        <img src="images/hamburger.png" alt="hamburger icon">
     </div>
     <div class="footer--copyright">
         <p>Copyright Medicinski centar Kuna&Perić</p>
@@ -92,7 +92,7 @@
     <div class="container--default">
         <div class="footer--info--desktop">
             <img class="navbar--logo--index" style="cursor:pointer;" src="images/k&p-logo-white.svg"
-                style="align-self: center" alt="" srcset="">
+                style="align-self: center" alt="kuna&perić logo" srcset="">
             <div class="footer--text--desktop">
                 <p><strong>Medicinski centar</strong></p>
                 <a href="index.php#aboutus">O nama</a><br>
@@ -119,9 +119,9 @@
                 <a href="tel:+385 01 4551 333">+385 01 4551 333</a>
 
                 <div class="footer--social--media">
-                    <img src="images/hamburger.png" alt="">
-                    <img src="images/hamburger.png" alt="">
-                    <img src="images/hamburger.png" alt="">
+                    <img src="images/hamburger.png" alt="hamburger icon">
+                    <img src="images/hamburger.png" alt="hamburger icon">
+                    <img src="images/hamburger.png" alt="hamburger icon">
                 </div>
 
             </div>

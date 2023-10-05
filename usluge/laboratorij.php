@@ -34,14 +34,30 @@ include "../header.php";
     </div>
     <div class="container-default">
         <div class="services--fancy--nav">
-            <div class="services--fancy--box active--fancy--box">1</div>
-            <div class="services--fancy--box">2</div>
-            <div class="services--fancy--box">3</div>
-            <div class="services--fancy--box">4</div>
-            <div class="services--fancy--box">5</div>
-            <div class="services--fancy--box">6</div>
-            <div class="services--fancy--box">7</div>
-            <div class="services--fancy--box">8</div>
+            <a href="usluge/blefaroplastika.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">1</div>
+            </a>
+            <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">2</div>
+            </a>
+            <a href="usluge/botox.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">3</div>
+            </a>
+            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">4</div>
+            </a>
+            <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">5</div>
+            </a>
+            <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">6</div>
+            </a>
+            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
+                <div class="active--fancy--box services--fancy--box">7</div>
+            </a>
+            <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">8</div>
+            </a>
         </div>
     </div>
     <p>

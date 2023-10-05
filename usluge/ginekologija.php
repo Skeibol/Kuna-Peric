@@ -8,11 +8,11 @@ include "../header.php";
     <div class="hero--image--bg--services ginekologija">
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
-                <div
-                    class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
+                <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
                     <h1 class="hero--cta--slogan--services  mb-1">Ginekologija i porodništvo
                     </h1>
-                    <p class=" slogan--subtext">Dijagnostika i liječenje stanja povezanih s reproduktivnim zdravljem</p><br>
+                    <p class=" slogan--subtext">Dijagnostika i liječenje stanja povezanih s reproduktivnim zdravljem</p>
+                    <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
                         <button class='button--bg'>Dogovori termin</button>
                     </div>
@@ -35,14 +35,30 @@ include "../header.php";
     </div>
     <div class="container-default">
         <div class="services--fancy--nav">
-            <div class="services--fancy--box active--fancy--box">1</div>
-            <div class="services--fancy--box">2</div>
-            <div class="services--fancy--box">3</div>
-            <div class="services--fancy--box">4</div>
-            <div class="services--fancy--box">5</div>
-            <div class="services--fancy--box">6</div>
-            <div class="services--fancy--box">7</div>
-            <div class="services--fancy--box">8</div>
+            <a href="usluge/blefaroplastika.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">1</div>
+            </a>
+            <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">2</div>
+            </a>
+            <a href="usluge/botox.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">3</div>
+            </a>
+            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
+                <div class="active--fancy--box services--fancy--box">4</div>
+            </a>
+            <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">5</div>
+            </a>
+            <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">6</div>
+            </a>
+            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">7</div>
+            </a>
+            <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box">8</div>
+            </a>
         </div>
     </div>
     <p>
