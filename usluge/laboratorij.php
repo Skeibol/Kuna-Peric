@@ -35,28 +35,38 @@ include "../header.php";
     <div class="container-default">
         <div class="services--fancy--nav">
             <a href="usluge/blefaroplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">1</div>
+                <div class="services--fancy--box blefaroplastika">
+                    <img src="images/services/services-menu/blefaroplastika.svg" alt="Ikona blefaroplastika">
+                </div>
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">2</div>
+                <div class="services--fancy--box  okuloplastika"><img
+                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona blefaroplastika"></div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">3</div>
+                <div class="services--fancy--box  botox"><img
+                        src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
             </a>
             <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">4</div>
+                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg"
+                        alt="Ikona ginekologija"></div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">5</div>
+                <div class="services--fancy--box fizikalna-medicina"><img
+                        src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
             </a>
             <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">6</div>
+                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg"
+                        alt="Ikona oftamologija"></div>
             </a>
             <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
-                <div class="active--fancy--box services--fancy--box">7</div>
+                <div class="services--fancy--box laboratorij"><img
+                        src="images/services/services-menu/medicinsko-biokemijski-white.svg"
+                        alt="Ikona medicinsko-biokemijski laboratorij"></div>
             </a>
             <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box">8</div>
+                <div class="services--fancy--box nuklearna-medicina"><img
+                        src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina"></div>
             </a>
         </div>
     </div>

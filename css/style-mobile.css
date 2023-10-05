@@ -436,6 +436,9 @@ body {
 .services--home--box:hover {
   cursor: pointer;
 }
+.services--home--box img {
+  width: 80px;
+}
 
 /* ****ABOUT US**** */
 .abt--us--home {
@@ -755,24 +758,15 @@ body {
 
 
 .services--fancy--box {
-  background-image: url("../images/usluga.png");
-  background-size: contain;
   height: 100px;
   width: 100px;
-  background-color: cyan;
 }
 
 .services--fancy--box:hover {
   scale: 1.3;
 }
 
-.active--fancy--box {
-  background-color: #000000;
-}
 
-.services--fancy--wrapper{
-
-}
 
 /* ****FORM**** */
 

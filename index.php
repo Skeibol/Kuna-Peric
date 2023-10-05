@@ -41,19 +41,19 @@ include "header.php";
     <div class="services--home">
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--plastic"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="blefaroplastika icon">
+            <img src="images/services/services-menu/blefaroplastika-front.svg" alt="blefaroplastika icon">
             <h4>Blefaroplastika</h4>
             <p>Za odmoran izgled očiju koje zrače pričom o mladosti i vitalnosti</p>
         </div>
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--oculoplastic"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="okuloplastika icon">
+            <img src="images/services/services-menu/blefaroplastika-front.svg" alt="okuloplastika icon">
             <h4>Okuloplastična kirurgija</h4>
             <p>Podarite očima novi sjaj i osjetite dodatno samopouzdanje</p>
         </div>
         <div class="services--home--box col-sm-12 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-space-around services--botox"
             data-aos="zoom-in-up" data-aos-duration="2000">
-            <img src="images/usluga.png" alt="botox icon">
+            <img src="images/services/services-menu/botox-front.svg" alt="botox icon">
             <h4>Botox</h4>
             <p>Osvježite prirodnu ljepotu i povratite mladenački sjaj</p>
         </div>
