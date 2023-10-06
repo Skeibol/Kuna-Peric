@@ -219,3 +219,17 @@ $('a.local').each(
     $(this).attr('href', new_href);
   }
 });
+
+/* BACK TO TOP */
+$(".back--to--top--container").on("click",()=>{
+  $(window).scrollTop(0);
+})
+$(window).scroll(function (event) {
+  var scroll = $(window).scrollTop();
+  if (scroll > 200) {
+    $(".back--to--top--container").css("opacity", "1");
+  } else {
+    $(".back--to--top--container").css("opacity", "0");
+    
+  }
+});

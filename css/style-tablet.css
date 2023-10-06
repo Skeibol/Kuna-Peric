@@ -416,4 +416,28 @@
     justify-items: center;
     margin: 3rem 0;
   }
+
+
+/* 
+  ******LOGICLANE COPY****** */
+
+
+ /* .back--to--top--container {
+
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 35px;
+    margin: 20px;
+    padding: 20px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s, transform 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 200000000;
+  } */
+.back--to--top--triangle {
+  rotate: 180deg;
+}
 }

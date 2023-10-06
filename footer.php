@@ -1,3 +1,9 @@
+<?php
+
+include "backtotop.php";
+
+?> 
+
 <div class="container--default footer--bg pb-0" id="contactus">
     <h2>Rezervirajte svoj termin</h2> <br>
 
@@ -34,7 +40,7 @@
                 alt="venus image" srcset=""></div>
     </div>
 </div>
-<!-- <div class="footer--decoration"></div> -->
+
 <div class="map--right">
     <iframe class="map--google"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.177456825333!2d15.993566577568366!3d45.807704310452266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d64df1b95d15%3A0x41d0833b08390120!2sMEDICINSKI%20CENTAR%20KUNA-PERI%C4%86%20D.O.O.!5e0!3m2!1sen!2shr!4v1695996851592!5m2!1sen!2shr"
