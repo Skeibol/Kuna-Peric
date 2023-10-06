@@ -8,7 +8,7 @@ include "backtotop.php";
     <h2>Rezervirajte svoj termin</h2> <br>
 
 
-    <p>Trendovi ljepote se mijenjaju, ali zdravlje nikada ne izlazi iz mode. U Medicinskom centru Kuna&Perić brinemo o
+    <p data-aos="fade-up" data-aos-duration="3000">Trendovi ljepote se mijenjaju, ali zdravlje nikada ne izlazi iz mode. U Medicinskom centru Kuna&Perić brinemo o
         Vašem zdravlju i samopouzdanju. Kontaktirajte nas kako bismo zajedno pronašli put prema Vašem osjećaju
         potpunosti i unutarnje harmonije.</p>
     <div class="contact--hero g-5">

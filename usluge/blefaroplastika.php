@@ -38,37 +38,44 @@ $title = "Blefaroplastika | Medicinski centar Kuna&Perić";
                 </div>
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box okuloplastika"><img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box okuloplastika">
+                    <img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika">
                     <p>Okuloplastika</p>
                 </div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box botox"><img src="images/services/services-menu/botox.svg" alt="Ikona botox">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box botox">
+                    <img src="images/services/services-menu/botox.svg" alt="Ikona botox">
                     <p>Botox</p>
                 </div>
             </a>
             <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box ginekologija">
+                    <img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija">
                     <p>Ginekologija</p>
                 </div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box fizikalna-medicina"><img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box fizikalna-medicina">
+                    <img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina">
                     <p>Fizijatrija</p>
                 </div>
             </a>
             <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg" alt="Ikona oftamologija">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box oftamologija">
+                    <img src="images/services/services-menu/oftamologija.svg" alt="Ikona oftamologija">
                     <p>Oftamologija</p>
                 </div>
             </a>
             <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box laboratorij"><img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box laboratorij">
+                    <img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij">
                     <p>Laboratorij</p>
                 </div>
             </a>
             <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
-                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box nuklearna-medicina"><img src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box nuklearna-medicina">
+                    <img src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina">
                     <p>Ultrazvuk</p>
                 </div>
             </a>
@@ -76,8 +83,9 @@ $title = "Blefaroplastika | Medicinski centar Kuna&Perić";
     </div>
     <div class="container--default">
         <h2>Što je blefaroplastika?</h2>
+        <br>
 
-        <p>
+        <p data-aos="fade-up" data-aos-duration="3000">
             Životni put ostavlja svoje tragove na našem licu, a jedno od područja gdje ti tragovi postaju posebno
             vidljivi
             su i
@@ -113,7 +121,7 @@ $title = "Blefaroplastika | Medicinski centar Kuna&Perić";
 
 
         <h3>Blefaroplastika gornjih vjeđa</h3>
-        <p>
+        <p data-aos="fade-up" data-aos-duration="3000">
             Blefaroplastika gornjih vjeđa je među najizvođenijim zahvatima estetske kirurgije i odnosi se na
             kirurški
             postupak
@@ -172,15 +180,15 @@ $title = "Blefaroplastika | Medicinski centar Kuna&Perić";
         </p>
 
 
-        <p class="d-flex icons--services"><img src="images/icons/trajanje.svg"></img><strong>Zahvat nije vremenski
+        <p class="d-flex icons--services" data-aos="fade-up" data-aos-duration="3000"><img src="images/icons/trajanje.svg"></img><strong>Zahvat nije vremenski
                 zahtjevan. </strong> <br></p>
-        <p class="d-flex icons--services"><img src="images/icons/anestezija.svg"></img> <strong>Izvodi se u lokalnoj
+        <p class="d-flex icons--services" data-aos="fade-up" data-aos-duration="3000"><img src="images/icons/anestezija.svg"></img> <strong>Izvodi se u lokalnoj
                 anesteziji.</strong> <br></p>
-        <p class="d-flex icons--services"><img src="images/icons/njega.svg"></img> <strong>Poslije zahvata se pacijent
+        <p class="d-flex icons--services" data-aos="fade-up" data-aos-duration="3000"><img src="images/icons/njega.svg"></img> <strong>Poslije zahvata se pacijent
                 otpušta na kućnu njegu, kontrola sljedeći dan i vađenje šavova za 7 dana. </strong></p>
 
         <br><br>
-        <p>Ne dozvolite da višak kože na Vašim kapcima definira Vaš izgled i samopouzdanje. Blefaroplastika vam
+        <p data-aos="fade-up" data-aos-duration="3000">Ne dozvolite da višak kože na Vašim kapcima definira Vaš izgled i samopouzdanje. Blefaroplastika vam
             može
             pomoći
             da povratite svježinu i mladenački izgled očiju. Kontaktirajte nas danas kako biste saznali više o ovom
@@ -188,7 +196,7 @@ $title = "Blefaroplastika | Medicinski centar Kuna&Perić";
             i kako bismo vas vodili kroz cijeli proces. Za okvirne cijene provjerite <a class="obratite--nam--se" href="cjenik.php">cjenik usluga</a>.
             Neka Vaše oči ponovno zablistaju! Blefaroplastika je ključ za povratak mladosti i samopouzdanja.<br><br><br>
         </p>
-        <p><strong>Naše osoblje zaduženo za uslugu blefaroplastike</strong><br><br>
+        <p data-aos="fade-up" data-aos-duration="3000"><strong>Naše osoblje zaduženo za uslugu blefaroplastike</strong><br><br>
             &#x2022; &nbsp;Dr. med. Josip Knežević
         </p>
 

@@ -10,7 +10,7 @@ include "header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex justify-content-center align-items-center">
                 <div class="hero--cta--text text-center ">
-                    <h1 class="hero--cta--slogan--services mb-1">Cjenik usluga
+                    <h1 class="hero--cta--slogan--services mb-1" data-aos="zoom-in" data-aos-duration="3000">Cjenik usluga
                     </h1>
                     <br>
                 </div>

@@ -560,7 +560,24 @@ body {
   background-color: var(--gray) !important;
   border-radius: 0px !important;
   padding: 2rem 1.25rem !important;
+  font-size: calc(var(--font-size-standard) + 1px ) !important;
 }
+
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+.accordion-button:focus {
+  z-index: 3;
+  box-shadow: 0 1px 1px -1px var(--color-primary);
+ 
+  color: var(--color-primary) !important;
+}
+.accordion-button:active {
+  box-shadow: 0 1px 1px -1px var(--color-primary);
+
+}
+
 
 .faq--question {
   display: flex;

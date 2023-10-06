@@ -245,17 +245,6 @@
   .motivation--text--desktop {
     max-width: 768px;
   }
-  /* .motivation--container--desktop {
-  } */
-
-  /* .line--background--motivation {
-    background-image: url("../images/Web/bg-line-decor-fill.svg");
-    background-size: cover;
-
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0;
-  } */
 
   .officeimage--container--desktop {
     display: grid;
@@ -320,10 +309,6 @@
     width: 100px;
     transition: all 0.3s ease-in-out;
   }
-
-  /* 
-  .officeimage--background--desktop {
-  } */
 
   /* ****FAQ**** */
 
@@ -414,7 +399,7 @@
     grid-column-gap: 10px;
     grid-row-gap: 60px;
     justify-items: center;
-    margin: 3rem 0;
+    margin: 7rem 0;
   }
 
 

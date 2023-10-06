@@ -92,6 +92,19 @@ $(".owl-carousel").owlCarousel({
 
 });
 
+/* BACK TO TOP */
+$(".back--to--top--container").on("click",()=>{
+  $(window).scrollTop(0);
+})
+$(window).scroll(function (event) {
+  var scroll = $(window).scrollTop();
+  if (scroll > 200) {
+    $(".back--to--top--container").css("opacity", "1");
+  } else {
+    $(".back--to--top--container").css("opacity", "0");
+    
+  }
+});
 
 
 //https://stackoverflow.com/questions/23006516/jquery-animated-number-counter-from-zero-to-value
@@ -220,16 +233,3 @@ $('a.local').each(
   }
 });
 
-/* BACK TO TOP */
-$(".back--to--top--container").on("click",()=>{
-  $(window).scrollTop(0);
-})
-$(window).scroll(function (event) {
-  var scroll = $(window).scrollTop();
-  if (scroll > 200) {
-    $(".back--to--top--container").css("opacity", "1");
-  } else {
-    $(".back--to--top--container").css("opacity", "0");
-    
-  }
-});

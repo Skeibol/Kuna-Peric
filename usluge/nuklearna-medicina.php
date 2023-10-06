@@ -11,7 +11,7 @@ include "../header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-2">Nuklearna medicina
+                    <h1 class="hero--cta--slogan--services  mb-2" data-aos="fade-right" data-aos-duration="2000">Nuklearna medicina
                     </h1>
                     <p class=" slogan--subtext">Pobrinite se o visceralnom zdravlju</p>
                     <br>
@@ -36,35 +36,51 @@ include "../header.php";
     <div class="container-default">
         <div class="services--fancy--nav">
             <a href="usluge/blefaroplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box blefaroplastika">
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box active--fancy--box blefaroplastika">
                     <img src="images/services/services-menu/blefaroplastika.svg" alt="Ikona blefaroplastika">
+                    <p>Blefaroplastika</p>
                 </div>
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  okuloplastika"><img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box okuloplastika"><img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika">
+                    <p>Okuloplastika</p>
+                </div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  botox"><img src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box botox"><img src="images/services/services-menu/botox.svg" alt="Ikona botox">
+                    <p>Botox</p>
+                </div>
             </a>
             <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija">
+                    <p>Ginekologija</p>
+                </div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box fizikalna-medicina"><img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box fizikalna-medicina"><img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina">
+                    <p>Fizijatrija</p>
+                </div>
             </a>
             <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg" alt="Ikona oftamologija"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg" alt="Ikona oftamologija">
+                    <p>Oftamologija</p>
+                </div>
             </a>
             <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box laboratorij"><img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box laboratorij"><img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij">
+                    <p>Laboratorij</p>
+                </div>
             </a>
             <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box nuklearna-medicina"><img src="images/services/services-menu/nuklearna-medicina-white.svg" alt="Ikona nuklearna-medicina"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center gap-3 services--fancy--box nuklearna-medicina"><img src="images/services/services-menu/nuklearna-medicina-white.svg" alt="Ikona nuklearna-medicina">
+                    <p>Ultrazvuk</p>
+                </div>
             </a>
         </div>
     </div>
     <h2>Što podrazumijeva nuklearna medicina?</h2>
-    <p>
+    <br>
+    <p data-aos="fade-up" data-aos-duration="3000">
         Pretrage nuklearne medicine sastoje se od različitih pretraga
         koje su specifične za određeni organ ili
         grupu određenih bolesti. Ova grana medicine ima važnu ulogu za ranu dijagnozu mnogih bolesti.
@@ -77,7 +93,7 @@ include "../header.php";
         <strong>Usluge nuklearne medicine koje medicinski centar Kuna&Perić nudi su:</strong>
         <br>
     </p>
-    <div class="container">
+    <div class="container" data-aos="fade-up" data-aos-duration="3000">
         <div class="row">
             <div class="col-md-6">
                 <p class="services--list mb-0">
@@ -99,7 +115,7 @@ include "../header.php";
             </div>
         </div>
     </div>
-    <p><strong>Naše osoblje zaduženo za uslugu nuklearne medicine i ultrazvučnih pretraga</strong><br><br>
+    <p data-aos="fade-up" data-aos-duration="3000"><strong>Naše osoblje zaduženo za uslugu nuklearne medicine i ultrazvučnih pretraga</strong><br><br>
         &#x2022; &nbsp;Doc.dr.sc. Sanja Kusačić Kuna prim.dr.med, specijalist nuklearne medicine - Član Hrvatskog
         društva za nuklearnu medicinu,
         Hrvatskog društva za ultrazvuk, Europskog društva za nuklearnu medicinu te Europskog društva
@@ -117,7 +133,7 @@ include "../header.php";
         Članica je Hrvatskog i Europskog društva za ultrazvuk u medicini i biologiji a također i Hrvatskog
         društva za nuklearnu medicinu i upravnog odbora Hrvatskog društva za štitnjaču Hrvatskog
         liječničkog zbora.<br></p>
-    <p>Ako želite saznati više o našim uslugama nuklearne medicine te osigurati najbolju skrb za svoje zdravlje
+    <p data-aos="fade-up" data-aos-duration="3000">Ako želite saznati više o našim uslugama nuklearne medicine te osigurati najbolju skrb za svoje zdravlje
         i budućnost, <a class="local obratite--nam--se" href="#contact-us">slobodno nas kontaktirajte</a>. Naš tim je tu
         da odgovori na sva Vaša pitanja i dogovori termine
         pregleda prilagođene Vašim potrebama. Za okvirne cijene provjerite <a class="obratite--nam--se" href="cjenik.php">cjenik usluga</a>. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
