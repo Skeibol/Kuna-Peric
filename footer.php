@@ -30,8 +30,8 @@
             <button class="button--white">Pošalji</button>
         </form>
 
-        <div class="col-md-3 col-lg-4 order-lg-1 venus--contact"><img class="venus--image" src="images/venus.png" alt="venus image"
-                srcset=""></div>
+        <div class="col-md-3 col-lg-4 order-lg-1 venus--contact"><img class="venus--image" src="images/venus.png"
+                alt="venus image" srcset=""></div>
     </div>
 </div>
 <!-- <div class="footer--decoration"></div> -->
@@ -83,9 +83,8 @@
         </div>
     </div>
     <div class="footer--social--media">
-        <img src="images/hamburger.png" alt="hamburger icon">
-        <img src="images/hamburger.png" alt="hamburger icon">
-        <img src="images/hamburger.png" alt="hamburger icon">
+        <img class="social--media--icon" src="images/social-media/facebook.svg" alt="facebook icon">
+        <img class="social--media--icon" src="images/social-media/x.svg" alt="x(twitter) icon">
     </div>
     <div class="footer--copyright">
         <p>Copyright Medicinski centar Kuna&Perić</p>
@@ -125,9 +124,8 @@
                 <a href="tel:+385 01 4551 333">+385 01 4551 333</a>
 
                 <div class="footer--social--media">
-                    <img src="images/hamburger.png" alt="hamburger icon">
-                    <img src="images/hamburger.png" alt="hamburger icon">
-                    <img src="images/hamburger.png" alt="hamburger icon">
+                    <img class="social--media--icon" src="images/social-media/facebook.svg" alt="facebook icon">
+                    <img class="social--media--icon" src="images/social-media/x.svg" alt="x(twitter) icon">
                 </div>
 
             </div>

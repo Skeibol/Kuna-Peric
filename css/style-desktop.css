@@ -47,6 +47,9 @@
     align-items: center;
     justify-content: space-between;
   }
+  .navbar--top--desktop a:hover{
+    color: rgb(179, 179, 179)
+  }
 
   .navbar--bottom--desktop {
     height: 90px;
@@ -217,6 +220,15 @@
   }
   .footer--info--desktop img {
     max-width: 250px;
+  }
+
+  .footer--info--desktop a:hover{
+    color: rgb(148, 148, 148)
+  }
+
+  .social--media--icon:hover{
+    cursor:pointer;
+   transform: scale(1.1);
   }
 
   .services--fancy--nav {
