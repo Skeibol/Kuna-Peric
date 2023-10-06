@@ -8,40 +8,35 @@
 
 
     <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "Organization",
-            "name": "Fort-ing j.d.o.o.",
-            "description": "FORT-ING je mlada tvrtka specijalizirana za stručni nadzor, vođenje projekata i projektiranje u građevinarstvu koju čini tim inženjera građevine, arhitekture, strojarstva, elektrotehnike i geodezije. Pružamo potpunu uslugu vođenja, nadzora i projektiranja za vašu investiciju, bilo da se radi o velikim ili manjim projektima.",
-            "image": "https://www.forting.hr/images/logo-fort-ing-new.png",
-            "logo": "https://www.forting.hr/images/logo-fort-ing-new.png",
-            "url": "https://www.forting.hr/",
-            "telephone": "+385-98-407-636",
-            "sameAs": [
-                "https://www.companywall.hr/tvrtka/fort-ing-jdoo/MMS41KpR"
-            ],
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": " Vukovarska 50",
-                "addressLocality": "Dramalj",
-                "postalCode": "51265",
-                "addressCountry": "Croatia"
-            },
-            "contactPoint": [{
-                "@type": "ContactPoint",
-                "telephone": "+385-98-407-636",
-                "contactType": "customer support",
-                "areaServed": ["HR", "150"],
-                "availableLanguage": ["English", "Croatian"]
-            }, {
-                "@type": "ContactPoint",
-                "telephone": "+385-98-407-636",
-                "contactType": "customer support",
-                "areaServed": ["HR", "150"],
-                "availableLanguage": ["English", "Croatian"]
-            }]
-        }
-    </script>
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Medicinski centar Kuna & Perić",
+        "description": "Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i iskustvom stoje na raspolaganju za područja: Ginekologije i porodništva, Fizikalne medicine, Oftamologije kao i okuloplastične kirurgije, Ultrazvučnih pretraga, Medicinsko-biokemijske analize, Nuklearne medicine. Iza nas je dugogodišnji rad i velik broj zadovoljnih pacijenata. Živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Medicinski centar kojem je vaše zdravlje na prvom mjestu.",
+        "image": "https://www.kunaperic.hr/images/k&p-logo.png",
+        "logo": "https://www.kunaperic.hr/images/k&p-logo.png",
+        "url": "https://www.kunaperic.hr/",
+        "telephone": "+385-01-4555-400",
+        "sameAs": [
+            "https://www.facebook.com/MedicinskiCentarKunaPeric",
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ul. Crvenog križa 35",
+            "addressLocality": "Zagreb",
+            "postalCode": "10000",
+            "addressCountry": "Croatia"
+        },
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+385-01-4555-400",
+            "contactType": "customer support",
+            "areaServed": ["HR", "150"],
+            "availableLanguage": ["Croatian"]
+        }]
+    }
+</script>
+
 
     <link rel="icon" id="faviconTag" type="image/svg" href="images/favicon.svg">
     <meta charset="utf-8">
@@ -53,56 +48,50 @@
     <!-- meta data -->
 
     <meta name="description"
-        content="FORT-ING je mlada tvrtka specijalizirana za stručni nadzor, vođenje projekata i projektiranje u građevinarstvu koju čini tim inženjera građevine, arhitekture, strojarstva, elektrotehnike i geodezije. Pružamo potpunu uslugu vođenja, nadzora i projektiranja za vašu investiciju, bilo da se radi o velikim ili manjim projektima." />
+        content="Medicinski centar Kuna & Perić predstavlja tim vrhunskih liječnika koji Vam svojim bogatim znanjem i iskustvom stoje na raspolaganju za područja: Ginekologije i porodništva, Fizikalne medicine, Oftamologije kao i okuloplastične kirurgije, Ultrazvučnih pretraga, Medicinsko-biokemijske analize, Nuklearne medicine. Iza nas je dugogodišnji rad i velik broj zadovoljnih pacijenata. Živimo svoje pozive svakodnevno pomažući onima koji nas trebaju. Medicinski centar kojem je vaše zdravlje na prvom mjestu." />
     <meta name="keywords"
-        content="Fort-ing, građevinska firma, stručni nadzor građenja, vođenje projekata, projektiranje, građevinarstvo, inženjer gradilišta, izrada energetskog certifikata" />
+        content="Medicinski centar Kuna & Perić, Ginekologija i porodništvo, Fizikalna medicina, Oftamologija, Okuloplastična kirurgija, Ultrazvučne pretrage, Medicinsko-biokemijske analize, Nuklearna medicina, Zagreb, Zdravstvo, Liječnici, Zdravstvene usluge" />
+    <meta name="author" content="Medicinski centar Kuna & Perić" />
+    <meta name="copyright" content="Medicinski centar Kuna & Perić" />
 
-    <meta name="author" content="Fort-ing" />
-    <meta name="copyright" content="Fort-ing" />
-
-    <!-- facebook meta data -->
+    <!-- Facebook meta data -->
     <meta property="og:locale" content="hr_HR" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Fort-ing | Pouzdan partner u izgradnji i građevinskom nadzoru" />
+    <meta property="og:title" content="Medicinski centar Kuna & Perić" />
     <meta property="og:description"
-        content="FORT-ING je mlada tvrtka specijalizirana za stručni nadzor, vođenje projekata i projektiranje u građevinarstvu koju čini tim inženjera građevine, arhitekture, strojarstva, elektrotehnike i geodezije. Pružamo potpunu uslugu vođenja, nadzora i projektiranja za vašu investiciju, bilo da se radi o velikim ili manjim projektima." />
-    <meta property="og:site_name" content="Fort-ing" />
-    <!-- Website url-->
-    <meta property="og:url" content="https://www.forting.hr/" />
+        content="Tim vrhunskih liječnika na raspolaganju za Ginekologiju i porodništvo, Fizikalnu medicinu, Oftamologiju, Okuloplastičnu kirurgiju, Ultrazvučne pretrage, Medicinsko-biokemijske analize, Nuklearnu medicinu. Vaše zdravlje na prvom mjestu." />
+    <meta property="og:site_name" content="Medicinski centar Kuna & Perić" />
+    <meta property="og:url" content="https://www.kunaperic.hr/" />
 
-
-    <!-- twitter meta data -->
+    <!-- Twitter meta data -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:domain" content="Fort-ing_construction" />
-    <!-- URL vaše web stranice -->
-    <meta name="twitter:url" content="https://www.forting.hr/" />
-    <meta name="twitter:title" content="Fort-ing | Pouzdan partner u izgradnji i građevinskom nadzoru" />
+    <meta name="twitter:domain" content="kunaperic_hr" />
+    <meta name="twitter:url" content="https://www.kunaperic.hr/" />
+    <meta name="twitter:title" content="Medicinski centar Kuna & Perić" />
     <meta name="twitter:description"
-        content="FORT-ING je mlada tvrtka specijalizirana za stručni nadzor, vođenje projekata i projektiranje u građevinarstvu koju čini tim inženjera građevine, arhitekture, strojarstva, elektrotehnike i geodezije. Pružamo potpunu uslugu vođenja, nadzora i projektiranja za vašu investiciju, bilo da se radi o velikim ili manjim projektima." />
+        content="Tim vrhunskih liječnika na raspolaganju za Ginekologiju i porodništvo, Fizikalnu medicinu, Oftamologiju, Okuloplastičnu kirurgiju, Ultrazvučne pretrage, Medicinsko-biokemijske analize, Nuklearnu medicinu. Vaše zdravlje na prvom mjestu." />
 
+    <!-- Geolokacijski tagovi -->
+    <meta name="geo.placename" content="Zagreb, Hrvatska" />
+    <meta name="geo.region" content="HR-21" />
+    <meta name="geo.position" content="45.813177;15.976075" />
+    <meta name="ICBM" content="45.813177, 15.976075" />
 
-
-    <!-- GeoLocation Meta Tags / Geotagging.-->
-    <meta name="geo.placename" content="Fort-ing, Vukovarska 50, 51265, Dramalj, Croatia" />
-    <meta name="geo.region" content="HR-Primorsko-goranska županija" />
-    <meta name="geo.position" content="45.2;14.7" />
-    <meta name="ICBM" content="45.2, 14.7" />
-
-
-
-    <!-- Dublin Core Metadata Element Set.  -->
-    <meta property="dcterms:title" content="Fort-ing | Pouzdan partner u izgradnji i građevinskom nadzoru" />
-    <meta property="dcterms:description"
-        content="FORT-ING je mlada tvrtka specijalizirana za stručni nadzor, vođenje projekata i projektiranje u građevinarstvu koju čini tim inženjera građevine, arhitekture, strojarstva, elektrotehnike i geodezije. Pružamo potpunu uslugu vođenja, nadzora i projektiranja za vašu investiciju, bilo da se radi o velikim ili manjim projektima." />
-    <meta property="dc:subject" content="Građenje i stručni nadzor" />
-    <meta property="dc:creator" content="Fort-ing" />
-    <meta property="dc:publisher" content="Fort-ing" />
-    <meta property="dc:format" content="text/html" />
-    <meta property="dc:identifier" content="https://www.forting.hr/" />
-    <meta property="dc:type" content="text/html" />
+    <!-- Dublin Core Metadata Element Set -->
+    <meta name="DC.title" content="Medicinski centar Kuna & Perić" />
+    <meta name="DC.description"
+        content="Tim vrhunskih liječnika na raspolaganju za Ginekologiju i porodništvo, Fizikalnu medicinu, Oftamologiju, Okuloplastičnu kirurgiju, Ultrazvučne pretrage, Medicinsko-biokemijske analize, Nuklearnu medicinu. Vaše zdravlje na prvom mjestu." />
+    <meta name="DC.subject"
+        content="Zdravstvo, Liječnici, Ginekologija, Porodništvo, Fizikalna medicina, Oftamologija, Ultrazvučne pretrage, Medicinsko-biokemijske analize, Nuklearna medicina, Zagreb" />
+    <meta name="DC.creator" content="Medicinski centar Kuna & Perić" />
+    <meta name="DC.publisher" content="Medicinski centar Kuna & Perić" />
+    <meta name="DC.format" content="text/html" />
+    <meta name="DC.identifier" content="https://www.kunaperic.hr/" />
+    <meta name="DC.type" content="text/html" />
 
     <meta name="robots" content="index, follow" />
- 
+
+
 
 
 
@@ -146,8 +135,8 @@
                 <a class="sidebar--menu--mobile" href="index.php#aboutus">O nama</a>
                 <!-- <a class="sidebar--menu--mobile">Novosti</a> -->
                 <div class="sidebar--menu--mobile expander">
-                    <p class="sidebar--usluge">Usluge</p><img class="navbar--logo--mobile navbar--toggler--second" src="images/chevron-down.svg"
-                        alt="plus icon">
+                    <p class="sidebar--usluge">Usluge</p><img class="navbar--logo--mobile navbar--toggler--second"
+                        src="images/chevron-down.svg" alt="plus icon">
                     <div class="navbar--expand--mobile--second">
                         <a class="dropdown--menu--mobile" href="usluge/ginekologija.php">Ginekologija i porodništvo</a>
                         <a class="dropdown--menu--mobile" href="usluge/fizikalna-medicina.php">Fizikalna medicina</a>
