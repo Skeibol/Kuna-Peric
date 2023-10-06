@@ -2,9 +2,9 @@
 
 include "backtotop.php";
 
-?> 
+?>
 
-<div class="container--default footer--bg pb-0" id="contactus">
+<div class="container--default footer--bg pb-0 pt-0" id="contact-us">
     <h2>Rezervirajte svoj termin</h2> <br>
 
 
@@ -14,7 +14,7 @@ include "backtotop.php";
     <div class="contact--hero g-5">
 
         <form class="contact--background col-md-8 col-lg-6 order-lg-2 pb-5" action="send">
-            <h2 class="text-white d-none d-lg-block">Pošaljite nam upit</h2><br>
+            <h2 class="text-white d-none d-md-block">Pošaljite nam upit</h2><br>
             <input class='form--box' type="text" placeholder="Ime i prezime"></input>
             <div class="d-flex gap-3">
                 <input class='form--box' type="email" placeholder="Email"></input>
@@ -73,11 +73,11 @@ include "backtotop.php";
         <div class="footer--grid--box">
             <p class="footer--text--bold">Usluge</p>
             <br>
-            <a href="usluge/ginekologija.php">Ginekologija i porodništvo</a><br>
+            <a href="usluge/ginekologija-i-porodnistvo.php">Ginekologija i porodništvo</a><br>
             <a href="usluge/fizikalna-medicina.php">Fizikalna medicina</a><br>
             <a href="usluge/oftamologija.php">Oftamologija</a><br>
             <a href="usluge/.php">Ultrazvučne pretrage</a><br>
-            <a href="usluge/laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
+            <a href="usluge/medicinsko-biokemijski-laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
             <a href="usluge/nuklearna-medicina.php">Nuklearna medicina</a><br><br>
         </div>
         <div class="footer--grid--box">
@@ -89,8 +89,10 @@ include "backtotop.php";
         </div>
     </div>
     <div class="footer--social--media">
-        <img class="social--media--icon" src="images/social-media/facebook.svg" alt="facebook icon">
-        <img class="social--media--icon" src="images/social-media/x.svg" alt="x(twitter) icon">
+        <a href="https://www.facebook.com/MedicinskiCentarKunaPeric/" target="_blank"><img class="social--media--icon"
+                src="images/social-media/facebook.svg" alt="facebook icon"></a>
+        <a href="https://twitter.com/mckunaperic" target="_blank"><img class="social--media--icon"
+                src="images/social-media/x.svg" alt="x(twitter) icon"></a>
     </div>
     <div class="footer--copyright">
         <p>Copyright Medicinski centar Kuna&Perić</p>
@@ -114,11 +116,11 @@ include "backtotop.php";
             </div>
             <div class="footer--text--desktop">
                 <p><strong>Usluge</strong></p>
-                <a href="usluge/ginekologija.php">Ginekologija i porodništvo</a><br>
+                <a href="usluge/ginekologija-i-porodnistvo.php">Ginekologija i porodništvo</a><br>
                 <a href="usluge/fizikalna-medicina.php">Fizikalna medicina</a><br>
                 <a href="usluge/oftamologija.php">Oftamologija</a><br>
                 <a href="usluge/.php">Ultrazvučne pretrage</a><br>
-                <a href="usluge/laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
+                <a href="usluge/medicinsko-biokemijski-laboratorij.php">Medicinsko-biokemijski laboratorij</a><br>
                 <a href="usluge/nuklearna-medicina.php">Nuklearna medicina</a><br><br>
             </div>
             <div class="footer--text--desktop">
@@ -130,8 +132,10 @@ include "backtotop.php";
                 <a href="tel:+385 01 4551 333">+385 01 4551 333</a>
 
                 <div class="footer--social--media">
-                    <img class="social--media--icon" src="images/social-media/facebook.svg" alt="facebook icon">
-                    <img class="social--media--icon" src="images/social-media/x.svg" alt="x(twitter) icon">
+                    <a href="https://www.facebook.com/MedicinskiCentarKunaPeric/" target="_blank"><img
+                            class="social--media--icon" src="images/social-media/facebook.svg" alt="facebook icon"></a>
+                    <a href="https://twitter.com/mckunaperic" target="_blank"><img class="social--media--icon"
+                            src="images/social-media/x.svg" alt="x(twitter) icon"></a>
                 </div>
 
             </div>
@@ -149,7 +153,7 @@ include "backtotop.php";
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-    </script>
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script src="libs/owlcarousel/dist/owl.carousel.min.js"></script>

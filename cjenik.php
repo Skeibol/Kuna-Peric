@@ -1,20 +1,18 @@
 <?php
+$title = "Cjenik usluga | Medicinski centar Kuna&Perić";
 include "header.php";
+
 
 ?>
 
 <div class="hero--container--services">
-    <div class="hero--image--bg--services botox">
+    <div class="hero--image--bg--services cjenik">
         <div class="img--hero--decor--services">
-            <div class="hero--cta--services d-flex">
-                <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-1">Cjenik
+            <div class="hero--cta--services d-flex justify-content-center align-items-center">
+                <div class="hero--cta--text text-center ">
+                    <h1 class="hero--cta--slogan--services mb-1">Cjenik usluga
                     </h1>
-                    <p class=" slogan--subtext">Vidite naše lijepe cjene.</p>
                     <br>
-                    <div class="hero--button--container d-flex justify-content-sm-start">
-                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -23,8 +21,7 @@ include "header.php";
 </div>
 
 <div class="container--default">
-    <h2>Cjene</h2>
-    <div class="row">
+    <div class="row cjenik--row">
         <div class="col-md-6">
             <table class="table cjenik--table">
                 <thead class="text-center cjenik--table--header">

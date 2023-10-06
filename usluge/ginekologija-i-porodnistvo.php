@@ -1,6 +1,8 @@
 <base href="../" />
 <?php
+$title = "Ginekologija i porodništvo | Medicinski centar Kuna&Perić";
 include "../header.php";
+
 ?>
 
 
@@ -9,19 +11,17 @@ include "../header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-1">Ginekologija i porodništvo
+                    <h1 class="hero--cta--slogan--services  mb-2">Ginekologija i porodništvo
                     </h1>
-                    <p class=" slogan--subtext">Pobrinite se za reproduktivno zdravlje.</p>
+                    <p class=" slogan--subtext">Pobrinite se za reproduktivno zdravlje</p>
                     <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
+                        <a class="local" href="#contact-us"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
-
 </div>
 
 
@@ -42,15 +42,15 @@ include "../header.php";
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box  okuloplastika"><img
-                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona blefaroplastika"></div>
+                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika"></div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  botox"><img
-                        src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
+                <div class="services--fancy--box  botox"><img src="images/services/services-menu/botox.svg"
+                        alt="Ikona botox"></div>
             </a>
-            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija-white.svg"
-                        alt="Ikona ginekologija"></div>
+            <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box ginekologija"><img
+                        src="images/services/services-menu/ginekologija-white.svg" alt="Ikona ginekologija"></div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box fizikalna-medicina"><img
@@ -60,7 +60,7 @@ include "../header.php";
                 <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg"
                         alt="Ikona oftamologija"></div>
             </a>
-            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
+            <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box laboratorij"><img
                         src="images/services/services-menu/medicinsko-biokemijski.svg"
                         alt="Ikona medicinsko-biokemijski laboratorij"></div>
@@ -71,8 +71,9 @@ include "../header.php";
             </a>
         </div>
     </div>
+    <h2>Što je ginekologija i porodništvo?</h2>
     <p>
-        <strong>Što je ginekologija i porodništvo?</strong><br><br>U medicinskom centru brinemo o zaštiti zdravlja žena
+        U medicinskom centru brinemo o zaštiti zdravlja žena
         od reproduktivnog doba
         do menopauze. Uz iznimne ginekologe
         s bogatim znanjem i iskustvom, osiguravamo ugodne preglede uz najsuvremeniju opremu. Redovitim ginekološkim
@@ -85,7 +86,7 @@ include "../header.php";
         Vašeg reproduktivnog putovanja.
         <br><br>
         <strong>Usluge ginekologije i porodništva koje medicinski centar Kuna&Perić nudi su:</strong>
-        <br><br>
+        <br>
     </p>
     <div class="container">
         <div class="row">
@@ -137,13 +138,14 @@ include "../header.php";
             </div>
         </div>
     </div>
-    <p><strong>Naše osoblje zaduženo za uslugu fizikalne medicine</strong><br><br>
+    <p><strong>Naše osoblje zaduženo za uslugu ginekologije i porodništva</strong><br><br>
         &#x2022; &nbsp;doc. dr. sc. Krunoslav Kuna, dr. med.<br><br>
     </p>
     <p>Ako želite saznati više o našim uslugama ginekologije i porodništva te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        i budućnost, <a class="local obratite--nam--se" href="#contact-us">slobodno nas kontaktirajte</a>. Naš tim je tu
         da odgovori na sva Vaša pitanja i dogovori termine
-        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        pregleda prilagođene Vašim potrebama. Za okvirne cijene provjerite <a class="obratite--nam--se"
+            href="cjenik.php">cjenik usluga</a>. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

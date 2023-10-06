@@ -1,6 +1,8 @@
 <base href="../" />
 <?php
+$title = "Medicinsko-biokemijski laboratorij | Medicinski centar Kuna&Perić";
 include "../header.php";
+
 ?>
 
 
@@ -9,18 +11,16 @@ include "../header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-1">Medicinsko - biokemijski laboratorij
+                    <h1 class="hero--cta--slogan--services  mb-2">Medicinsko - biokemijski laboratorij
                     </h1>
-                    <p class=" slogan--subtext">Provjerite svoje zdravlje.</p><br>
+                    <p class=" slogan--subtext">Provjerite zdravlje pomoću bioloških uzoraka</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
+                        <a class="local" href="#contact-us"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
-
 </div>
 
 
@@ -41,13 +41,13 @@ include "../header.php";
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box  okuloplastika"><img
-                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona blefaroplastika"></div>
+                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika"></div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  botox"><img
-                        src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
+                <div class="services--fancy--box  botox"><img src="images/services/services-menu/botox.svg"
+                        alt="Ikona botox"></div>
             </a>
-            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
+            <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg"
                         alt="Ikona ginekologija"></div>
             </a>
@@ -59,7 +59,7 @@ include "../header.php";
                 <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg"
                         alt="Ikona oftamologija"></div>
             </a>
-            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
+            <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
                 <div class="services--fancy--box laboratorij"><img
                         src="images/services/services-menu/medicinsko-biokemijski-white.svg"
                         alt="Ikona medicinsko-biokemijski laboratorij"></div>
@@ -70,8 +70,9 @@ include "../header.php";
             </a>
         </div>
     </div>
+    <h2>Što podrazumijeva usluga medicinsko-biokemijskog laboratorija?</h2>
     <p>
-        <strong>Što je usluga Medicinsko-biokemijskog laboratorija?</strong><br><br>Medicinsko-biokemijski laboratorij
+        Medicinsko-biokemijski laboratorij
         je specijalizirani dio zdravstvene ustanove koji pruža dijagnostičke usluge temeljene na
         analizi bioloških uzoraka, kao što su krv, urin, tkiva i druge tjelesne tekućine.
         Posvećeni smo pružanju vrhunske zdravstvene skrbi kroz brzu i točnu dijagnostiku. S našim stručnim timom i
@@ -94,7 +95,7 @@ include "../header.php";
         </div>
     </div> -->
     <p>Ako želite saznati više o našim uslugama laboratorija te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        i budućnost, <a class="local obratite--nam--se" href="#contact-us">slobodno nas kontaktirajte</a>. Naš tim je tu
         da odgovori na sva Vaša pitanja i dogovori termine
         pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>

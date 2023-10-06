@@ -1,6 +1,8 @@
 <base href="../" />
 <?php
+$title = "Oftamologija | Medicinski centar Kuna&Perić";
 include "../header.php";
+
 ?>
 
 
@@ -9,18 +11,16 @@ include "../header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-1">Oftamologija
+                    <h1 class="hero--cta--slogan--services  mb-2">Oftamologija
                     </h1>
-                    <p class=" slogan--subtext">Vizija za jasnu budućnost.</p><br>
+                    <p class=" slogan--subtext">Poboljšajte viziju za jasnu budućnost</p><br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
+                        <a class="local" href="#contact-us"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
-
 </div>
 
 
@@ -40,38 +40,31 @@ include "../header.php";
                 </div>
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  okuloplastika"><img
-                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona blefaroplastika"></div>
+                <div class="services--fancy--box  okuloplastika"><img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika"></div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  botox"><img
-                        src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
+                <div class="services--fancy--box  botox"><img src="images/services/services-menu/botox.svg" alt="Ikona botox"></div>
             </a>
-            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg"
-                        alt="Ikona ginekologija"></div>
+            <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija"></div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box fizikalna-medicina"><img
-                        src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
+                <div class="services--fancy--box fizikalna-medicina"><img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
             </a>
             <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija-white.svg"
-                        alt="Ikona oftamologija"></div>
+                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija-white.svg" alt="Ikona oftamologija"></div>
             </a>
-            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box laboratorij"><img
-                        src="images/services/services-menu/medicinsko-biokemijski.svg"
-                        alt="Ikona medicinsko-biokemijski laboratorij"></div>
+            <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box laboratorij"><img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij"></div>
             </a>
             <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box nuklearna-medicina"><img
-                        src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina"></div>
+                <div class="services--fancy--box nuklearna-medicina"><img src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina"></div>
             </a>
         </div>
     </div>
+    <h2>Što je oftamologija?</h2>
     <p>
-        <strong>Što je oftamologija?</strong><br><br>Oči su ogledalo zdravlja. Naša misija je osigurati vrhunsku skrb za
+        Oči su ogledalo zdravlja. Naša misija je osigurati vrhunsku skrb za
         Vaše
         oči. Kroz najsuvremenije oftalmološke
         tehnike, nudimo sveobuhvatne preglede i personalizirane tretmane kako bismo očuvali vaš vid u svakoj životnoj
@@ -83,7 +76,7 @@ include "../header.php";
         očnih stanja.
         <br><br>
         <strong>Usluge oftamologije koje medicinski centar Kuna&Perić nudi su:</strong>
-        <br><br>
+        <br>
     </p>
     <div class="container">
         <div class="row">
@@ -105,9 +98,9 @@ include "../header.php";
         &#x2022; &nbsp;dr. sc. Sanja Perić, dr. med. - Specijalistica oftalmologije, subspecijalistica iz područja dječje oftalmologije i strabizma<br><br>
     </p>
     <p>Ako želite saznati više o našim uslugama oftamologije te osigurati najbolju skrb za svoje zdravlje
-        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        i budućnost, <a class="local obratite--nam--se" href="#contact-us">slobodno nas kontaktirajte</a>. Naš tim je tu
         da odgovori na sva Vaša pitanja i dogovori termine
-        pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
+        pregleda prilagođene Vašim potrebama. Za okvirne cijene provjerite <a class="obratite--nam--se" href="cjenik.php">cjenik usluga</a>. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
         podršku.</p>
 </div>
 <?php

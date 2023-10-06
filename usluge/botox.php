@@ -1,6 +1,7 @@
 <base href="../" />
 <?php
 include "../header.php";
+$title = "Botox | Medicinski centar Kuna&Perić";
 ?>
 
 
@@ -9,19 +10,17 @@ include "../header.php";
         <div class="img--hero--decor--services">
             <div class="hero--cta--services d-flex">
                 <div class="hero--cta--text d-flex flex-column justify-content-start justify-content-sm-start">
-                    <h1 class="hero--cta--slogan--services  mb-1">Botox
+                    <h1 class="hero--cta--slogan--services  mb-2">Botox
                     </h1>
-                    <p class=" slogan--subtext">Istaknite svoju prirodnu ljepotu.</p>
+                    <p class=" slogan--subtext">Istaknite svoju prirodnu ljepotu</p>
                     <br>
                     <div class="hero--button--container d-flex justify-content-sm-start">
-                        <a class="local" href="#contactus"><button class='button--bg'>Dogovori termin</button></a>
+                        <a class="local" href="#contact-us"><button class='button--bg'>Dogovori termin</button></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- <img class="hero--image--mobile" src="images/peric.png" alt=""> -->
-
 </div>
 
 
@@ -41,38 +40,31 @@ include "../header.php";
                 </div>
             </a>
             <a href="usluge/okuloplastika.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box  okuloplastika"><img
-                        src="images/services/services-menu/okuloplastika.svg" alt="Ikona blefaroplastika"></div>
+                <div class="services--fancy--box  okuloplastika"><img src="images/services/services-menu/okuloplastika.svg" alt="Ikona okuloplastika"></div>
             </a>
             <a href="usluge/botox.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box active--fancy--box  botox"><img
-                        src="images/services/services-menu/botox-white.svg" alt="Ikona botox"></div>
+                <div class="services--fancy--box active--fancy--box  botox"><img src="images/services/services-menu/botox-white.svg" alt="Ikona botox"></div>
             </a>
-            <a href="usluge/ginekologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg"
-                        alt="Ikona ginekologija"></div>
+            <a href="usluge/ginekologija-i-porodnistvo.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box ginekologija"><img src="images/services/services-menu/ginekologija.svg" alt="Ikona ginekologija"></div>
             </a>
             <a href="usluge/fizikalna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box fizikalna-medicina"><img
-                        src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
+                <div class="services--fancy--box fizikalna-medicina"><img src="images/services/services-menu/fizikalna-medicina.svg" alt="Ikona fizikalna-medicina"></div>
             </a>
             <a href="usluge/oftamologija.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg"
-                        alt="Ikona oftamologija"></div>
+                <div class="services--fancy--box oftamologija"><img src="images/services/services-menu/oftamologija.svg" alt="Ikona oftamologija"></div>
             </a>
-            <a href="usluge/laboratorij.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box laboratorij"><img
-                        src="images/services/services-menu/medicinsko-biokemijski.svg"
-                        alt="Ikona medicinsko-biokemijski laboratorij"></div>
+            <a href="usluge/medicinsko-biokemijski-laboratorij.php" class="services--fancy--wrapper">
+                <div class="services--fancy--box laboratorij"><img src="images/services/services-menu/medicinsko-biokemijski.svg" alt="Ikona medicinsko-biokemijski laboratorij"></div>
             </a>
             <a href="usluge/nuklearna-medicina.php" class="services--fancy--wrapper">
-                <div class="services--fancy--box nuklearna-medicina"><img
-                        src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina"></div>
+                <div class="services--fancy--box nuklearna-medicina"><img src="images/services/services-menu/nuklearna-medicina.svg" alt="Ikona nuklearna-medicina"></div>
             </a>
         </div>
     </div>
-    <p>
-        <strong>Što je botox?</strong><br><br>Botox tretmani su postali sinonim za sigurnost i učinkovitost u području
+
+    <h2>Što je botox?</h2>
+    <p>Botox tretmani su postali sinonim za sigurnost i učinkovitost u području
         anti-aginga. Naša klinika je ponosna na
         stručnost koja stoji iza svake aplikacije. Koristimo visokokvalitetne proizvode i tehnike kako bismo postigli
         prirodan i dugotrajan rezultat. S povjerenjem prepustite Vašu ljepotu u naše ruke. Aplikacijom botulinum toksina
@@ -86,20 +78,20 @@ include "../header.php";
         Botox može obogatiti Vašu prirodnu ljepotu i osvježiti Vašu pojavu.
         <br><br>
         Ovaj postupak se često odabire iz različitih razloga:<br><br>
-        1.Smanjenje bora i finih linija: Botox je učinkovit u smanjenju vidljivosti bora oko očiju (podočnjaci), između
+        &#x2022; &nbsp; Smanjenje bora i finih linija: Botox je učinkovit u smanjenju vidljivosti bora oko očiju (podočnjaci), između
         obrva (središnji dio čela) i oko usana.<br>
 
-        2.Prevencija nastanka novih bora: Mnogi ljudi biraju Botox kako bi spriječili nastanak novih bora. Redoviti
+        &#x2022; &nbsp; Prevencija nastanka novih bora: Mnogi ljudi biraju Botox kako bi spriječili nastanak novih bora. Redoviti
         tretmani mogu usporiti proces starenja kože.<br>
 
-        3.Poboljšanje samopouzdanja: Osobe često primjećuju povećanje samopouzdanja nakon tretmana Botoxom, jer se
+        &#x2022; &nbsp; Poboljšanje samopouzdanja: Osobe često primjećuju povećanje samopouzdanja nakon tretmana Botoxom, jer se
         osjećaju mlađe i svježije.<br>
 
 
         <br>
 
         <strong>Usluge botoxa koje medicinski centar Kuna&Perić nudi su:</strong>
-        <br><br>
+        <br>
 
     <div class="container">
         <div class="row">
@@ -112,18 +104,21 @@ include "../header.php";
             </div>
         </div>
     </div>
-    <strong>NAPOMENA : </strong> Ukoliko se odlučite za operativno liječenje, plaćen prvi pregled (konzultacija) će
-    se odbiti od
-    cijene operativnog zahvata. U cijenu operativnog zahvata ulazi toaleta i kontrola rane drugi dan, antibiotska
-    mast za
-    operativnu ranu, kontrola i vađenje šavova za 7 dana.<br>
     </p>
+
+    <p class="d-flex icons--services"><img src="images/icons/napomena.svg"></img><strong>Ukoliko se odlučite za operativno liječenje, plaćen prvi pregled (konzultacija) će
+            se odbiti od
+            cijene operativnog zahvata. </strong> <br></p>
+    <p class="d-flex icons--services"><img src="images/icons/njega.svg"></img> <strong>U cijenu operativnog zahvata ulazi toaleta i kontrola rane drugi dan, antibiotska
+            mast za
+            operativnu ranu, kontrola i vađenje šavova za 7 dana.</strong> </p><br><br>
+
     <p>Ako želite saznati više o našim uslugama botoxa te osigurati najbolju skrb za
         svoje zdravlje
-        i budućnost, <a class="local obratite--nam--se" href="#contactus">slobodno nas kontaktirajte</a>. Naš tim je tu
+        i budućnost, <a class="local obratite--nam--se" href="#contact-us">slobodno nas kontaktirajte</a>. Naš tim je tu
         da odgovori na sva Vaša pitanja i dogovori termine
         pregleda prilagođene Vašim potrebama. Vaše zdravlje je važno, a mi smo ovdje da vam pružimo vrhunsku skrb i
-        podršku.</p>
+        podršku. Za okvirne cijene provjerite <a class="obratite--nam--se" href="cjenik.php">cjenik usluga</a>.</p>
 </div>
 <?php
 include "../footer.php";

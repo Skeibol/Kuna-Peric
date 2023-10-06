@@ -12,7 +12,9 @@
   --font-primary: "Plus Jakarta Sans", sans-serif;
 
   --font-secondary: "Plus Jakarta Sans", sans-serif;
-  --font-size-standard: 14px /*12-16*/;
+  --font-size-standard: 14px
+    /*12-16*/
+  ;
   --font-size-title: 34px;
   --font-size-subtitle: 30px;
   --font-size-title-tertiary: 18px;
@@ -113,6 +115,7 @@ body {
 .navbar--wrapper .navbar--underline {
   position: relative;
 }
+
 .navbar--wrapper .navbar--underline:after {
   content: "";
   position: absolute;
@@ -125,6 +128,7 @@ body {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+
 .navbar--wrapper a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -214,6 +218,7 @@ body {
   transition: left 0.3s ease-in;
   padding-top: 10px;
 }
+
 .small--logo {
   width: 35px;
   margin: 10px;
@@ -244,6 +249,7 @@ body {
   margin-left: 15px;
   margin-right: 15px;
 }
+
 .sidebar--usluge {
   font-weight: var(--font-weight-subtitle-medium);
   margin: 0px;
@@ -263,6 +269,7 @@ body {
   align-items: center;
   transition: all 0.3s ease-in-out;
 }
+
 .dropdown--menu--mobile {
   font-weight: var(--font-weight-subtitle-medium);
   padding: 8px;
@@ -319,12 +326,9 @@ body {
   padding: 8px 35px;
   min-width: max-content;
 
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0) 50%,
-      var(--color-message) 50%
-    )
-    right;
+      var(--color-message) 50%) right;
   background-size: 201%;
   transition: 0.5s ease-out;
 }
@@ -334,12 +338,9 @@ body {
   border: none;
   font-weight: 200;
   border: solid 1px rgba(255, 255, 255, 0);
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       var(--color-message) 50%,
-      rgba(255, 255, 255, 0) 50%
-    )
-    right;
+      rgba(255, 255, 255, 0) 50%) right;
   background-size: 201%;
   transition: 0.5s ease-out;
 }
@@ -364,6 +365,7 @@ body {
   font-weight: 200;
   background-position: left;
 }
+
 .button--white {
   border: none;
   color: white;
@@ -436,6 +438,7 @@ body {
 .services--home--box:hover {
   cursor: pointer;
 }
+
 .services--home--box img {
   width: 80px;
 }
@@ -486,13 +489,12 @@ body {
   height: 17px;
   width: 17px;
 }
+
 /* ****STATISTICS**** */
 
 .stats--box--container {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.555),
-      rgba(255, 255, 255, 0.555)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.555),
+      rgba(255, 255, 255, 0.555)),
     url("../images/Web/Klinika-24.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -606,12 +608,15 @@ body {
 .owl-carousel .owl-item img {
   width: auto !important;
 }
+
 .owl-carousel {
   margin: 2rem 0;
 }
+
 .owl-stage-outer {
   overflow: visible !important;
 }
+
 .owl-carousel .owl-stage {
   display: flex;
 }
@@ -654,12 +659,15 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .comments--box p:not(:first-child) {
   padding: 2px 0 0 12px;
 }
+
 .comments--box p:first-child {
   padding-top: 10px;
 }
+
 /* USLUGE */
 
 .hero--container--services {
@@ -696,26 +704,38 @@ body {
 .hero--image--bg--services.blefaroplastika {
   background-image: url("../images/services/blefaroplastika.jpg");
 }
+
 .hero--image--bg--services.botox {
   background-image: url("../images/services/botox.jpg");
 }
+
 .hero--image--bg--services.fizikalna-medicina {
   background-image: url("../images/services/fizikalna-medicina.jpg");
 }
+
 .hero--image--bg--services.ginekologija {
   background-image: url("../images/services/ginekologija.jpg");
 }
+
 .hero--image--bg--services.laboratorij {
   background-image: url("../images/services/laboratorij.jpg");
 }
+
 .hero--image--bg--services.nuklearna-medicina {
   background-image: url("../images/services/nuklearna-medicina.jpg");
 }
+
 .hero--image--bg--services.oftamologija {
   background-image: url("../images/services/oftamologija.jpg");
 }
+
 .hero--image--bg--services.okuloplastika {
   background-image: url("../images/services/okuloplastika.jpg");
+}
+
+.hero--image--bg--services.cjenik {
+  background-image: url("../images/Web/Klinika-19.jpg");
+  background-position: center;
 }
 
 .hero--cta--slogan--services {
@@ -724,6 +744,7 @@ body {
   font-family: var(--font-primary) !important;
   color: var(--color-text);
 }
+
 .hero--cta--services {
   max-width: 1200px;
   height: 100%;
@@ -758,8 +779,22 @@ body {
   width: 100px;
 }
 
-.services--fancy--box:hover {
-  scale: 1.3;
+.services--fancy--box p {
+  font-size: calc(var(--font-size-standard) - 2px);
+}
+
+.services--fancy--box:hover img {
+  scale: 1.2;
+}
+
+.icons--services {
+  gap: 20px;
+  align-items: center;
+
+}
+
+.icons--services img {
+  width: 60px;
 }
 
 /* ****FORM**** */
@@ -904,8 +939,8 @@ body {
   color: var(--color-secondary);
 }
 
-.social--media--icon{
-  height:25px;
+.social--media--icon {
+  height: 25px;
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -967,39 +1002,46 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .loader {
   aspect-ratio: 1;
   position: absolute;
   border-radius: 50%;
-  border: 5px solid var(--color-message);
-  border-bottom: 5px solid transparent;
-  animation: load 4s ease-in-out infinite;
+  border: 3px solid var(--color-message);
+  border-bottom: 3px solid transparent;
+  animation: load 2.5s ease-in-out infinite;
 }
+
 .loader:nth-child(1) {
   animation-direction: forwards;
-  width: 250px;
+  width: 125px;
 }
+
 .loader:nth-child(2) {
-  animation-direction: reverse;
-  width: 200px;
-}
-.loader:nth-child(3) {
-  animation-direction: forwards;
-  width: 150px;
-}
-.loader:nth-child(4) {
   animation-direction: reverse;
   width: 100px;
 }
+
+.loader:nth-child(3) {
+  animation-direction: forwards;
+  width: 75px;
+}
+
+.loader:nth-child(4) {
+  animation-direction: reverse;
+  width: 50px;
+}
+
 .loader:nth-child(5) {
   animation-direction: forwards;
-  width: 50px;
+  width: 25px;
 }
 
 @keyframes load {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(720deg);
   }
@@ -1014,6 +1056,10 @@ body {
 
 /* CJENIK */
 
+.cjenik--row {
+  --bs-gutter-x: 4rem;
+}
+
 .cjenik--table--header {
   margin-bottom: 225px !important;
 }
@@ -1026,6 +1072,7 @@ body {
   margin-bottom: 50px !important;
   margin-top: 50px !important;
 }
+
 .cjenik--table p {
   margin-bottom: 0 !important;
 }
@@ -1053,3 +1100,6 @@ body {
   width: 100%;
 }
 
+.back--to--top--container {
+  display: none;
+}
