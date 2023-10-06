@@ -144,7 +144,7 @@
             </div>
             <div class="navbar--expand--mobile">
                 <a class="sidebar--menu--mobile" href="index.php#aboutus">O nama</a>
-                <a class="sidebar--menu--mobile">Novosti</a>
+                <!-- <a class="sidebar--menu--mobile">Novosti</a> -->
                 <div class="sidebar--menu--mobile expander">
                     <p class="sidebar--usluge">Usluge</p><img class="navbar--logo--mobile navbar--toggler--second" src="images/chevron-down.svg"
                         alt="plus icon">
@@ -157,7 +157,7 @@
                         <a class="dropdown--menu--mobile" href="usluge/nuklearna-medicina.php">Nuklearna medicina</a>
                     </div>
                 </div>
-                <a class="sidebar--menu--mobile" href="">Cjenik</a>
+                <a class="sidebar--menu--mobile" href="cjenik.php">Cjenik</a>
                 <a class="sidebar--menu--mobile" href="#contactus">Kontakt</a>
                 <img class="navbar--logo--index sidebar--logo--mobile navbar--logo" src="images/k&p-logo.svg"
                     alt="kuna&perić logo" srcset="">
@@ -180,8 +180,8 @@
                     </div>
                     <div class="navbar--top--right">
                         <a href="index.php#aboutus">O nama</a>
-                        <a href="">Novosti</a>
-                        <a href="">Cjenik</a>
+                        <!-- <a href="">Novosti</a> -->
+                        <a href="cjenik.php">Cjenik</a>
                         <a href="#contactus">Kontakt</a>
                     </div>
                 </div>
@@ -207,8 +207,8 @@
                 <div class="navbar--tablet--left"><a href="tel:+385 01 4555 400" class="">+385 01 4555 400</a></div>
                 <div class="navbar--tablet--right">
                     <a href="index.php#aboutus">O nama</a>
-                    <a href="">Novosti</a>
-                    <a href="">Cjenik</a>
+                    <!-- <a href="">Novosti</a> -->
+                    <a href="cjenik.php">Cjenik</a>
                     <a href="#contactus">Kontakt</a>
                 </div>
             </div>

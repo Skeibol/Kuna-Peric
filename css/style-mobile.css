@@ -244,7 +244,7 @@ body {
   margin-left: 15px;
   margin-right: 15px;
 }
-.sidebar--usluge{
+.sidebar--usluge {
   font-weight: var(--font-weight-subtitle-medium);
   margin: 0px;
   display: inline;
@@ -458,35 +458,33 @@ body {
   color: #177ca7;
 }
 
-.abt--us--doctor--name{
+.abt--us--doctor--name {
   position: relative;
-  bottom:20px;
+  bottom: 20px;
   background-color: var(--gray);
-  height:60px;
-  width:80%;
+  height: 60px;
+  width: 80%;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: var(--font-size-title-tertiary);
-
 }
 
 .abt--us--doctor--name p {
   margin: 0;
 }
 
-.abt--us--doctor--image{
-  width:100%;
-  height:60%;
+.abt--us--doctor--image {
+  width: 100%;
+  height: 60%;
 }
 
-.abt--us--plus{
+.abt--us--plus {
   margin-top: 1px;
-  margin-right:14px;
-  height:17px;
+  margin-right: 14px;
+  height: 17px;
   width: 17px;
-
 }
 /* ****STATISTICS**** */
 
@@ -755,8 +753,6 @@ body {
   margin: 3rem 0;
 }
 
-
-
 .services--fancy--box {
   height: 100px;
   width: 100px;
@@ -765,8 +761,6 @@ body {
 .services--fancy--box:hover {
   scale: 1.3;
 }
-
-
 
 /* ****FORM**** */
 
@@ -956,7 +950,7 @@ body {
 
 .loader--container {
   position: fixed;
-  top:0;
+  top: 0;
   background-color: white;
   z-index: 99999999999999;
   width: 100vw;
@@ -1004,9 +998,22 @@ body {
   }
 }
 
-.loader--text{
+.loader--text {
   color: var(--color-message);
   font-size: 24px;
   position: relative;
-  bottom:25%;
+  bottom: 25%;
+}
+
+/* CJENIK */
+
+.cjenik--table--header {
+}
+
+.header--borderless {
+  border-bottom: none !important;
+  background-color: cyan !important;
+}
+
+.cjenik--table {
 }
